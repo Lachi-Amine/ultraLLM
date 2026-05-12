@@ -1,0 +1,4625 @@
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "speed,velocity,motion"
+  content: "Speed is the rate at which an object covers distance, a scalar quantity."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "velocity,speed,direction"
+  content: "Velocity is the speed of an object in a particular direction, a vector quantity."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "acceleration,velocity,change"
+  content: "Acceleration is the rate at which velocity changes over time, including speed and direction."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "force,push,pull,interaction"
+  content: "Force is a push or pull upon an object resulting from its interaction with another object."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "mass,inertia,matter"
+  content: "Mass is the measure of an object’s inertia, the amount of matter in an object."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "weight,force,gravity"
+  content: "Weight is the force exerted on a mass due to gravity, dependent on gravitational field."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "energy,capacity,work"
+  content: "Energy is the capacity of a system to perform work."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "work,force,displacement"
+  content: "Work is done when a force acts on an object to cause displacement in the direction of the force."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "power,rate,work,time"
+  content: "Power is the rate at which work is done or energy is transferred per unit time."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "momentum,mass,velocity"
+  content: "Momentum is the product of an object’s mass and velocity, a measure of motion."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "friction,resistance,motion"
+  content: "Friction is a force that resists the relative motion of solid surfaces, fluid layers, or material elements sliding against each other."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "gravity,attraction,force,mass"
+  content: "Gravity is the natural force by which all objects with mass are pulled toward one another."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "inertia,resistance,change,motion"
+  content: "Inertia is the tendency of an object to resist changes in its state of motion."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "pressure,force,area"
+  content: "Pressure is the force applied perpendicular to the surface of an object per unit area."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "temperature,heat,kinetic,energy"
+  content: "Temperature is a measure of the average kinetic energy of particles in a substance."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "heat,thermal,energy,transfer"
+  content: "Heat is thermal energy transferred between systems due to a temperature difference."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "wave,oscillation,energy,transfer"
+  content: "A wave is a disturbance that transfers energy through matter or space without net movement of particles."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "frequency,cycles,time,waves"
+  content: "Frequency is the number of complete wave cycles passing a point per unit time."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "wavelength,distance,wave,cycles"
+  content: "Wavelength is the distance between consecutive corresponding points of a wave."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "amplitude,wave,height,maximum"
+  content: "Amplitude is the maximum displacement or distance moved by a point on a vibrating wave from its rest position."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "reflection,wave,bounce,surface"
+  content: "Reflection is the bouncing back of a wave when it hits a surface that does not absorb the wave’s energy."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "refraction,wave,bend,medium"
+  content: "Refraction is the bending of a wave as it passes from one medium to another due to a change in speed."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "diffraction,wave,spread,opening"
+  content: "Diffraction is the spreading or bending of waves around obstacles and openings."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "interference,wave,superposition"
+  content: "Interference is the superposition of two or more waves that results in a new wave pattern."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "resonance,vibration,natural,frequency"
+  content: "Resonance is the phenomenon of increased amplitude when the frequency of an applied force matches the natural frequency of the system."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "charge,electric,property,particle"
+  content: "Electric charge is a fundamental property of matter that causes it to experience a force in an electromagnetic field."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "current,flow,charge,time"
+  content: "Electric current is the rate of flow of electric charge through a conductor or space."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "voltage,potential,difference,energy"
+  content: "Voltage is the potential difference between two points that drives electric charge between them."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "resistance,opposition,current,flow"
+  content: "Electrical resistance is a measure of the opposition to the flow of electric current through a material."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "magnetism,force,field,poles"
+  content: "Magnetism is a class of physical phenomena that are mediated by magnetic fields, arising from electric currents and magnetic moments."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "field,region,force,effect"
+  content: "A field is a region in space where each point is affected by a force such as gravity, electricity, or magnetism."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "circuit,closed,loop,current"
+  content: "An electric circuit is a closed loop through which electric current can flow."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "conductor,material,current,flow"
+  content: "A conductor is a material that allows the easy flow of electric current."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "insulator,material,resists,current"
+  content: "An insulator is a material that resists the flow of electric current."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "semiconductor,conductor,insulator,between"
+  content: "A semiconductor is a material with electrical conductivity between a conductor and an insulator."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "kinetic,energy,motion,object"
+  content: "Kinetic energy is the energy possessed by an object due to its motion."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "potential,energy,position,state"
+  content: "Potential energy is the energy stored in an object due to its position or state."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "thermal,energy,motion,particles"
+  content: "Thermal energy is the internal energy of a system due to the kinetic motion of its atoms and molecules."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "chemical,energy,bonds,substances"
+  content: "Chemical energy is the energy stored in the bonds between atoms and molecules."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "nuclear,energy,nucleus,atoms"
+  content: "Nuclear energy is the energy stored in the nucleus of an atom."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "radiant,energy,electromagnetic,wave"
+  content: "Radiant energy is energy that travels by electromagnetic waves or photons."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "sound,wave,vibration,medium"
+  content: "Sound is a mechanical wave that results from the back-and-forth vibration of particles of the medium through which the wave moves."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "light,electromagnetic,radiation,visible"
+  content: "Light is visible electromagnetic radiation that can be detected by the human eye."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "optics,light,behavior,study"
+  content: "Optics is the branch of physics that studies the behavior and properties of light."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "lens,transparent,refracts,light"
+  content: "A lens is a transparent device that refracts light to converge or diverge rays."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "mirror,reflects,light,image"
+  content: "A mirror is a surface that reflects light in a predictable way to form an image."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "relativity,space,time,gravity"
+  content: "Relativity is the theory describing space, time, and gravity developed by Albert Einstein."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "quantum,mechanics,small,particles"
+  content: "Quantum mechanics is the branch of physics dealing with the behavior of matter and energy at the atomic and subatomic scale."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "atom,basic,unit,matter"
+  content: "An atom is the basic unit of ordinary matter, consisting of a nucleus and electrons."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "molecule,group,atoms,bonded"
+  content: "A molecule is a group of two or more atoms bonded together, representing the smallest unit of a compound."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "proton,positive,charge,nucleus"
+  content: "A proton is a subatomic particle with a positive electric charge found in the atomic nucleus."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "neutron,neutral,charge,nucleus"
+  content: "A neutron is a subatomic particle with no net electric charge found in the atomic nucleus."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "electron,negative,charge,shells"
+  content: "An electron is a negatively charged subatomic particle that orbits the atomic nucleus."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "nucleus,center,atom,protons,neutrons"
+  content: "The nucleus is the dense central core of an atom containing protons and neutrons."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "plasma,state,matter,ionized"
+  content: "Plasma is a state of matter in which gas is ionized, creating free electrons and ions."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "solid,fixed,shape,volume"
+  content: "A solid is a state of matter with fixed shape and fixed volume."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "liquid,fixed,volume,shape,container"
+  content: "A liquid is a state of matter with fixed volume but takes the shape of its container."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "gas,no,fixed,shape,volume"
+  content: "A gas is a state of matter with no fixed shape or fixed volume."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "phase,change,state,matter"
+  content: "A phase change is a transition of matter from one state to another, such as melting or boiling."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "density,mass,per,volume"
+  content: "Density is the mass per unit volume of a substance."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "buoyancy,upward,force,fluid"
+  content: "Buoyancy is the upward force exerted by a fluid that opposes the weight of an immersed object."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "vacuum,empty,space,matter"
+  content: "A vacuum is a space devoid of matter."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "radiation,energy,travel,space"
+  content: "Radiation is the emission or transmission of energy in the form of waves or particles through space."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "conduction,heat,transfer,direct,contact"
+  content: "Conduction is heat transfer through direct molecular contact within a material."
+- domain: physics
+  intent: define
+  epistemic: Yellow
+  keyword: "convection,heat,transfer,fluid,movement"
+  content: "Convection is heat transfer by the movement of a fluid such as air or water."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "element,pure,substance,one,atom"
+  content: "An element is a pure substance consisting entirely of one type of atom."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "compound,substance,two,elements,bonded"
+  content: "A compound is a substance formed when two or more elements are chemically bonded together."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "mixture,combination,substances,chemically,bonded"
+  content: "A mixture is a combination of two or more substances that are not chemically bonded."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "solution,homogeneous,mixture,solute,solvent"
+  content: "A solution is a homogeneous mixture of a solute dissolved in a solvent."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "solute,dissolved,solution"
+  content: "A solute is the substance that dissolves in a solution."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "solvent,dissolves,solute,solution"
+  content: "A solvent is the substance in which a solute dissolves to form a solution."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "reaction,chemical,change,substances"
+  content: "A chemical reaction is a process that rearranges the molecular or ionic structure of substances."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "reactant,substance,chemical,reaction"
+  content: "A reactant is a substance that undergoes change during a chemical reaction."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "product,substance,formed,chemical,reaction"
+  content: "A product is a substance formed as the result of a chemical reaction."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "catalyst,substance,speeds,reaction"
+  content: "A catalyst is a substance that speeds up a chemical reaction without itself undergoing permanent change."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "acid,substance,releases,hydrogen,ions"
+  content: "An acid is a substance that releases hydrogen ions in solution and has a pH below 7."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "base,substance,releases,hydroxide,ions"
+  content: "A base is a substance that releases hydroxide ions in solution and has a pH above 7."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "pH,measure,acidity,basicity"
+  content: "pH is a scale used to specify the acidity or basicity of an aqueous solution."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "salt,ionic,compound,acid,base"
+  content: "A salt is an ionic compound formed from the neutralization reaction between an acid and a base."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "oxidation,loss,electrons,atom"
+  content: "Oxidation is the loss of electrons or an increase in oxidation state by an atom, ion, or molecule."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "reduction,gain,electrons,atom"
+  content: "Reduction is the gain of electrons or a decrease in oxidation state by an atom, ion, or molecule."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "bond,attraction,atoms,molecules"
+  content: "A chemical bond is the attraction between atoms that enables the formation of molecules."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "ionic,bond,transfer,electrons"
+  content: "An ionic bond is a chemical bond formed through the electrostatic attraction between oppositely charged ions."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "covalent,bond,sharing,electrons"
+  content: "A covalent bond is a chemical bond formed by the sharing of electron pairs between atoms."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "metallic,bond,metal,atoms"
+  content: "A metallic bond is the force of attraction between metal atoms and the surrounding sea of electrons."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "valence,electrons,outer,shell"
+  content: "Valence electrons are the electrons in the outermost shell of an atom that participate in bonding."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "periodic,table,elements,organized"
+  content: "The periodic table is a tabular arrangement of chemical elements organized by atomic number, electron configuration, and recurring properties."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "period,row,periodic,table"
+  content: "A period is a horizontal row in the periodic table."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "group,column,periodic,table"
+  content: "A group is a vertical column in the periodic table."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "ion,charged,atom,molecule"
+  content: "An ion is an atom or molecule with a net electrical charge due to loss or gain of electrons."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "isotope,same,protons,different,neutrons"
+  content: "An isotope is a variant of an element with the same number of protons but different number of neutrons."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "molar,mass,mass,one,mole"
+  content: "Molar mass is the mass of one mole of a substance."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "mole,unit,amount,substance"
+  content: "A mole is the SI unit for the amount of a substance."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "concentration,amount,solute,solution"
+  content: "Concentration is the measure of how much solute is dissolved in a given volume of solution."
+- domain: chemistry
+  intent: define
+  epistemic: Yellow
+  keyword: "saturation,solution,max,solute"
+  content: "A saturated solution is one in which no more solute can dissolve at a given temperature and pressure."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "cell,basic,unit,life"
+  content: "The cell is the basic structural and functional unit of all living organisms."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "DNA,genetic,material,life"
+  content: "DNA is the molecule that carries the genetic instructions for growth, development, functioning, and reproduction of all living organisms."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "RNA,transcription,translation"
+  content: "RNA is a nucleic acid involved in coding, decoding, regulation, and expression of genes."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "gene,unit,heredity,DNA"
+  content: "A gene is a basic unit of heredity, a segment of DNA that codes for a protein or functional product."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "chromosome,structure,DNA,proteins"
+  content: "A chromosome is a thread-like structure of nucleic acids and proteins carrying genetic information."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "protein,chain,amino,acids"
+  content: "A protein is a large biomolecule consisting of one or more long chains of amino acids."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "amino,acid,building,blocks,protein"
+  content: "An amino acid is a monomer of proteins, containing an amino group and a carboxyl group."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "enzyme,biological,catalyst,cell"
+  content: "An enzyme is a biological catalyst that speeds up chemical reactions in cells."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "hormone,chemical,messenger,body"
+  content: "A hormone is a chemical messenger produced by glands to regulate body functions."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "tissue,group,cells,function"
+  content: "A tissue is a group of specialized cells that perform a specific function."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "organ,structure,tissues,function"
+  content: "An organ is a collection of tissues that perform a specific vital function in an organism."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "organism,individual,living,thing"
+  content: "An organism is any individual living system that maintains life functions."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "population,same,species,area"
+  content: "A population is a group of individuals of the same species living in a particular geographic area."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "community,interacting,populations,area"
+  content: "A community is all interacting populations of different species in a particular area."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "ecosystem,community,environment"
+  content: "An ecosystem is a community of living organisms interacting with their physical environment."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "photosynthesis,process,plants,make,food"
+  content: "Photosynthesis is the process by which plants convert light energy into chemical energy stored in glucose."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "respiration,process,release,energy,food"
+  content: "Respiration is the process by which organisms break down food molecules to release energy."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "mitosis,cell,division,growth,repair"
+  content: "Mitosis is cell division that produces two genetically identical diploid daughter cells for growth and repair."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "meiosis,cell,division,sex,cells"
+  content: "Meiosis is cell division that produces four genetically distinct haploid gametes for sexual reproduction."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "evolution,change,species,time"
+  content: "Evolution is the change in the heritable characteristics of biological populations over successive generations."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "natural,selection,mechanism,evolution"
+  content: "Natural selection is the differential survival and reproduction of individuals due to differences in phenotype."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "adaptation,trait,improves,survival"
+  content: "An adaptation is a trait that improves an organism’s ability to survive and reproduce in its environment."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "species,group,interbreed,fertile,offspring"
+  content: "A species is a group of organisms that can interbreed to produce fertile offspring."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "biodiversity,variety,life,earth"
+  content: "Biodiversity is the variety and variability of life on Earth."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "ecology,study,interactions,organisms,environment"
+  content: "Ecology is the study of interactions between organisms and their environment."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "food,chain,sequence,organisms,eat,each,other"
+  content: "A food chain is a linear sequence of organisms through which nutrients and energy pass as one organism eats another."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "food,web,interconnected,food,chains"
+  content: "A food web is a system of interconnected and overlapping food chains in an ecosystem."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "producer,organism,makes,its,own,food"
+  content: "A producer is an organism that produces its own food via photosynthesis or chemosynthesis."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "consumer,organism,eats,other,organisms"
+  content: "A consumer is an organism that obtains energy by feeding on other organisms."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "decomposer,breaks,down,dead,organisms"
+  content: "A decomposer is an organism that breaks down dead or decaying organisms into simpler substances."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "symbiosis,close,relationship,two,species"
+  content: "Symbiosis is any close and long-term biological interaction between two different species."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "mutualism,relationship,both,benefit"
+  content: "Mutualism is a symbiotic relationship in which both species benefit."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "commensalism,relationship,one,benefits,other,unaffected"
+  content: "Commensalism is a symbiotic relationship in which one species benefits and the other is unaffected."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "parasitism,relationship,one,benefits,other,harmed"
+  content: "Parasitism is a symbiotic relationship in which one species benefits at the expense of the other."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "homeostasis,stable,internal,environment"
+  content: "Homeostasis is the ability of an organism to maintain a stable internal environment."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "metabolism,sum,chemical,processes,life"
+  content: "Metabolism is the sum of all chemical processes that maintain life in an organism."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "fertilization,union,male,female,gametes"
+  content: "Fertilization is the union of male and female gametes to form a zygote."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "zygote,fertilized,egg,cell"
+  content: "A zygote is the fertilized egg cell formed by the union of two gametes."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "embryo,early,stage,development"
+  content: "An embryo is the early stage of development of a multicellular organism."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "fetus,unborn,offspring,development"
+  content: "A fetus is the unborn offspring of an animal in the later stages of development."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "immunity,ability,resist,disease"
+  content: "Immunity is the ability of an organism to resist infection and disease."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "vaccine,substance,stimulates,immunity"
+  content: "A vaccine is a substance that stimulates the body’s immune system to produce immunity to a disease."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "antibody,protein,neutralizes,pathogens"
+  content: "An antibody is a protein produced by the immune system to neutralize pathogens."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "pathogen,organism,causes,disease"
+  content: "A pathogen is a biological agent that causes disease or illness in its host."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "virus,infectious,agent,reproduces,cells"
+  content: "A virus is an infectious agent that replicates only inside living cells of organisms."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "bacteria,single,celled,microorganisms"
+  content: "Bacteria are single-celled microorganisms that exist in diverse environments."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "fungus,eukaryotic,organism,absorbs,nutrients"
+  content: "A fungus is a eukaryotic organism that feeds by absorbing nutrients from organic matter."
+- domain: biology
+  intent: define
+  epistemic: Yellow
+  keyword: "protist,eukaryotic,organism,not,plant,animal,fungus"
+  content: "A protist is a eukaryotic organism that is not a plant, animal, or fungus."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "rock,naturally,solid,substance,minerals"
+  content: "A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "mineral,naturally,inorganic,crystal,structure"
+  content: "A mineral is a naturally occurring inorganic solid with a definite chemical composition and crystal structure."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "soil,mixture,rock,particles,organic,material"
+  content: "Soil is a mixture of rock particles, organic material, water, and air that supports plant growth."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "fossil,remains,traces,ancient,organisms"
+  content: "A fossil is the preserved remains or traces of ancient organisms."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "earthquake,shaking,ground,tectonic,activity"
+  content: "An earthquake is the shaking of the Earth’s surface caused by the sudden release of energy in the crust."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "volcano,mountain,where,lava,erupts"
+  content: "A volcano is a landform where magma from inside the Earth erupts onto the surface as lava."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "plate,tectonics,motion,earth,lithosphere"
+  content: "Plate tectonics is the theory describing the motion of Earth’s lithospheric plates."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "erosion,process,removes,rock,soil"
+  content: "Erosion is the process by which natural forces remove rock and soil from one location to another."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "weathering,breaking,down,rock,surface"
+  content: "Weathering is the breaking down of rocks, soil, and minerals through direct contact with the atmosphere."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "atmosphere,layers,gases,surrounding,earth"
+  content: "The atmosphere is the layer of gases surrounding the Earth held by gravity."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "climate,average,weather,long,time"
+  content: "Climate is the average weather conditions in an area over a long period."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "weather,state,atmosphere,time,place"
+  content: "Weather is the state of the atmosphere at a particular time and place."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "cloud,visible,mass,water,droplets,air"
+  content: "A cloud is a visible mass of condensed water droplets or ice crystals suspended in the atmosphere."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "precipitation,water,falls,atmosphere,ground"
+  content: "Precipitation is water released from clouds as rain, snow, sleet, or hail."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "water,cycle,continuous,movement,water,earth"
+  content: "The water cycle is the continuous movement of water on, above, and below the surface of the Earth."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "river,natural,flowing,water"
+  content: "A river is a natural flowing stream of water moving toward an ocean, lake, sea, or another river."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "lake,large,body,water,surrounded,land"
+  content: "A lake is a large body of water surrounded by land."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "ocean,large,body,salt,water,earth"
+  content: "An ocean is a major body of salt water that composes a large part of the Earth’s hydrosphere."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "glacier,slow,moving,ice,mass"
+  content: "A glacier is a persistent body of dense ice that moves slowly under its own weight."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "landform,feature,earth,surface"
+  content: "A landform is a natural feature on the Earth’s surface."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "mountain,large,landform,steep,slopes"
+  content: "A mountain is a large landform with steep slopes, rising significantly above its surroundings."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "valley,low,area,between,hills"
+  content: "A valley is a low area between hills or mountains, often containing a river."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "plain,large,flat,land,area"
+  content: "A plain is a large, flat land area with minimal vegetation change."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "plateau,elevated,flat,land,area"
+  content: "A plateau is an elevated flat landform raised sharply above the surrounding area."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "coast,land,meeting,sea,ocean"
+  content: "A coast is the area where land meets the sea or ocean."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "sediment,material,deposited,water,wind"
+  content: "Sediment is solid material that is moved and deposited by water, wind, or ice."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "deposition,accumulation,eroded,material"
+  content: "Deposition is the geological process in which sediments, soil, and rocks are added to a landform or landmass."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "earth,core,inner,center,planet"
+  content: "The Earth’s core is the innermost layer of the planet, consisting of inner solid and outer liquid parts."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "mantle,layer,earth,between,core,crust"
+  content: "The mantle is the layer of Earth between the core and the crust."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "crust,outermost,layer,earth"
+  content: "The crust is the outermost solid layer of the Earth."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "lithosphere,rigid,outer,earth,crust,mantle"
+  content: "The lithosphere is the rigid outer part of the Earth, including the crust and upper mantle."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "hydrosphere,total,water,earth,surface"
+  content: "The hydrosphere is the total amount of water on, under, and above the Earth’s surface."
+- domain: earth science
+  intent: define
+  epistemic: Yellow
+  keyword: "biosphere,global,ecological,system,all,living,beings"
+  content: "The biosphere is the global ecological system integrating all living beings and their relationships."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "star,luminous,sphere,plasma,gravity"
+  content: "A star is a luminous sphere of plasma held together by its own gravity."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "planet,celestial,body,orbits,star"
+  content: "A planet is a celestial body that orbits a star, has sufficient mass to be round, and has cleared its orbital path."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "moon,natural,satellite,orbits,planet"
+  content: "A moon is a natural satellite that orbits a planet or minor planet."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "solar,system,sun,planets,other,bodies"
+  content: "The solar system consists of the Sun and all objects that orbit it, including planets, moons, asteroids, and comets."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "galaxy,large,system,stars,gas,dust"
+  content: "A galaxy is a large system of stars, gas, dust, and dark matter bound together by gravity."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "universe,all,space,time,matter,energy"
+  content: "The universe is all of space and time and their contents, including planets, stars, galaxies, and all other forms of matter and energy."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "orbit,path,object,moves,around,another"
+  content: "An orbit is the curved path of an object around a star, planet, or moon."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "asteroid,small,rocky,body,orbits,sun"
+  content: "An asteroid is a small rocky body orbiting the Sun."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "comet,icy,small,solar,system,body"
+  content: "A comet is an icy small solar system body that heats up and releases gas when near the Sun."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "meteor,shooting,star,enters,atmosphere"
+  content: "A meteor is a small body of matter from outer space that enters the Earth’s atmosphere and appears as a streak of light."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "constellation,group,stars,pattern,sky"
+  content: "A constellation is a group of stars forming a recognizable pattern in the night sky."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "black,hole,region,spacetime,gravity,strong"
+  content: "A black hole is a region of spacetime where gravity is so strong that nothing can escape from it."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "nebula,cloud,gas,dust,space"
+  content: "A nebula is an interstellar cloud of gas and dust in outer space."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "supernova,explosion,star,end,life"
+  content: "A supernova is the explosion of a star at the end of its lifetime."
+- domain: astronomy
+  intent: define
+  epistemic: Yellow
+  keyword: "telescope,instrument,observes,distant,objects"
+  content: "A telescope is an instrument that makes distant objects appear nearer and clearer."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "speed,velocity,difference"
+  content: "Speed is a scalar that only measures how fast an object moves, while velocity is a vector that includes both speed and direction of motion."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "acceleration,change,velocity"
+  content: "Acceleration explains how an object’s velocity changes over time; it includes speeding up, slowing down, or changing direction."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "force,motion,effect"
+  content: "Force explains why objects start moving, stop moving, or change direction; it is the interaction that alters motion."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "mass,weight,difference"
+  content: "Mass explains the amount of matter in an object and is constant everywhere; weight explains the force of gravity on that mass and changes with location."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "energy,work,relationship"
+  content: "Energy explains the capacity to do work, and work explains the transfer of energy when a force moves an object over a distance."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "power,rate,work"
+  content: "Power explains how quickly work is done or energy is transferred; higher power means faster energy conversion."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "momentum,motion,impact"
+  content: "Momentum explains how hard it is to stop a moving object; greater mass or speed means greater momentum and harder stopping."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "friction,opposes,motion"
+  content: "Friction explains the resistance between two surfaces sliding against each other; it always acts opposite to the direction of motion."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "gravity,attracts,mass"
+  content: "Gravity explains the natural attraction between all objects with mass; larger mass or shorter distance creates stronger gravitational pull."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "inertia,resists,motion,change"
+  content: "Inertia explains why objects stay at rest or keep moving unless acted on by a force; more mass means more inertia."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "pressure,force,area"
+  content: "Pressure explains how force is distributed over a surface; smaller area or larger force creates higher pressure."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "temperature,kinetic,energy"
+  content: "Temperature explains the average kinetic energy of particles in a substance; higher temperature means faster-moving particles."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "heat,thermal,transfer"
+  content: "Heat explains the transfer of thermal energy between objects due to a temperature difference; energy always flows from hot to cold."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "wave,transfers,energy"
+  content: "Waves explain how energy travels through space or matter without moving the medium itself permanently."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "frequency,wavelength,relationship"
+  content: "Frequency explains how many wave cycles happen per second, and wavelength explains the length of one cycle; they are inversely related."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "amplitude,wave,energy"
+  content: "Amplitude explains the maximum displacement of a wave; larger amplitude means the wave carries more energy."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "reflection,wave,bounce"
+  content: "Reflection explains why waves bounce off a surface; the angle of incidence equals the angle of reflection."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "refraction,wave,bend"
+  content: "Refraction explains why waves bend when moving from one medium to another; it happens because wave speed changes."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "diffraction,wave,spread"
+  content: "Diffraction explains why waves spread out after passing through a small opening or bending around an obstacle."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "interference,wave,superposition"
+  content: "Interference explains what happens when two waves meet; they can add up for bigger waves or cancel each other out."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "resonance,amplify,vibration"
+  content: "Resonance explains why vibrations get much stronger when the driving frequency matches the natural frequency of an object."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "electric,charge,force,field"
+  content: "Electric charge explains why particles experience force in an electromagnetic field; like charges repel and opposite charges attract."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "current,flow,charge"
+  content: "Electric current explains the flow of electric charge through a conductor; it is driven by voltage and limited by resistance."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "voltage,drives,current"
+  content: "Voltage explains the push that moves electric charges; higher voltage provides more force to drive current through a circuit."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "resistance,slows,current"
+  content: "Resistance explains how much a material opposes electric current; higher resistance means less current for the same voltage."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "magnetism,field,force"
+  content: "Magnetism explains the forces between magnets and moving charges; magnetic fields are created by electric currents."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "circuit,closed,loop,current"
+  content: "A circuit explains the closed path required for electric current to flow; open circuits stop current completely."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "conductor,allows,current"
+  content: "Conductors explain materials that let electric current flow easily because they have free-moving electrons."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "insulator,blocks,current"
+  content: "Insulators explain materials that stop electric current because they hold electrons tightly and prevent flow."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "semiconductor,between,conductor,insulator"
+  content: "Semiconductors explain materials with controllable conductivity; they are the foundation of electronic devices."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "kinetic,energy,motion"
+  content: "Kinetic energy explains the energy an object has because it is moving; faster or heavier objects have more kinetic energy."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "potential,energy,position"
+  content: "Potential energy explains stored energy due to position or condition; height, tension, or chemical bonds create potential energy."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "thermal,energy,particle,motion"
+  content: "Thermal energy explains the total kinetic energy of all particles in a substance; more motion means higher thermal energy."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "chemical,energy,bonds"
+  content: "Chemical energy explains energy stored in atomic bonds; it is released or absorbed during chemical reactions."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "nuclear,energy,nucleus"
+  content: "Nuclear energy explains energy stored in atomic nuclei; it is released during fission or fusion reactions."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "radiant,energy,electromagnetic,wave"
+  content: "Radiant energy explains energy carried by electromagnetic waves; light, radio, and X-rays are examples."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "sound,mechanical,wave"
+  content: "Sound explains mechanical waves that travel through a medium; vibrations create pressure waves our ears detect as sound."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "light,electromagnetic,radiation"
+  content: "Light explains visible electromagnetic radiation that stimulates sight; it travels in waves and carries radiant energy."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "optics,light,behavior"
+  content: "Optics explains how light behaves, including reflection, refraction, diffraction, and image formation."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "lens,refracts,light"
+  content: "Lenses explain transparent objects that bend light to focus or spread rays; used in glasses, cameras, and telescopes."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "mirror,reflects,light"
+  content: "Mirrors explain surfaces that reflect light to form clear images; flat mirrors give regular reflections, curved mirrors magnify or reduce."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "relativity,space,time"
+  content: "Relativity explains that space and time are connected and that gravity is the curvature of spacetime by mass."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "quantum,mechanics,small,particles"
+  content: "Quantum mechanics explains the behavior of tiny particles like atoms and electrons; it includes wave-particle duality and uncertainty."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "atom,basic,unit,matter"
+  content: "Atoms explain the basic building blocks of all matter; they contain a nucleus of protons and neutrons surrounded by electrons."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "molecule,group,atoms"
+  content: "Molecules explain groups of atoms bonded together; they form the smallest unit of a compound that retains its properties."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "proton,positive,charge"
+  content: "Protons explain positively charged particles in the atomic nucleus; they determine the element identity of an atom."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "neutron,neutral,charge"
+  content: "Neutrons explain neutral particles in the nucleus; they add mass and help stabilize the nucleus."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "electron,negative,charge"
+  content: "Electrons explain negatively charged particles that orbit the nucleus; they control chemical bonding and electricity."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "nucleus,core,atom"
+  content: "The nucleus explains the dense core at the center of an atom; it contains nearly all the mass but very little volume."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "plasma,ionized,gas"
+  content: "Plasma explains ionized gas with free electrons and charged particles; it is the most common state of matter in the universe."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "solid,fixed,shape,volume"
+  content: "Solids explain matter with tightly packed particles; they have fixed shape and fixed volume because particles vibrate in place."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "liquid,fixed,volume,shape,container"
+  content: "Liquids explain matter with free-moving particles; fixed volume but takes the shape of its container."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "gas,no,fixed,shape,volume"
+  content: "Gases explain matter with widely separated particles; no fixed shape or volume and expands to fill any container."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "phase,change,state"
+  content: "Phase changes explain transitions between solid, liquid, and gas; caused by adding or removing thermal energy."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "density,mass,volume"
+  content: "Density explains how much mass is packed into a volume; denser objects have more mass in the same space."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "buoyancy,upward,force"
+  content: "Buoyancy explains the upward force from fluids that opposes weight; objects float if buoyancy is greater than gravity."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "vacuum,empty,space"
+  content: "Vacuums explain spaces with almost no matter; sound cannot travel through a vacuum but light can."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "radiation,energy,travel,space"
+  content: "Radiation explains energy that travels through empty space; it includes light, heat, and nuclear radiation."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "conduction,heat,direct,contact"
+  content: "Conduction explains heat transfer through direct contact; particles pass kinetic energy to neighboring particles."
+- domain: physics
+  intent: explain
+  epistemic: Yellow
+  keyword: "convection,heat,fluid,movement"
+  content: "Convection explains heat transfer by moving fluids; warm fluid rises and cool fluid sinks to create circulation."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "element,pure,substance"
+  content: "Elements explain pure substances made of only one type of atom; they cannot be broken down by chemical means."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "compound,two,elements,bonded"
+  content: "Compounds explain substances formed by chemically bonding two or more elements; they have fixed ratios and new properties."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "mixture,physically,combined"
+  content: "Mixtures explain substances physically combined without chemical bonds; they can be separated by physical means."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "solution,homogeneous,mixture"
+  content: "Solutions explain homogeneous mixtures where a solute dissolves evenly in a solvent; no settling or separation occurs."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "solute,dissolved,substance"
+  content: "Solute explains the substance that dissolves in a solution; present in smaller amount than the solvent."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "solvent,dissolves,solute"
+  content: "Solvent explains the substance that dissolves the solute; water is the most common universal solvent."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "chemical,reaction,change"
+  content: "Chemical reactions explain processes that rearrange atoms to form new substances; old bonds break and new bonds form."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "reactant,starts,reaction"
+  content: "Reactants explain substances that enter and change during a chemical reaction; they are consumed to form products."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "product,formed,reaction"
+  content: "Products explain new substances formed by a chemical reaction; they have different properties from reactants."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "catalyst,speeds,reaction"
+  content: "Catalysts explain substances that speed up chemical reactions without being used up; they lower activation energy."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "acid,ph,below,7"
+  content: "Acids explain substances that release hydrogen ions in solution; they have a sour taste and pH below 7."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "base,ph,above,7"
+  content: "Bases explain substances that release hydroxide ions in solution; they have a bitter taste and pH above 7."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "ph,scale,acidity,basicity"
+  content: "pH explains the scale measuring acidity or basicity; ranges from 0 to 14 with 7 being neutral."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "salt,acid,base,product"
+  content: "Salts explain ionic compounds formed by neutralizing acids with bases; they dissociate into ions in water."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "oxidation,loss,electrons"
+  content: "Oxidation explains the loss of electrons during a reaction; it always occurs together with reduction."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "reduction,gain,electrons"
+  content: "Reduction explains the gain of electrons during a reaction; it is paired with oxidation in redox reactions."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "chemical,bond,holds,atoms"
+  content: "Chemical bonds explain forces that hold atoms together in molecules; they form by transferring or sharing electrons."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "ionic,bond,transfer,electrons"
+  content: "Ionic bonds explain attractions between oppositely charged ions; formed by transferring electrons between metals and nonmetals."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "covalent,bond,sharing,electrons"
+  content: "Covalent bonds explain shared electron pairs between atoms; they form between nonmetal atoms."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "metallic,bond,electron,sea"
+  content: "Metallic bonds explain attractions between metal atoms and a shared sea of electrons; they create conductivity and malleability."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "valence,electrons,outer,shell"
+  content: "Valence electrons explain outer-shell electrons that form bonds; they determine chemical reactivity and properties."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "periodic,table,organizes,elements"
+  content: "The periodic table explains the organized arrangement of elements by atomic number and recurring chemical properties."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "period,row,periodic,table"
+  content: "Periods explain horizontal rows on the periodic table; elements in the same period have the same electron shell count."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "group,column,periodic,table"
+  content: "Groups explain vertical columns on the periodic table; elements in the same group have similar properties."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "ion,charged,atom"
+  content: "Ions explain atoms with unequal protons and electrons; positive ions lose electrons and negative ions gain electrons."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "isotope,same,protons,different,neutrons"
+  content: "Isotopes explain atoms of the same element with different neutrons; they have identical chemistry but different mass."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "molar,mass,mass,mole"
+  content: "Molar mass explains the mass of one mole of a substance; used to convert between mass and amount in reactions."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "mole,unit,amount,substance"
+  content: "Moles explain the counting unit for atoms and molecules; one mole equals a large fixed number of particles."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "concentration,solute,solution"
+  content: "Concentration explains how much solute is dissolved in a solution; higher concentration means more solute per volume."
+- domain: chemistry
+  intent: explain
+  epistemic: Yellow
+  keyword: "saturation,max,solute"
+  content: "Saturation explains when a solution can dissolve no more solute; excess solute will settle at the bottom."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "cell,basic,unit,life"
+  content: "Cells explain the basic structural and functional units of all life; they perform all processes needed for survival."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "dna,genetic,code"
+  content: "DNA explains the molecule that carries genetic instructions; it stores hereditary information passed to offspring."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "rna,helps,make,protein"
+  content: "RNA explains molecules that help read DNA and build proteins; they carry information and assist in synthesis."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "gene,unit,heredity"
+  content: "Genes explain segments of DNA that code for proteins; they are the basic units of heredity passed from parents to children."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "chromosome,carries,genes"
+  content: "Chromosomes explain structures that package DNA and genes; they ensure safe cell division and inheritance."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "protein,large,molecule,function"
+  content: "Proteins explain large molecules that perform most cell functions; they act as enzymes, signals, and structural parts."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "amino,acid,building,blocks,protein"
+  content: "Amino acids explain the building blocks of proteins; different sequences create different protein shapes and functions."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "enzyme,biological,catalyst"
+  content: "Enzymes explain biological catalysts that speed up cell reactions; they lower energy needed for reactions."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "hormone,chemical,messenger"
+  content: "Hormones explain chemical messengers that regulate body functions; they control growth, metabolism, and mood."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "tissue,group,cells"
+  content: "Tissues explain groups of similar cells working together; they form specialized structures for specific jobs."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "organ,group,tissues"
+  content: "Organs explain structures made of multiple tissues; they perform vital body functions like pumping blood or breathing."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "organism,individual,living,thing"
+  content: "Organisms explain individual living systems; they carry out all basic life processes independently."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "population,same,species,area"
+  content: "Populations explain groups of the same species living in one area; they interbreed and share resources."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "community,different,species,area"
+  content: "Communities explain all different species living and interacting in one area; they form food webs and relationships."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "ecosystem,organisms,environment"
+  content: "Ecosystems explain communities interacting with their physical environment; they include living and nonliving parts."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "photosynthesis,plants,make,food"
+  content: "Photosynthesis explains how plants use light energy to make glucose; it converts light to chemical energy and releases oxygen."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "respiration,releases,energy,food"
+  content: "Respiration explains how cells break down food to release energy; it uses oxygen and produces carbon dioxide."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "mitosis,cell,division,growth"
+  content: "Mitosis explains cell division for growth and repair; it makes identical diploid body cells."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "meiosis,cell,division,sex,cells"
+  content: "Meiosis explains cell division for reproduction; it makes unique haploid sex cells like eggs and sperm."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "evolution,change,species,time"
+  content: "Evolution explains the gradual change in species over generations; it leads to new life forms and diversity."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "natural,selection,survival,fittest"
+  content: "Natural selection explains how organisms with helpful traits survive and reproduce more; it drives evolution."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "adaptation,helps,survival"
+  content: "Adaptations explain traits that improve survival and reproduction; they develop through natural selection."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "species,interbreed,fertile,offspring"
+  content: "Species explain groups that interbreed to make fertile offspring; they are reproductively isolated from other groups."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "biodiversity,variety,life"
+  content: "Biodiversity explains the variety of life on Earth; it includes genetic, species, and ecosystem diversity."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "ecology,interactions,organisms"
+  content: "Ecology explains interactions between organisms and their environment; it studies relationships and energy flow."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "food,chain,energy,flow"
+  content: "Food chains explain linear energy flow from producers to consumers; each organism eats the one below it."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "food,web,interconnected,chains"
+  content: "Food webs explain interconnected food chains; they show complex feeding relationships in ecosystems."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "producer,makes,own,food"
+  content: "Producers explain organisms that make their own food via photosynthesis; they form the base of food webs."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "consumer,eats,other,organisms"
+  content: "Consumers explain organisms that eat others for energy; they include herbivores, carnivores, and omnivores."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "decomposer,breaks,dead,material"
+  content: "Decomposers explain organisms that break down dead matter; they recycle nutrients back into ecosystems."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "symbiosis,close,species,relationship"
+  content: "Symbiosis explains close long-term relationships between different species; types include mutualism, commensalism, parasitism."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "mutualism,both,benefit"
+  content: "Mutualism explains symbiosis where both species gain benefits; they help each other survive and reproduce."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "commensalism,one,benefits,other,unharmed"
+  content: "Commensalism explains symbiosis where one benefits and the other is unaffected; no harm or help to the second species."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "parasitism,one,benefits,other,harmed"
+  content: "Parasitism explains symbiosis where one benefits at the expense of the other; the host is weakened but usually not killed."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "homeostasis,stable,internal,state"
+  content: "Homeostasis explains how organisms maintain stable internal conditions; it balances temperature, water, and chemicals."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "metabolism,all,chemical,processes"
+  content: "Metabolism explains all chemical processes in an organism; it includes building molecules and breaking down food."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "fertilization,union,gametes"
+  content: "Fertilization explains the joining of egg and sperm; it creates a zygote and starts new organism development."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "zygote,fertilized,egg"
+  content: "Zygotes explain fertilized egg cells; they divide and develop into embryos and new organisms."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "embryo,early,development,stage"
+  content: "Embryos explain early development stages after fertilization; cells divide and form basic body structures."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "fetus,unborn,offspring"
+  content: "Fetuses explain later-stage unborn offspring; body systems mature and grow until birth."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "immunity,resists,disease"
+  content: "Immunity explains the body’s ability to fight infection; it recognizes and destroys pathogens."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "vaccine,stimulates,immunity"
+  content: "Vaccines explain substances that train the immune system; they create protection without causing disease."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "antibody,fights,pathogen"
+  content: "Antibodies explain proteins that target pathogens; they mark invaders for destruction by immune cells."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "pathogen,causes,disease"
+  content: "Pathogens explain disease-causing agents; they include viruses, bacteria, fungi, and parasites."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "virus,infectious,agent"
+  content: "Viruses explain infectious particles that replicate inside living cells; they cause many diseases and are not alive."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "bacteria,single,celled,organism"
+  content: "Bacteria explain single-celled organisms without nuclei; some help digestion and others cause disease."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "fungus,absorbs,nutrients"
+  content: "Fungi explain organisms that absorb nutrients from organic matter; they include mushrooms, molds, and yeasts."
+- domain: biology
+  intent: explain
+  epistemic: Yellow
+  keyword: "protist,single,celled,eukaryote"
+  content: "Protists explain mostly single-celled eukaryotes; they include algae, amoebas, and slime molds."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "rock,aggregate,minerals"
+  content: "Rocks explain natural solids made of minerals; they form Earth’s crust and are classified by origin and texture."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "mineral,naturally,occurring,solid"
+  content: "Minerals explain naturally occurring inorganic solids with crystal structures; they are the building blocks of rocks."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "soil,supports,plant,growth"
+  content: "Soil explains a mixture of rock particles, organic matter, water, and air; it supports plant growth and ecosystems."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "fossil,remains,ancient,life"
+  content: "Fossils explain preserved remains of ancient organisms; they show history of life and help date rock layers."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "earthquake,ground,shaking"
+  content: "Earthquakes explain sudden ground shaking; caused by tectonic plate movement and released energy in crust."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "volcano,magma,erupts,surface"
+  content: "Volcanoes explain landforms where magma erupts onto the surface; they build mountains and release gases."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "plate,tectonics,motion,crust"
+  content: "Plate tectonics explains movement of Earth’s lithospheric plates; it causes earthquakes, volcanoes, and mountains."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "erosion,moves,rock,soil"
+  content: "Erosion explains processes that move rock and soil; water, wind, and ice carry material to new locations."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "weathering,breaks,rock"
+  content: "Weathering explains breaking down rocks in place; it creates soil and prepares material for erosion."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "atmosphere,layer,gases,earth"
+  content: "Atmosphere explains layers of gases around Earth; it protects life, traps heat, and causes weather."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "climate,long,term,weather"
+  content: "Climate explains long-term average weather patterns; it includes temperature, rainfall, and wind over years."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "weather,short,term,atmosphere"
+  content: "Weather explains short-term atmospheric conditions; it changes daily and includes temperature and precipitation."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "cloud,condensed,water,air"
+  content: "Clouds explain condensed water droplets or ice crystals in air; they form from rising moist air."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "precipitation,water,falls,sky"
+  content: "Precipitation explains water falling from clouds; types include rain, snow, sleet, and hail."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "water,cycle,continuous,movement"
+  content: "The water cycle explains continuous water movement on Earth; it includes evaporation, condensation, and precipitation."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "river,flowing,water"
+  content: "Rivers explain natural flowing water; they shape land, carry sediment, and provide water for life."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "lake,body,water,land"
+  content: "Lakes explain large inland water bodies; they support aquatic life and affect local climate."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "ocean,large,salt,water"
+  content: "Oceans explain large saltwater bodies; they cover most Earth and regulate climate and food webs."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "glacier,slow,moving,ice"
+  content: "Glaciers explain slow-moving ice masses; they carve valleys, deposit sediment, and hold fresh water."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "landform,feature,earth,surface"
+  content: "Landforms explain natural surface features; they include mountains, valleys, plains, and plateaus."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "mountain,high,steep,landform"
+  content: "Mountains explain high steep landforms; formed by tectonic collisions and volcanic activity."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "valley,low,area,hills"
+  content: "Valleys explain low areas between hills; often carved by rivers or glaciers and hold water."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "plain,flat,land,area"
+  content: "Plains explain large flat land areas; they are fertile for farming and formed by deposition."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "plateau,elevated,flat,area"
+  content: "Plateaus explain elevated flat landforms; they rise sharply from surroundings and are often table-shaped."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "coast,land,meets,water"
+  content: "Coasts explain where land meets ocean; shaped by waves, tides, and storms."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "sediment,eroded,material"
+  content: "Sediments explain small rock particles moved by erosion; they deposit to form new rocks and landforms."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "deposition,drops,sediment"
+  content: "Deposition explains dropping eroded sediment; it builds deltas, beaches, and floodplains."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "earth,core,inner,layer"
+  content: "The core explains Earth’s inner layer; it has a solid inner part and liquid outer part that creates magnetic field."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "mantle,thick,middle,layer"
+  content: "The mantle explains thick middle layer; slow convection currents drive plate tectonics."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "crust,outermost,layer"
+  content: "The crust explains Earth’s thin outer layer; it forms continents and ocean floors where life exists."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "lithosphere,crust,upper,mantle"
+  content: "The lithosphere explains rigid outer layer; it includes crust and upper mantle and forms tectonic plates."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "hydrosphere,all,water,earth"
+  content: "The hydrosphere explains all water on Earth; it includes oceans, lakes, rivers, groundwater, and ice."
+- domain: earth science
+  intent: explain
+  epistemic: Yellow
+  keyword: "biosphere,all,living,things"
+  content: "The biosphere explains all life and ecosystems; it interacts with atmosphere, hydrosphere, and lithosphere."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "star,hot,luminous,plasma"
+  content: "Stars explain hot balls of plasma that produce light and heat; energy comes from nuclear fusion in cores."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "planet,orbits,star"
+  content: "Planets explain large objects orbiting stars; they are round, clear orbital paths, and do not produce light."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "moon,orbits,planet"
+  content: "Moons explain natural satellites orbiting planets; they affect tides and stabilize planetary rotation."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "solar,system,sun,objects"
+  content: "The solar system explains the Sun and orbiting objects; it includes planets, moons, asteroids, comets, and dust."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "galaxy,system,stars"
+  content: "Galaxies explain huge systems of stars, gas, and dust; held together by gravity and often spiral or elliptical."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "universe,all,space,time"
+  content: "The universe explains all space, time, matter, and energy; it began with the Big Bang and is expanding."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "orbit,curved,path,around,object"
+  content: "Orbits explain curved paths of objects in space; caused by gravity balancing forward motion."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "asteroid,rocky,body,sun"
+  content: "Asteroids explain rocky bodies orbiting the Sun; leftovers from solar system formation mostly in the asteroid belt."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "comet,icy,body,glow"
+  content: "Comets explain icy bodies that glow near the Sun; they develop tails from gas and dust melting."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "meteor,shooting,star"
+  content: "Meteors explain bright streaks from space rocks burning in atmosphere; commonly called shooting stars."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "constellation,star,pattern"
+  content: "Constellations explain recognizable star patterns; used for navigation and mapping the sky."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "black,hole,strong,gravity"
+  content: "Black holes explain regions with extreme gravity; nothing not even light can escape from inside the event horizon."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "nebula,cloud,gas,dust"
+  content: "Nebulas explain huge clouds of gas and dust; they are star nurseries where new stars form."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "supernova,star,explosion"
+  content: "Supernovas explain huge star explosions; they scatter heavy elements and mark massive star death."
+- domain: astronomy
+  intent: explain
+  epistemic: Yellow
+  keyword: "telescope,sees,distant,objects"
+  content: "Telescopes explain tools that collect light to see distant objects; they reveal stars, galaxies, and planets."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "speed,distance,time"
+  content: "Compute speed: speed = distance / time."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "velocity,displacement,time"
+  content: "Compute velocity: velocity = displacement / time."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "acceleration,velocity,time"
+  content: "Compute acceleration: acceleration = (final velocity − initial velocity) / time."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "force,mass,acceleration"
+  content: "Compute force: force = mass × acceleration (F=ma)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "weight,mass,gravity"
+  content: "Compute weight: weight = mass × gravitational acceleration (W=mg)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "work,force,displacement"
+  content: "Compute work: work = force × displacement × cos(theta)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "power,work,time"
+  content: "Compute power: power = work / time."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "momentum,mass,velocity"
+  content: "Compute momentum: momentum = mass × velocity."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "pressure,force,area"
+  content: "Compute pressure: pressure = force / area."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "density,mass,volume"
+  content: "Compute density: density = mass / volume."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "kinetic energy,mass,velocity"
+  content: "Compute kinetic energy: KE = ½ × mass × velocity²."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "potential energy,mass,gravity,height"
+  content: "Compute gravitational potential energy: PE = mgh."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "wave speed,frequency,wavelength"
+  content: "Compute wave speed: wave speed = frequency × wavelength."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "frequency,wave speed,wavelength"
+  content: "Compute frequency: frequency = wave speed / wavelength."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "wavelength,wave speed,frequency"
+  content: "Compute wavelength: wavelength = wave speed / frequency."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "ohms law,voltage,current,resistance"
+  content: "Compute by Ohm’s Law: voltage = current × resistance (V=IR)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "current,voltage,resistance"
+  content: "Compute electric current: current = voltage / resistance."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "resistance,voltage,current"
+  content: "Compute resistance: resistance = voltage / current."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "electric power,voltage,current"
+  content: "Compute electric power: power = voltage × current."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "energy,power,time"
+  content: "Compute electrical energy: energy = power × time."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "heat energy,mass,specific heat,temperature"
+  content: "Compute heat energy: Q = mcΔT."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "efficiency,output,input"
+  content: "Compute efficiency: efficiency = (useful output / total input) × 100%."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "period,frequency"
+  content: "Compute period: period = 1 / frequency."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "buoyant force,density,volume,gravity"
+  content: "Compute buoyant force: F_buoyant = density × volume × g."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "gravitational force,mass,distance"
+  content: "Compute gravitational force: F = G(m₁m₂)/r²."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "centripetal force,mass,velocity,radius"
+  content: "Compute centripetal force: F_c = mv²/r."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "torque,force,distance"
+  content: "Compute torque: torque = force × lever arm."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "impulse,force,time"
+  content: "Compute impulse: impulse = force × time."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "change in momentum,impulse"
+  content: "Compute change in momentum: Δp = impulse."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "mechanical advantage,load,effort"
+  content: "Compute mechanical advantage: MA = load / effort."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "molar mass,atomic masses"
+  content: "Compute molar mass: sum of atomic masses of all atoms in formula."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "moles,mass,molar mass"
+  content: "Compute moles: moles = mass / molar mass."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "mass,moles,molar mass"
+  content: "Compute mass: mass = moles × molar mass."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "concentration,moles,volume"
+  content: "Compute molar concentration: concentration = moles / volume (L)."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "dilution formula,M1V1=M2V2"
+  content: "Compute dilution: M₁V₁ = M₂V₂."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "percent yield,actual,theoretical"
+  content: "Compute percent yield: (actual yield / theoretical yield) × 100%."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "percent error,measured,accepted"
+  content: "Compute percent error: |measured − accepted| / accepted × 100%."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "empirical formula,percent composition"
+  content: "Compute empirical formula from percent composition: convert to moles and divide by smallest."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "molecular formula,empirical,n"
+  content: "Compute molecular formula: molecular formula = empirical × n."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "gas pressure,volume,temperature"
+  content: "Compute ideal gas: PV = nRT."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "gas volume,moles,temperature"
+  content: "Compute gas volume: V = nRT/P."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "boyle law,P1V1=P2V2"
+  content: "Compute Boyle’s Law: P₁V₁ = P₂V₂ (constant T)."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "charles law,V1/T1=V2/T2"
+  content: "Compute Charles’s Law: V₁/T₁ = V₂/T₂ (constant P)."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "gay-lussac law,P1/T1=P2/T2"
+  content: "Compute Gay-Lussac’s Law: P₁/T₁ = P₂/T₂ (constant V)."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "combined gas law,P1V1/T1=P2V2/T2"
+  content: "Compute combined gas law: P₁V₁/T₁ = P₂V₂/T₂."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "ph,hydrogen ion"
+  content: "Compute pH: pH = −log₁₀[H⁺]."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "hydrogen ion concentration,pH"
+  content: "Compute [H⁺]: [H⁺] = 10^(−pH)."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "pOH,hydroxide ion"
+  content: "Compute pOH: pOH = −log₁₀[OH⁻]."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "ph+pOH=14"
+  content: "Compute pH from pOH: pH + pOH = 14."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "oxidation number,charge"
+  content: "Compute oxidation number: assign to balance overall charge."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "formula mass,atomic masses"
+  content: "Compute formula mass: sum of atomic masses in formula unit."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "photosynthesis,glucose production"
+  content: "Compute glucose produced: from CO₂ fixed in photosynthesis."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "respiration,ATP yield"
+  content: "Compute ATP yield: ~30–32 ATP per glucose in respiration."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "cell division,mitosis count"
+  content: "Compute cell count after mitosis: 1 cell → 2 identical cells."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "cell division,meiosis count"
+  content: "Compute cell count after meiosis: 1 cell → 4 gametes."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "population growth rate"
+  content: "Compute growth rate: r = (births − deaths)/population."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "population doubling time"
+  content: "Compute doubling time: t = ln(2)/growth rate."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "energy transfer,trophic level"
+  content: "Compute energy transfer: ~10% energy moves up each trophic level."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "hardy-weinberg,p+q=1"
+  content: "Compute allele frequency: p + q = 1."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "hardy-weinberg,p²+2pq+q²=1"
+  content: "Compute genotype frequency: p² + 2pq + q² = 1."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "enzyme activity rate"
+  content: "Compute enzyme rate: product formed / time."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "diffusion rate,concentration"
+  content: "Compute diffusion rate: proportional to concentration gradient."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "osmotic pressure,solute concentration"
+  content: "Compute osmotic pressure: π = MRT."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "blood pressure,systolic,diastolic"
+  content: "Compute mean arterial pressure: MAP = (2×diastolic + systolic)/3."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "heart rate,beats per minute"
+  content: "Compute heart rate: beats counted / time (min)."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "cardiac output,heart rate,stroke volume"
+  content: "Compute cardiac output: CO = heart rate × stroke volume."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "metabolic rate,oxygen consumption"
+  content: "Compute metabolic rate: from oxygen consumption."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "genetic probability,punnett square"
+  content: "Compute inheritance probability: from Punnett square ratios."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "recombination frequency,crossover"
+  content: "Compute recombination frequency: recombinant offspring / total."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "mutation rate,changes per generation"
+  content: "Compute mutation rate: mutations / base pairs per generation."
+- domain: biology
+  intent: compute
+  epistemic: Yellow
+  keyword: "ecological footprint,resource use"
+  content: "Compute ecological footprint: land needed to support resource use."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "rock density,mass,volume"
+  content: "Compute rock density: mass / volume."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "soil porosity,void volume"
+  content: "Compute soil porosity: void volume / total volume × 100%."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "permeability,flow rate"
+  content: "Compute permeability: from fluid flow rate through soil."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "earthquake magnitude,richter"
+  content: "Compute Richter magnitude: from wave amplitude log."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "earthquake intensity,energy"
+  content: "Compute earthquake intensity: from shaking energy and damage."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "volcano eruption rate,magma output"
+  content: "Compute eruption rate: magma volume / time."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "erosion rate,sediment loss"
+  content: "Compute erosion rate: sediment lost / area / time."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "deposition rate,sediment accumulation"
+  content: "Compute deposition rate: sediment thickness / time."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "relative dating,layer order"
+  content: "Compute relative age: from rock layer superposition."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "absolute dating,radioactive decay"
+  content: "Compute absolute age: from radioactive isotope half-life."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "half-life,decay constant"
+  content: "Compute half-life: t₁/₂ = ln(2)/λ."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "radioactive decay,N=Noe^(-λt)"
+  content: "Compute remaining isotope: N = N₀e^(−λt)."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "climate temperature anomaly"
+  content: "Compute temperature anomaly: current − long-term average."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "rainfall intensity,volume,area"
+  content: "Compute rainfall intensity: volume / area / time."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "river discharge,area,velocity"
+  content: "Compute river discharge: cross-section area × velocity."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "flood frequency,recurrence interval"
+  content: "Compute flood recurrence interval: (n+1)/rank."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "glacier velocity,movement rate"
+  content: "Compute glacier velocity: distance moved / time."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "sea level rise,rate per year"
+  content: "Compute sea level rise: total change / years."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "atmospheric pressure,altitude"
+  content: "Compute air pressure: decreases exponentially with altitude."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "relative humidity,actual,maximum"
+  content: "Compute relative humidity: (actual / max) × 100%."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "dew point temperature,condensation"
+  content: "Compute dew point: temperature where condensation begins."
+- domain: earth science
+  intent: compute
+  epistemic: Yellow
+  keyword: "wind speed,pressure gradient"
+  content: "Compute wind speed: proportional to pressure gradient."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "light year,distance,time"
+  content: "Compute light-year: distance light travels in one year."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "orbital speed,circumference,period"
+  content: "Compute orbital speed: circumference / orbital period."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "orbital period,kepler third law"
+  content: "Compute orbital period: T² ∝ a³ (Kepler’s 3rd law)."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "stellar magnitude,brightness"
+  content: "Compute apparent magnitude: from observed brightness log."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "stellar luminosity,power output"
+  content: "Compute luminosity: total power output of star."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "black hole event horizon,schwarzschild radius"
+  content: "Compute Schwarzschild radius: R_s = 2GM/c²."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "galaxy recession velocity,hubble law"
+  content: "Compute recession velocity: Hubble’s law v = H₀ × d."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "hubble constant,expansion rate"
+  content: "Compute cosmic expansion rate: H₀ ~ 70 km/s/Mpc."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "age of universe,hubble time"
+  content: "Compute cosmic age: Hubble time ~ 1/H₀."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "planetary distance,astronomical unit"
+  content: "Compute distance in AU: Earth–Sun = 1 AU."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "eccentricity,orbit shape"
+  content: "Compute orbital eccentricity: measures oval shape of orbit."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "solar flux,power per area"
+  content: "Compute solar flux: power received per unit area."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "lunar phase cycle,29.5 days"
+  content: "Compute lunar cycle: ~29.5 days per full phase cycle."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "tide height,lunar gravity"
+  content: "Compute tide height: from lunar and solar gravity pull."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "solar eclipse period,cycle"
+  content: "Compute eclipse cycle: ~18 years 11 days (Saros cycle)."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "planet rotation period,day length"
+  content: "Compute day length: rotation period of planet."
+- domain: astronomy
+  intent: compute
+  epistemic: Yellow
+  keyword: "planet orbital period,year length"
+  content: "Compute year length: orbital period around star."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "distance,speed,time"
+  content: "Compute distance: distance = speed × time."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "time,distance,speed"
+  content: "Compute time: time = distance / speed."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "final velocity,initial,acceleration,time"
+  content: "Compute final velocity: v = u + at."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "displacement,initial,velocity,acceleration,time"
+  content: "Compute displacement: s = ut + ½at²."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "velocity squared,initial,acceleration,displacement"
+  content: "Compute velocity squared: v² = u² + 2as."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "gravitational potential,point mass"
+  content: "Compute gravitational potential: V = −GM/r."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "electric field,force,charge"
+  content: "Compute electric field: E = F/q."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "electric potential energy,charge,voltage"
+  content: "Compute electric potential energy: U = qV."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "magnetic field,current,distance"
+  content: "Compute magnetic field: B ∝ I/r (long wire)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "refractive index,speed ratio"
+  content: "Compute refractive index: n = c/v."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "snell law,n1sinθ1=n2sinθ2"
+  content: "Compute refraction angle: n₁sinθ₁ = n₂sinθ₂."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "critical angle,refractive index"
+  content: "Compute critical angle: sinθ_c = n₂/n₁."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "magnification,image,object"
+  content: "Compute magnification: image height / object height."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "focal length,mirror,lens"
+  content: "Compute focal length: 1/f = 1/do + 1/di."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "doppler effect,change frequency"
+  content: "Compute Doppler shift: Δf/f = v/c."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "thermal expansion,length change"
+  content: "Compute linear expansion: ΔL = αL₀ΔT."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "volume expansion,volume change"
+  content: "Compute volume expansion: ΔV = βV₀ΔT."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "heat of fusion,melt solid"
+  content: "Compute heat for melting: Q = mL_f."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "heat of vaporization,boil liquid"
+  content: "Compute heat for boiling: Q = mL_v."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "wave intensity,power,area"
+  content: "Compute wave intensity: power / area."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "beat frequency,difference frequency"
+  content: "Compute beat frequency: |f₁ − f₂|."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "standing wave wavelength,length"
+  content: "Compute standing wave wavelength: λ = 2L/n."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "resonant frequency,string length"
+  content: "Compute resonant frequency: f = nv/(2L)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "capacitance,charge,voltage"
+  content: "Compute capacitance: C = Q/V."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "capacitive reactance,frequency,capacitance"
+  content: "Compute capacitive reactance: X_C = 1/(2πfC)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "inductive reactance,frequency,inductance"
+  content: "Compute inductive reactance: X_L = 2πfL."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "impedance,resistance,reactance"
+  content: "Compute impedance: Z = √(R² + (X_L−X_C)²)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "resonant frequency,LC circuit"
+  content: "Compute resonant frequency: f₀ = 1/(2π√(LC))."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "photoelectric effect,kinetic energy"
+  content: "Compute photoelectron KE: KE = hf − φ."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "photon energy,frequency,planck"
+  content: "Compute photon energy: E = hf."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "de broglie wavelength,momentum"
+  content: "Compute de Broglie wavelength: λ = h/p."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "nuclear binding energy,mass defect"
+  content: "Compute binding energy: ΔE = Δmc²."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "mass energy equivalence"
+  content: "Compute mass-energy: E = mc²."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "radioactive count rate,decay"
+  content: "Compute count rate: proportional to remaining nuclei."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "activity,decay constant,nuclei"
+  content: "Compute activity: A = λN."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "equilibrium,force balance"
+  content: "Compute equilibrium: net force = 0, net torque = 0."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "elastic collision,momentum,kinetic energy"
+  content: "Compute elastic collision: conserve momentum and KE."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "inelastic collision,momentum only"
+  content: "Compute inelastic collision: conserve momentum only."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "projectile range,velocity,angle"
+  content: "Compute projectile range: R = (v₀² sin2θ)/g."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "projectile max height,velocity,angle"
+  content: "Compute max height: H = (v₀ sinθ)²/(2g)."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "fluid flow rate,continuity equation"
+  content: "Compute flow rate: A₁v₁ = A₂v₂."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "bernoulli equation,pressure,velocity"
+  content: "Compute Bernoulli: P + ½ρv² + ρgh = constant."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "stokes law,viscous drag"
+  content: "Compute drag force: F = 6πηrv."
+- domain: physics
+  intent: compute
+  epistemic: Yellow
+  keyword: "surface tension,force,length"
+  content: "Compute surface tension: γ = F/L."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "stoichiometry,mole ratio"
+  content: "Compute reaction amount: use mole ratio from balanced equation."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "limiting reactant,product yield"
+  content: "Compute limiting reactant: which gives less product."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "excess reactant,remaining mass"
+  content: "Compute excess mass: initial − reacted."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "gas density,molar mass,molar volume"
+  content: "Compute gas density: molar mass / molar volume."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "mole fraction,component,total"
+  content: "Compute mole fraction: n_i / n_total."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "mass percent,component,mass"
+  content: "Compute mass percent: (mass i / total mass) × 100%."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "volume percent,solute,solution"
+  content: "Compute volume percent: (V solute / V solution) × 100%."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "molality,moles,kg solvent"
+  content: "Compute molality: moles solute / kg solvent."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "freezing point depression,molality"
+  content: "Compute freezing drop: ΔT_f = K_f × m × i."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "boiling point elevation,molality"
+  content: "Compute boiling rise: ΔT_b = K_b × m × i."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "osmotic pressure,molarity"
+  content: "Compute osmotic pressure: π = MRTi."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "reaction rate,concentration change"
+  content: "Compute reaction rate: Δ[concentration] / time."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "rate law,order,concentration"
+  content: "Compute rate: rate = k[A]^m[B]^n."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "half life,first order reaction"
+  content: "Compute first-order half-life: t₁/₂ = ln(2)/k."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "activation energy,arrhenius"
+  content: "Compute E_a: from Arrhenius plot slope."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "equilibrium constant,concentrations"
+  content: "Compute K_eq: [products]/[reactants]."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "reaction quotient,Q,K comparison"
+  content: "Compute Q: same form as K; compare for shift."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "ion product,Qsp,Ksp"
+  content: "Compute Q_sp: compare to K_sp for precipitation."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "solubility,Ksp,ions"
+  content: "Compute molar solubility: from K_sp expression."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "cell potential,reduction potentials"
+  content: "Compute cell E: E_cathode − E_anode."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "gibbs free energy,cell potential"
+  content: "Compute ΔG: −nFE_cell."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "nernst equation,concentration cell"
+  content: "Compute cell E at non-standard: Nernst equation."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "electrolysis,charge,current,time"
+  content: "Compute charge: Q = I × t."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "faraday constant,moles electrons"
+  content: "Compute moles e⁻: Q / F."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "bond energy,reaction enthalpy"
+  content: "Compute ΔH: sum bonds broken − sum bonds formed."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "hess law,enthalpy sum"
+  content: "Compute total ΔH: sum of step enthalpies."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "entropy change,disorder"
+  content: "Compute ΔS: final entropy − initial entropy."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "gibbs free energy,enthalpy,entropy"
+  content: "Compute ΔG: ΔH − TΔS."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "spontaneity,delta g sign"
+  content: "Compute spontaneity: ΔG < 0 = spontaneous."
+- domain: chemistry
+  intent: compute
+  epistemic: Yellow
+  keyword: "heat of reaction,calorimetry"
+  content: "Compute ΔH: −Q / moles."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "speed,velocity,scalar,vector"
+  content: "Compare speed and velocity: speed is a scalar measuring only magnitude; velocity is a vector including both magnitude and direction."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "velocity,acceleration,change"
+  content: "Compare velocity and acceleration: velocity describes current motion; acceleration describes how velocity changes over time."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "mass,weight,gravity"
+  content: "Compare mass and weight: mass is the amount of matter and is constant; weight is gravitational force and varies with location."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "force,energy,action"
+  content: "Compare force and energy: force is a push or pull causing acceleration; energy is the capacity to apply force over distance."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "kinetic,potential,energy"
+  content: "Compare kinetic and potential energy: kinetic is energy of motion; potential is stored energy due to position or state."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "work,power,time"
+  content: "Compare work and power: work is total energy transferred; power is the rate of work per unit time."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "friction,gravity,force"
+  content: "Compare friction and gravity: friction opposes sliding motion; gravity attracts all objects with mass."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "pressure,force,area"
+  content: "Compare pressure and force: force is a push or pull; pressure is force distributed over an area."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "temperature,heat,thermal"
+  content: "Compare temperature and heat: temperature is average particle kinetic energy; heat is thermal energy transfer."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "conduction,convection,heat"
+  content: "Compare conduction and convection: conduction transfers heat by contact; convection transfers heat by fluid movement."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "radiation,conduction,heat"
+  content: "Compare radiation and conduction: radiation transfers by waves; conduction transfers by particle contact."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "wave,pulse,disturbance"
+  content: "Compare wave and pulse: a wave is repeated oscillation; a pulse is a single short disturbance."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "frequency,wavelength,wave"
+  content: "Compare frequency and wavelength: frequency is cycles per second; wavelength is length per cycle; they are inversely related."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "amplitude,frequency,wave"
+  content: "Compare amplitude and frequency: amplitude determines wave energy; frequency determines wave pitch or repetition rate."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "reflection,refraction,wave"
+  content: "Compare reflection and refraction: reflection bounces wave off surface; refraction bends wave crossing mediums."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "diffraction,interference,wave"
+  content: "Compare diffraction and interference: diffraction spreads waves; interference combines waves."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "sound,light,wave"
+  content: "Compare sound and light: sound is mechanical longitudinal wave; light is electromagnetic transverse wave."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "electric,magnetic,field"
+  content: "Compare electric and magnetic fields: electric field acts on charges; magnetic field acts on moving charges."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "current,voltage,electric"
+  content: "Compare current and voltage: current is charge flow rate; voltage is the push driving the flow."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "resistance,conductor,electric"
+  content: "Compare resistance and conductance: resistance opposes current; conductance allows current."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "series,parallel,circuit"
+  content: "Compare series and parallel circuits: series has one path; parallel has multiple branched paths."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "conductor,insulator,material"
+  content: "Compare conductor and insulator: conductor allows current; insulator blocks current."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "semiconductor,conductor,material"
+  content: "Compare semiconductor and conductor: semiconductor has controllable conductivity; conductor has high free conductivity."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "atom,molecule,particle"
+  content: "Compare atom and molecule: atom is single basic unit; molecule is bonded group of atoms."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "proton,electron,charge"
+  content: "Compare proton and electron: proton positive charge in nucleus; electron negative charge in shells."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "solid,liquid,state"
+  content: "Compare solid and liquid: solid has fixed shape and volume; liquid has fixed volume but takes container shape."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "liquid,gas,state"
+  content: "Compare liquid and gas: liquid has fixed volume; gas expands to fill volume and shape."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "density,buoyancy,fluid"
+  content: "Compare density and buoyancy: density is mass per volume; buoyancy is upward fluid force opposing weight."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "momentum,impulse,motion"
+  content: "Compare momentum and impulse: momentum is mass×velocity; impulse is force×time changing momentum."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "elastic,inelastic,collision"
+  content: "Compare elastic and inelastic collision: elastic conserves kinetic energy; inelastic does not."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "centripetal,centrifugal,force"
+  content: "Compare centripetal and centrifugal: centripetal is real center-seeking force; centrifugal is apparent outward force."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "torque,force,rotation"
+  content: "Compare torque and force: torque causes rotation; force causes linear acceleration."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "lens,mirror,optics"
+  content: "Compare lens and mirror: lens refracts light; mirror reflects light."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "telescope,microscope,optics"
+  content: "Compare telescope and microscope: telescope views distant large objects; microscope views small nearby objects."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "quantum,classical,physics"
+  content: "Compare quantum and classical physics: quantum describes tiny particles; classical describes macroscopic objects."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "relativity,newtonian,physics"
+  content: "Compare relativity and Newtonian physics: relativity at high speed/gravity; Newtonian at everyday speeds."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "element,compound,substance"
+  content: "Compare element and compound: element has one atom type; compound has bonded different atoms."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "compound,mixture,substance"
+  content: "Compare compound and mixture: compound chemically bonded; mixture physically combined."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "solution,mixture,homogeneous"
+  content: "Compare solution and mixture: solution is homogeneous; mixture can be heterogeneous."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "solute,solvent,solution"
+  content: "Compare solute and solvent: solute dissolves; solvent does the dissolving."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "acid,base,ph"
+  content: "Compare acid and base: acid pH below 7; base pH above 7."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "oxidation,reduction,electron"
+  content: "Compare oxidation and reduction: oxidation loses electrons; reduction gains electrons."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "ionic,covalent,bond"
+  content: "Compare ionic and covalent bond: ionic transfers electrons; covalent shares electrons."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "molecule,ion,particle"
+  content: "Compare molecule and ion: molecule neutral; ion has net electric charge."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "isotope,ion,atom"
+  content: "Compare isotope and ion: isotope differs in neutrons; ion differs in electrons."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "molar mass,atomic mass"
+  content: "Compare molar mass and atomic mass: molar mass per mole; atomic mass per single atom."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "mole,atom,count"
+  content: "Compare mole and atom: mole large counting unit; atom smallest particle unit."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "concentration,dilution,solution"
+  content: "Compare concentration and dilution: concentration solute amount; dilution reduces concentration."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "saturated,unsaturated,solution"
+  content: "Compare saturated and unsaturated: saturated holds max solute; unsaturated holds less."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "reactant,product,reaction"
+  content: "Compare reactant and product: reactant consumed; product formed."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "catalyst,inhibitor,reaction"
+  content: "Compare catalyst and inhibitor: catalyst speeds reaction; inhibitor slows reaction."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "exothermic,endothermic,reaction"
+  content: "Compare exothermic and endothermic: exothermic releases heat; endothermic absorbs heat."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "chemical,physical,change"
+  content: "Compare chemical and physical change: chemical changes identity; physical changes form only."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "metal,nonmetal,element"
+  content: "Compare metal and nonmetal: metal conducts; nonmetal usually insulates."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "period,group,periodic table"
+  content: "Compare period and group: period horizontal row; group vertical column."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "valence,inner,electron"
+  content: "Compare valence and inner electrons: valence bonds; inner shield nucleus."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "ideal,real,gas"
+  content: "Compare ideal and real gas: ideal follows law perfectly; real has volume and attractions."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "pressure,temperature,gas"
+  content: "Compare pressure and temperature: pressure collisions; temperature kinetic energy."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "boiling,melting,phase"
+  content: "Compare boiling and melting: boiling liquid to gas; melting solid to liquid."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "freezing,condensation,phase"
+  content: "Compare freezing and condensation: freezing liquid to solid; condensation gas to liquid."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "sublimation,deposition,phase"
+  content: "Compare sublimation and deposition: sublimation solid to gas; deposition gas to solid."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "diffusion,osmosis,movement"
+  content: "Compare diffusion and osmosis: diffusion any particle; osmosis water only across membrane."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "prokaryote,eukaryote,cell"
+  content: "Compare prokaryote and eukaryote: prokaryote no nucleus; eukaryote has nucleus."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "plant,animal,cell"
+  content: "Compare plant and animal cell: plant has cell wall and chloroplast; animal does not."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "mitosis,meiosis,division"
+  content: "Compare mitosis and meiosis: mitosis makes identical body cells; meiosis makes unique sex cells."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "chromosome,gene,heredity"
+  content: "Compare chromosome and gene: chromosome DNA structure; gene DNA segment coding trait."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "DNA,RNA,genetic"
+  content: "Compare DNA and RNA: DNA stores heredity; RNA helps build proteins."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "protein,amino acid,structure"
+  content: "Compare protein and amino acid: protein polymer; amino acid monomer building block."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "enzyme,hormone,function"
+  content: "Compare enzyme and hormone: enzyme speeds reaction; hormone signals body."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "tissue,organ,structure"
+  content: "Compare tissue and organ: tissue cell group; organ tissue group."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "population,community,ecology"
+  content: "Compare population and community: population same species; community all species."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "ecosystem,biome,ecology"
+  content: "Compare ecosystem and biome: ecosystem local interaction; biome global regional type."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "producer,consumer,food chain"
+  content: "Compare producer and consumer: producer makes food; consumer eats others."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "food chain,food web,energy"
+  content: "Compare food chain and food web: chain linear; web interconnected."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "photosynthesis,respiration,energy"
+  content: "Compare photosynthesis and respiration: photosynthesis stores energy; respiration releases energy."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "aerobic,anaerobic,respiration"
+  content: "Compare aerobic and anaerobic: aerobic uses oxygen; anaerobic does not."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "evolution,adaptation,change"
+  content: "Compare evolution and adaptation: evolution species change; adaptation helpful trait."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "natural selection,mutation,evolution"
+  content: "Compare natural selection and mutation: selection sorts traits; mutation creates variation."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "species,population,group"
+  content: "Compare species and population: species interbreed group; population local group."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "biodiversity,ecosystem,variety"
+  content: "Compare biodiversity and ecosystem: biodiversity life variety; ecosystem interaction system."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "mutualism,parasitism,symbiosis"
+  content: "Compare mutualism and parasitism: mutualism both benefit; parasitism one benefits one harmed."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "commensalism,mutualism,symbiosis"
+  content: "Compare commensalism and mutualism: commensalism one benefits one neutral; mutualism both benefit."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "homeostasis,metabolism,function"
+  content: "Compare homeostasis and metabolism: homeostasis stable state; metabolism chemical processes."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "fertilization,zygote,reproduction"
+  content: "Compare fertilization and zygote: fertilization gamete union; zygote fertilized cell."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "embryo,fetus,development"
+  content: "Compare embryo and fetus: embryo early stage; fetus later developed stage."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "immunity,vaccine,defense"
+  content: "Compare immunity and vaccine: immunity natural defense; vaccine trained defense."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "antibody,pathogen,defense"
+  content: "Compare antibody and pathogen: antibody fights; pathogen causes disease."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "virus,bacteria,infection"
+  content: "Compare virus and bacteria: virus nonliving infector; bacteria living cell."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "fungus,protist,organism"
+  content: "Compare fungus and protist: fungus absorbs food; protist diverse single cell."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "rock,mineral,geology"
+  content: "Compare rock and mineral: rock aggregate; mineral pure crystalline."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "weathering,erosion,geology"
+  content: "Compare weathering and erosion: weathering breaks rock; erosion moves material."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "earthquake,volcano,tectonic"
+  content: "Compare earthquake and volcano: earthquake shaking; volcano magma eruption."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "crust,mantle,earth layer"
+  content: "Compare crust and mantle: crust thin outer; mantle thick middle."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "inner core,outer core,earth"
+  content: "Compare inner and outer core: inner solid; outer liquid."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "lithosphere,hydrosphere,sphere"
+  content: "Compare lithosphere and hydrosphere: lithosphere rock; hydrosphere water."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "atmosphere,biosphere,sphere"
+  content: "Compare atmosphere and biosphere: atmosphere air; biosphere life."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "weather,climate,atmosphere"
+  content: "Compare weather and climate: weather short term; climate long term average."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "cloud,precipitation,water"
+  content: "Compare cloud and precipitation: cloud condensed vapor; precipitation falling water."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "river,lake,water"
+  content: "Compare river and lake: river flowing; lake standing water."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "ocean,glacier,water"
+  content: "Compare ocean and glacier: ocean salt water; glacier fresh ice."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "mountain,valley,landform"
+  content: "Compare mountain and valley: mountain high; valley low between hills."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "plain,plateau,landform"
+  content: "Compare plain and plateau: plain flat low; plateau flat high."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "sediment,deposition,geology"
+  content: "Compare sediment and deposition: sediment eroded particles; deposition dropping particles."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "fossil,rock,history"
+  content: "Compare fossil and rock: fossil ancient life; rock mineral aggregate."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "relative,absolute,dating"
+  content: "Compare relative and absolute dating: relative order; absolute numerical age."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "star,planet,celestial"
+  content: "Compare star and planet: star produces light; planet reflects light."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "planet,moon,satellite"
+  content: "Compare planet and moon: planet orbits star; moon orbits planet."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "solar system,galaxy,space"
+  content: "Compare solar system and galaxy: solar system star and planets; galaxy billions of stars."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "asteroid,comet,object"
+  content: "Compare asteroid and comet: asteroid rocky; comet icy with tail."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "meteor,meteorite,object"
+  content: "Compare meteor and meteorite: meteor burns in air; meteorite hits ground."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "constellation,galaxy,stars"
+  content: "Compare constellation and galaxy: constellation pattern; galaxy real star system."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "nebula,supernova,star"
+  content: "Compare nebula and supernova: nebula star birth; supernova star death explosion."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "black hole,nebula,space"
+  content: "Compare black hole and nebula: black hole dense gravity; nebula cloud of gas."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "orbit,rotation,motion"
+  content: "Compare orbit and rotation: orbit around object; rotation spin itself."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "eclipse,phase,lunar"
+  content: "Compare eclipse and phase: eclipse blocking; phase sunlight angle."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "voltage,current,electric"
+  content: "Compare voltage and current: voltage electric pressure; current charge flow."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "capacitor,resistor,circuit"
+  content: "Compare capacitor and resistor: capacitor stores energy; resistor limits current."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "transverse,longitudinal,wave"
+  content: "Compare transverse and longitudinal: transverse perpendicular; longitudinal parallel motion."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "reflection,absorption,light"
+  content: "Compare reflection and absorption: reflection bounces light; absorption captures light."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "precision,accuracy,measurement"
+  content: "Compare precision and accuracy: precision repeatability; accuracy correctness."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "scalar,vector,quantity"
+  content: "Compare scalar and vector: scalar magnitude only; vector magnitude and direction."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "distance,displacement,motion"
+  content: "Compare distance and displacement: distance total path; displacement straight line change."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "inertia,momentum,motion"
+  content: "Compare inertia and momentum: inertia resists change; momentum motion quantity."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "pressure,temperature,gas"
+  content: "Compare pressure and temperature in gas: pressure increases with temperature at fixed volume."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "heat,temperature,thermal"
+  content: "Compare heat and temperature: heat total thermal energy; temperature average energy."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "convection,radiation,heat"
+  content: "Compare convection and radiation: convection needs fluid; radiation needs no medium."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "mechanical,electromagnetic,wave"
+  content: "Compare mechanical and electromagnetic wave: mechanical needs medium; electromagnetic does not."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "sound intensity,loudness"
+  content: "Compare intensity and loudness: intensity physical energy; loudness perceived sound."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "resistance,impedance,AC"
+  content: "Compare resistance and impedance: resistance DC opposition; impedance AC total opposition."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "series,parallel,resistance"
+  content: "Compare series and parallel resistance: series adds up; parallel reduces total."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "kinetic,thermal,energy"
+  content: "Compare kinetic and thermal energy: kinetic bulk motion; thermal random particle motion."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "chemical,nuclear,energy"
+  content: "Compare chemical and nuclear energy: chemical bond energy; nuclear nucleus energy."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "convex,concave,lens"
+  content: "Compare convex and concave lens: convex converges light; concave diverges light."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "real image,virtual image,optics"
+  content: "Compare real and virtual image: real light converges; virtual light appears."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "mass,inertia,resistance"
+  content: "Compare mass and inertia: mass quantity; inertia resistance to motion change."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "action force,reaction force"
+  content: "Compare action and reaction force: equal magnitude opposite direction."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "static friction,kinetic friction"
+  content: "Compare static and kinetic friction: static opposes start; kinetic opposes sliding."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "centripetal force,tangential force"
+  content: "Compare centripetal and tangential: centripetal curves path; tangential speeds object."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "pressure,volume,gas"
+  content: "Compare pressure and volume: inverse relation at fixed temperature."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "wave period,frequency"
+  content: "Compare period and frequency: period time per cycle; frequency cycles per time."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "interference,diffraction,wave"
+  content: "Compare interference and diffraction: interference wave overlap; diffraction wave bending."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "refractive index,optical density"
+  content: "Compare refractive index and optical density: higher index means slower light speed."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "Doppler effect,redshift"
+  content: "Compare Doppler effect and redshift: Doppler motion shift; redshift cosmic expansion shift."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "nucleus,electron cloud,atom"
+  content: "Compare nucleus and electron cloud: nucleus mass; cloud volume and charge."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "fusion,fission,nuclear"
+  content: "Compare fusion and fission: fusion combines nuclei; fission splits nuclei."
+- domain: physics
+  intent: compare
+  epistemic: Yellow
+  keyword: "alpha,beta,gamma,radiation"
+  content: "Compare alpha beta gamma: alpha particle; beta electron; gamma high energy ray."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "atomic mass,mass number"
+  content: "Compare atomic mass and mass number: atomic mass average; mass number protons+neutrons."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "physical property,chemical property"
+  content: "Compare physical and chemical property: physical observed unchanged; chemical observed by change."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "homogeneous,heterogeneous,mixture"
+  content: "Compare homogeneous and heterogeneous: homogeneous uniform; heterogeneous non-uniform."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "colloid,suspension,mixture"
+  content: "Compare colloid and suspension: colloid small particles; suspension large settleable particles."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "oxidizing agent,reducing agent"
+  content: "Compare oxidizing and reducing agent: oxidizer gains electrons; reducer loses electrons."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "acid salt,normal salt"
+  content: "Compare acid salt and normal salt: acid salt has replaceable H; normal salt fully neutralized."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "strong acid,weak acid"
+  content: "Compare strong and weak acid: strong fully ionizes; weak partially ionizes."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "strong base,weak base"
+  content: "Compare strong and weak base: strong fully dissociates; weak partially dissociates."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "endothermic,exothermic,direction"
+  content: "Compare endothermic and exothermic direction: endothermic in; exothermic out."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "reaction rate,equilibrium"
+  content: "Compare reaction rate and equilibrium: rate speed; equilibrium balance forward reverse."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "catalyst,reactant,role"
+  content: "Compare catalyst and reactant: catalyst not consumed; reactant consumed."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "atomic radius,ionic radius"
+  content: "Compare atomic and ionic radius: cation smaller; anion larger than atom."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "metallic bond,ionic bond"
+  content: "Compare metallic and ionic bond: metallic electron sea; ionic charged attraction."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "polar covalent,nonpolar covalent"
+  content: "Compare polar and nonpolar covalent: polar unequal share; nonpolar equal share."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "molecule,formula unit"
+  content: "Compare molecule and formula unit: molecule covalent; formula unit ionic."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "actual yield,theoretical yield"
+  content: "Compare actual and theoretical yield: actual measured; theoretical calculated maximum."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "limiting reactant,excess reactant"
+  content: "Compare limiting and excess: limiting runs out first; excess remains."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "molarity,molality,concentration"
+  content: "Compare molarity and molality: molarity per liter; molality per kilogram solvent."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "diffusion,effusion,gas"
+  content: "Compare diffusion and effusion: diffusion mixing; effusion through small hole."
+- domain: chemistry
+  intent: compare
+  epistemic: Yellow
+  keyword: "solid state,plasma state"
+  content: "Compare solid and plasma: solid ordered; plasma ionized charged gas."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "autotroph,heterotroph,nutrition"
+  content: "Compare autotroph and heterotroph: autotroph makes food; heterotroph consumes food."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "sexual,asexual,reproduction"
+  content: "Compare sexual and asexual: sexual two parents unique; sexual one parent identical."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "dominant,recessive,gene"
+  content: "Compare dominant and recessive: dominant expressed; recessive masked."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "genotype,phenotype,trait"
+  content: "Compare genotype and phenotype: genotype DNA code; phenotype observable trait."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "homozygous,heterozygous,allele"
+  content: "Compare homozygous and heterozygous: homozygous same alleles; heterozygous different alleles."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "diffusion,active transport"
+  content: "Compare diffusion and active transport: diffusion no energy; active uses energy."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "osmosis,diffusion,water"
+  content: "Compare osmosis and diffusion: osmosis water only; diffusion any particle."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "xylem,phloem,plant"
+  content: "Compare xylem and phloem: xylem water up; phloem food down."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "artery,vein,vessel"
+  content: "Compare artery and vein: artery away heart; vein to heart."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "herbivore,carnivore,diet"
+  content: "Compare herbivore and carnivore: herbivore plant; carnivore meat."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "omnivore,carnivore,diet"
+  content: "Compare omnivore and carnivore: omnivore eats both; carnivore eats meat only."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "decomposer,scavenger,role"
+  content: "Compare decomposer and scavenger: decomposer breaks down; scavenger consumes dead."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "ecological niche,habitat"
+  content: "Compare niche and habitat: niche role; habitat home location."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "primary succession,secondary succession"
+  content: "Compare primary and secondary succession: primary starts bare rock; secondary starts soil."
+- domain: biology
+  intent: compare
+  epistemic: Yellow
+  keyword: "renewable,nonrenewable,resource"
+  content: "Compare renewable and nonrenewable: renewable replenishes; nonrenewable depletes."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "igneous,sedimentary,rock"
+  content: "Compare igneous and sedimentary: igneous cooled magma; sedimentary layered deposit."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "sedimentary,metamorphic,rock"
+  content: "Compare sedimentary and metamorphic: sedimentary layered; metamorphic changed by heat pressure."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "tornado,hurricane,storm"
+  content: "Compare tornado and hurricane: tornado small fast; hurricane large slow over water."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "groundwater,surface water"
+  content: "Compare groundwater and surface water: groundwater underground; surface above ground."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "delta,floodplain,landform"
+  content: "Compare delta and floodplain: delta river mouth; floodplain river valley."
+- domain: earth science
+  intent: compare
+  epistemic: Yellow
+  keyword: "fault,fold,tectonic"
+  content: "Compare fault and fold: fault break; fold bend rock."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "inner planet,outer planet"
+  content: "Compare inner and outer planet: inner small rocky; outer large gaseous."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "solar eclipse,lunar eclipse"
+  content: "Compare solar and lunar eclipse: solar moon blocks sun; lunar earth blocks sun to moon."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "star cluster,galaxy,stars"
+  content: "Compare star cluster and galaxy: cluster small group; galaxy huge system."
+- domain: astronomy
+  intent: compare
+  epistemic: Yellow
+  keyword: "observable universe,universe"
+  content: "Compare observable and total universe: observable seen light; total all existence."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "speed,distance,time,trend"
+  content: "Predict speed changes: if distance increases while time stays the same, speed will rise."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "acceleration,force,mass,effect"
+  content: "Predict acceleration: if force increases and mass stays constant, acceleration will go up."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "mass,weight,gravity,location"
+  content: "Predict weight: if an object moves from Earth to the Moon, its weight will decrease but mass stays the same."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "friction,roughness,motion"
+  content: "Predict friction: if a surface becomes rougher, sliding friction will increase and slow motion more."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "pressure,area,force,trend"
+  content: "Predict pressure: if the contact area becomes smaller while force stays the same, pressure will increase."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "temperature,particle,speed"
+  content: "Predict particle motion: if temperature rises, the average speed of particles will increase."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "heat,flow,direction"
+  content: "Predict heat flow: if two objects touch, heat always moves from the hotter one to the colder one."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "wave,frequency,pitch"
+  content: "Predict sound pitch: if wave frequency increases, the perceived pitch will become higher."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "wave,amplitude,energy,loudness"
+  content: "Predict wave energy: if amplitude increases, the wave carries more energy and sound becomes louder."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "reflection,angle,mirror"
+  content: "Predict reflection angle: the angle of reflection will always equal the angle of incidence."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "refraction,light,bend,medium"
+  content: "Predict light bending: if light enters a denser medium, it will bend toward the normal line."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "current,voltage,resistance"
+  content: "Predict current: if voltage rises and resistance stays constant, electric current will increase."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "resistance,length,wire"
+  content: "Predict resistance: if a wire becomes longer, its electrical resistance will increase."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "conductor,insulator,current"
+  content: "Predict current flow: current will easily pass through a conductor but be blocked by an insulator."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "kinetic,energy,speed"
+  content: "Predict kinetic energy: if an object’s speed increases, its kinetic energy will rise sharply."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "potential,energy,height"
+  content: "Predict potential energy: if an object is lifted higher, its gravitational potential energy will increase."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "momentum,mass,velocity"
+  content: "Predict momentum: if either mass or velocity increases, momentum will become larger."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "buoyancy,density,float"
+  content: "Predict floating: if an object is less dense than the fluid, it will float."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "phase,change,temperature"
+  content: "Predict phase change: if a solid is heated enough, it will melt into a liquid."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "gas,pressure,temperature"
+  content: "Predict gas pressure: if temperature rises in a closed container, gas pressure will increase."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "acid,base,neutralization"
+  content: "Predict reaction result: if an acid and a base mix, they will neutralize and produce salt and water."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "oxidation,reduction,electron"
+  content: "Predict redox change: if a substance loses electrons, it is oxidized; if it gains electrons, it is reduced."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "ionic,bond,metal,nonmetal"
+  content: "Predict bond type: a metal and a nonmetal will usually form an ionic bond."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "covalent,bond,nonmetal,nonmetal"
+  content: "Predict bond type: two nonmetals will usually form a covalent bond by sharing electrons."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "solution,solute,solvent,mix"
+  content: "Predict dissolving: a solute will dissolve evenly in a solvent to form a clear solution."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "saturation,more,solute"
+  content: "Predict saturation: if more solute is added to a saturated solution, it will not dissolve and will settle."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "temperature,solubility,solid"
+  content: "Predict solubility: for most solids, higher temperature will increase solubility."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "catalyst,reaction,speed"
+  content: "Predict reaction speed: adding a catalyst will speed up the reaction without being consumed."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "concentration,reaction,rate"
+  content: "Predict reaction rate: if reactant concentration increases, the reaction will speed up."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "pH,acid,base,test"
+  content: "Predict pH value: acids will show pH below 7, and bases will show pH above 7."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "gas,law,pressure,volume"
+  content: "Predict gas volume: if pressure increases, volume of gas will decrease at constant temperature."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "cell,membrane,water,osmosis"
+  content: "Predict water movement: water will move across a cell membrane toward the area with higher solute concentration."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "photosynthesis,light,glucose"
+  content: "Predict photosynthesis: if light intensity increases, plants will produce more glucose."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "respiration,oxygen,energy"
+  content: "Predict respiration: with more oxygen, cells will release more energy from glucose."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "mitosis,cell,division,copy"
+  content: "Predict mitosis result: one parent cell will produce two identical daughter cells."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "meiosis,cell,division,gamete"
+  content: "Predict meiosis result: one parent cell will produce four different sex cells."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "dominant,recessive,trait"
+  content: "Predict trait expression: if a dominant allele is present, the dominant trait will appear."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "mutation,evolution,variation"
+  content: "Predict variation: a mutation will create new genetic variation in a population."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "natural,selection,adaptation"
+  content: "Predict survival: organisms with better adaptations will survive and reproduce more."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "food,chain,energy,transfer"
+  content: "Predict energy flow: only about 10% of energy will pass from one trophic level to the next."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "producer,food,web,base"
+  content: "Predict ecosystem base: producers will form the bottom and largest level of every food web."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "decomposer,nutrient,recycle"
+  content: "Predict recycling: decomposers will break down dead matter and return nutrients to soil."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "symbiosis,mutualism,both"
+  content: "Predict mutualism: both species will benefit and survive better in the relationship."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "parasite,host,weakened"
+  content: "Predict parasitism: the host will be weakened while the parasite benefits."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "homeostasis,temperature,stable"
+  content: "Predict stability: the body will keep internal conditions stable even if the environment changes."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "immunity,vaccine,protection"
+  content: "Predict immunity: a vaccine will train the immune system to resist future infection."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "pathogen,disease,infection"
+  content: "Predict disease: if a pathogen enters the body, it may cause infection and illness."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "weathering,rock,break,soil"
+  content: "Predict weathering: over time, rocks will break down into smaller pieces and form soil."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "erosion,water,move,sediment"
+  content: "Predict erosion: moving water will carry away soil and sediment downstream."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "earthquake,plate,movement"
+  content: "Predict earthquake: when tectonic plates suddenly slip, an earthquake will occur."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "volcano,magma,eruption"
+  content: "Predict eruption: if magma pressure builds up, a volcano will erupt."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "climate,temperature,long,term"
+  content: "Predict climate: average temperature and rainfall will stay consistent over many years."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "precipitation,cloud,water,drop"
+  content: "Predict precipitation: when water droplets in clouds become heavy enough, rain or snow will fall."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "water,cycle,evaporation,condensation"
+  content: "Predict water cycle: water will evaporate, rise, condense into clouds, and fall as precipitation."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "river,deposition,delta"
+  content: "Predict landform: where a river enters the ocean, sediment will deposit and form a delta."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "glacier,move,valley"
+  content: "Predict glacier effect: a moving glacier will carve a deep U-shaped valley."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "fossil,sedimentary,rock"
+  content: "Predict fossil location: fossils will most likely form and be found in sedimentary rock layers."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "planet,orbit,star,gravity"
+  content: "Predict orbit: a planet will keep orbiting its star due to the balance of gravity and motion."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "moon,phase,cycle"
+  content: "Predict moon phase: the moon will go through a full cycle of phases about every 29.5 days."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "solar,eclipse,moon,path"
+  content: "Predict eclipse: when the moon passes directly between the sun and Earth, a solar eclipse will occur."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "star,light,fusion"
+  content: "Predict star light: a star will shine because nuclear fusion in its core releases energy."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "comet,sun,tail"
+  content: "Predict comet tail: when a comet nears the sun, it will develop a glowing tail of gas and dust."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "universe,expansion,galaxy"
+  content: "Predict cosmic expansion: distant galaxies will continue moving away as the universe expands."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "conduction,heat,metal"
+  content: "Predict conduction: heat will travel quickly through metal but slowly through plastic."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "convection,fluid,current"
+  content: "Predict convection: warm fluid will rise and cool fluid will sink, creating a convection current."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "radiation,heat,vacuum"
+  content: "Predict radiation: heat can travel by radiation even through empty space."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "sound,medium,vacuum"
+  content: "Predict sound travel: sound needs a medium and cannot travel through a vacuum."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "light,medium,fast"
+  content: "Predict light speed: light travels fastest in a vacuum and slower in denser materials."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "magnet,pole,attract,repel"
+  content: "Predict magnet force: opposite poles will attract; like poles will repel."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "series,circuit,current,one,path"
+  content: "Predict series circuit: if one bulb breaks, all devices will turn off because current has only one path."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "parallel,circuit,current,path"
+  content: "Predict parallel circuit: if one bulb breaks, other devices will still work because current has multiple paths."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "elastic,collision,momentum,kinetic"
+  content: "Predict elastic collision: both momentum and kinetic energy will be conserved."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "inelastic,collision,momentum"
+  content: "Predict inelastic collision: only momentum will be conserved; kinetic energy will decrease."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "projectile,motion,curve"
+  content: "Predict projectile path: any thrown object will follow a curved parabolic path."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "metal,acid,hydrogen"
+  content: "Predict reaction: many metals will react with acid to produce hydrogen gas and salt."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "rust,iron,oxygen,water"
+  content: "Predict rust: iron exposed to oxygen and water will slowly rust over time."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "gas,heat,expand"
+  content: "Predict gas expansion: if a gas is heated, it will expand to fill more space."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "equilibrium,stress,shift"
+  content: "Predict equilibrium shift: if stress is added, the reaction will shift to relieve the stress."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "plant,water,wilt"
+  content: "Predict plant condition: if a plant loses too much water, it will wilt."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "animal,oxygen,breath"
+  content: "Predict animal need: most animals will require oxygen to breathe and produce energy."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "population,food,growth"
+  content: "Predict population: if food increases, the population will likely grow."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "ecosystem,balance,change"
+  content: "Predict ecosystem change: if one species is removed, the whole ecosystem will be affected."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "season,tilt,earth"
+  content: "Predict seasons: Earth’s tilt will cause seasons to change regularly each year."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "tide,moon,gravity"
+  content: "Predict tide: ocean tides will rise and fall due to the moon’s gravity."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "day,night,rotation"
+  content: "Predict day and night: Earth’s rotation will cause day and night to alternate every 24 hours."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "force,net,zero,equilibrium"
+  content: "Predict equilibrium: if net force is zero, the object will stay at rest or move at constant speed."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "density,water,sink"
+  content: "Predict sinking: if an object is denser than water, it will sink."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "lens,convex,focus,light"
+  content: "Predict lens effect: a convex lens will focus light to a point."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "mirror,flat,image"
+  content: "Predict mirror image: a flat mirror will form a virtual image that is upright and same size."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "ionic,compound,water,dissolve"
+  content: "Predict solubility: most ionic compounds will dissolve in water."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "covalent,compound,water"
+  content: "Predict solubility: many covalent compounds will not dissolve well in water."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "enzyme,temperature,activity"
+  content: "Predict enzyme activity: within limits, higher temperature will speed up enzyme action."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "gene,offspring,inherit"
+  content: "Predict inheritance: offspring will inherit one allele of each gene from each parent."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "rock,heat,pressure,change"
+  content: "Predict rock change: any rock under enough heat and pressure will become metamorphic rock."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "supernova,star,death"
+  content: "Predict massive star end: a very massive star will end its life in a supernova explosion."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "static,electricity,charge"
+  content: "Predict static shock: if charge builds up on an object, a spark or shock may occur."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "magnetic,field,compass"
+  content: "Predict compass direction: a compass needle will align with the magnetic field pointing north."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "wave,interference,amplify"
+  content: "Predict wave interference: if waves meet in phase, they will amplify each other."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "wave,interference,cancel"
+  content: "Predict wave cancellation: if waves meet out of phase, they will cancel each other."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "exothermic,heat,release"
+  content: "Predict exothermic: the reaction will release heat and feel warm."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "endothermic,heat,absorb"
+  content: "Predict endothermic: the reaction will absorb heat and feel cold."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "pesticide,insect,population"
+  content: "Predict insect change: repeated pesticide use will lead to resistant insect populations."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "carbon,dioxide,climate,warming"
+  content: "Predict climate trend: increasing carbon dioxide will contribute to global warming."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "power,voltage,current,product"
+  content: "Predict electric power: higher voltage or higher current will result in higher power."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "efficiency,energy,loss"
+  content: "Predict efficiency: some energy will always be lost as heat, so efficiency is less than 100%."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "diffusion,concentration,equal"
+  content: "Predict diffusion: particles will spread until concentration is uniform everywhere."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "indicator,pH,color"
+  content: "Predict indicator color: acid will turn indicator one color; base will turn it another."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "vaccine,antibody,produce"
+  content: "Predict immune response: after vaccination, the body will produce protective antibodies."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "groundwater,well,water"
+  content: "Predict well water: if a well reaches groundwater, water will flow into the well."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "black,hole,light,escape"
+  content: "Predict black hole: nothing, not even light, will escape from inside a black hole."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "torque,rotation,start"
+  content: "Predict rotation: sufficient torque will start or change the rotation of an object."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "equilibrium,torque,balance"
+  content: "Predict balance: if net torque is zero, the object will stay balanced and not rotate."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "alloy,metal,mixture"
+  content: "Predict alloy property: mixing metals into an alloy will produce stronger and more durable material."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "fertilizer,plant,growth"
+  content: "Predict plant growth: adding fertilizer will usually increase plant growth rate."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "wind,pressure,difference"
+  content: "Predict wind: air will move from high pressure toward low pressure to create wind."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "reflection,water,mirror"
+  content: "Predict reflection: calm water will act like a mirror and reflect clear images."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "sound,echo,reflection"
+  content: "Predict echo: sound will reflect off a hard surface and produce an echo."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "crystal,evaporation,salt"
+  content: "Predict crystal formation: when salt water evaporates, solid salt crystals will form."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "seed,germination,water,heat"
+  content: "Predict germination: with enough water and warmth, a seed will germinate and grow."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "lightning,cloud,charge"
+  content: "Predict lightning: charge separation in clouds will lead to lightning strikes."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "meteor,atmosphere,burn"
+  content: "Predict meteor: a small space rock entering the atmosphere will burn up as a meteor."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "lever,force,amplify"
+  content: "Predict lever effect: a lever will amplify force to lift heavy objects more easily."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "pulley,force,direction"
+  content: "Predict pulley effect: a pulley will change the direction of force to make lifting easier."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "soap,grease,mix"
+  content: "Predict cleaning: soap will mix with grease and water to remove dirt from surfaces."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "hibernation,animal,energy"
+  content: "Predict hibernation: in cold months, some animals will hibernate to save energy."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "tsunami,earthquake,ocean"
+  content: "Predict tsunami: a strong undersea earthquake will likely cause a tsunami."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "heat,metal,expand"
+  content: "Predict expansion: heating a metal object will cause it to expand slightly."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "cold,metal,contract"
+  content: "Predict contraction: cooling a metal object will cause it to contract slightly."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "electrolysis,water,gas"
+  content: "Predict electrolysis: passing electricity through water will produce hydrogen and oxygen gas."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "pollination,flower,seed"
+  content: "Predict pollination: after pollination, a flower will produce seeds and fruit."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "flood,rain,river"
+  content: "Predict flood: heavy prolonged rain will cause rivers to rise and flood nearby areas."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "magnet,iron,attract"
+  content: "Predict attraction: a magnet will attract materials that contain iron."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "capacitor,charge,store"
+  content: "Predict capacitor: a capacitor will store electric charge and release it quickly."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "vinegar,baking,soda,bubble"
+  content: "Predict reaction: vinegar and baking soda will react and produce carbon dioxide bubbles."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "camouflage,animal,survive"
+  content: "Predict survival: animals with camouflage will be less likely to be caught by predators."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "frost,freeze,water"
+  content: "Predict frost: when temperature drops below freezing, water vapor will turn directly into frost."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "nebula,star,form"
+  content: "Predict star formation: a dense nebula will collapse and form new stars."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "Doppler,move,change"
+  content: "Predict Doppler effect: if a sound source moves closer, pitch will rise; if moving away, pitch will drop."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "resonance,vibrate,strong"
+  content: "Predict resonance: when frequency matches natural frequency, vibration will become very strong."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "ion,water,conduct"
+  content: "Predict conductivity: adding ions to water will make it conduct electricity better."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "tropism,plant,light"
+  content: "Predict tropism: plants will grow toward light to maximize photosynthesis."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "sediment,layer,old,young"
+  content: "Predict rock age: lower sediment layers will be older; upper layers will be younger."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "rotation,day,length"
+  content: "Predict day length: faster rotation of a planet will make its day shorter."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "friction,heat,produce"
+  content: "Predict heat: rubbing two surfaces together will produce heat due to friction."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "light,shadow,block"
+  content: "Predict shadow: an opaque object will block light and form a sharp shadow."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "oxidation,metal,tarnish"
+  content: "Predict tarnish: many metals will tarnish over time as they oxidize in air."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "antibiotic,bacteria,kill"
+  content: "Predict antibiotic effect: antibiotics will kill or slow the growth of bacteria."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "magma,cool,rock"
+  content: "Predict igneous rock: when magma cools and solidifies, it will form igneous rock."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "lunar,eclipse,full,moon"
+  content: "Predict lunar eclipse: a lunar eclipse can only happen during a full moon."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "momentum,collision,transfer"
+  content: "Predict momentum transfer: in a collision, momentum will transfer from one object to another."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "convex,mirror,view,wider"
+  content: "Predict mirror view: a convex mirror will provide a wider view but smaller images."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "dilution,concentration,lower"
+  content: "Predict dilution: adding more solvent will lower the concentration of the solution."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "competition,species,limit"
+  content: "Predict competition: if two species compete for the same resource, their growth will be limited."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "smog,pollutant,air"
+  content: "Predict smog: high pollution and calm air will lead to smog formation."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "star,color,temperature"
+  content: "Predict star temperature: blue stars will be hotter; red stars will be cooler."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "sound,temperature,speed"
+  content: "Predict sound speed: if air temperature increases, sound will travel slightly faster."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "machine,work,output,less"
+  content: "Predict machine work: useful work output will always be less than energy input due to losses."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "pH,water,neutral"
+  content: "Predict pure water: pure water will show a neutral pH of 7."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "DNA,code,protein"
+  content: "Predict protein synthesis: DNA code will be used to build specific proteins in cells."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "mineral,hardness,scratch"
+  content: "Predict scratch test: a harder mineral will scratch a softer mineral."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "orbit,eccentricity,shape"
+  content: "Predict orbit shape: higher eccentricity means a more oval-shaped orbit."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "charge,attract,opposite"
+  content: "Predict electric force: opposite electric charges will attract each other."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "charge,repel,like"
+  content: "Predict electric force: like electric charges will repel each other."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "stoichiometry,ratio,react"
+  content: "Predict reaction amount: substances will react in fixed mole ratios from the balanced equation."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "ecological,succession,stable"
+  content: "Predict succession: over time, the ecosystem will progress toward a stable climax community."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "ground,water,erode"
+  content: "Predict erosion: flowing groundwater will slowly erode rock and form caves."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "solar,system,stability"
+  content: "Predict stability: planets in the solar system will keep stable orbits for billions of years."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "wave,medium,change,bend"
+  content: "Predict wave direction: when a wave enters a new medium, it will bend or refract."
+- domain: physics
+  intent: predict
+  epistemic: Yellow
+  keyword: "mass,inertia,resist"
+  content: "Predict inertia: larger mass means more inertia and greater resistance to motion change."
+- domain: chemistry
+  intent: predict
+  epistemic: Yellow
+  keyword: "iodine,starch,blue"
+  content: "Predict test result: iodine solution will turn blue if starch is present."
+- domain: biology
+  intent: predict
+  epistemic: Yellow
+  keyword: "yeast,fermentation,gas"
+  content: "Predict fermentation: yeast will produce carbon dioxide gas and alcohol."
+- domain: earth science
+  intent: predict
+  epistemic: Yellow
+  keyword: "mountain,fold,collision"
+  content: "Predict mountain: when two continental plates collide, the crust will fold and form mountains."
+- domain: astronomy
+  intent: predict
+  epistemic: Yellow
+  keyword: "light,year,distance,long"
+  content: "Predict distance: one light-year will represent an extremely long distance in space."
