@@ -88,7 +88,6 @@ class YellowEngine:
 
             tokenized_corpus.append(words_list)
 
-        # Feed the prepared words into BM25 library
         self.bm25 = BM25Okapi(tokenized_corpus)
 
     def evaluate(self, query: Query, top_n: int = 2) -> EvidenceRecord:
@@ -116,12 +115,10 @@ class YellowEngine:
             # Step 1: Prepare the search tokens (lowercase them)
             query_tokens = []
             if len(query.tokens) > 0:
-                # Use the words provided by the upstream part of the system
                 for t in query.tokens:
                     query_tokens.append(t.lower())
                 trace_log.append("Using tokens from upstream: " + str(query_tokens))
             else:
-                # If upstream didn't give tokens, split the query text locally
                 local_words = query.text.lower().split()
                 for w in local_words:
                     query_tokens.append(w)
@@ -130,7 +127,7 @@ class YellowEngine:
             # Step 2: Calculate BM25 scores for all documents
             doc_scores = self.bm25.get_scores(query_tokens)
 
-            # Step 3: Find the best matches (Sort indices manually using a beginner approach)
+            # Step 3: Find the best matches
             # Create pairs of (index, score) so we don't lose the original position
             score_pairs = []
             for i in range(len(doc_scores)):
@@ -210,7 +207,6 @@ class YellowEngine:
 
 # 3. Local Test Bench (Interactive REPL Mode)
 if __name__ == "__main__":
-    # Make sure Yellow.yaml is inside knowledge/empirical/ folder
     target_folder = "knowledge/empirical"
 
     print("--- Starting Yellow Engine Test ---")
@@ -254,9 +250,9 @@ if __name__ == "__main__":
             print("\n================== RESULT REPORT ==================")
             print("Status: " + output_record.status)
             print("Top Score: " + str(round(output_record.score, 4)))
-            print("\n[6.2 Output - Empirical Explanation]:\n" + output_record.output)
-            print("\n[6.2 Output - Top Passages]:\n" + str(output_record.top_passages))
-            print("\n[8.0 CLI Trace Logs - (:debug / :why)]:")
+            print("\n[Output - Empirical Explanation]:\n" + output_record.output)
+            print("\n[Output - Top Passages]:\n" + str(output_record.top_passages))
+            print("\n[CLI Trace Logs - (:debug / :why)]:")
             for line in output_record.trace:
                 print("  -> " + line)
             print("===================================================")
