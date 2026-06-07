@@ -1,0 +1,3955 @@
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "culture,beliefs,customs,values"
+  content: "Culture is the shared beliefs, customs, values, norms, and practices of a group of people."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "society,group,individuals,interaction"
+  content: "A society is a group of individuals who share a culture, institutions, and regular social interaction."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "norm,social,rule,behavior"
+  content: "A social norm is an unwritten or formal rule that guides acceptable behavior in a group."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "value,principles,beliefs,important"
+  content: "A value is a deeply held principle or belief about what is important, desirable, or proper."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "role,social,position,behavior"
+  content: "A social role is the set of expected behaviors and responsibilities linked to a social position."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "status,social,position,ranking"
+  content: "Social status is a person’s position or ranking within a social hierarchy or group."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "institution,social,structure,system"
+  content: "A social institution is a stable, structured system that meets basic social needs."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "family,basic,social,unit"
+  content: "The family is the basic social unit typically based on blood, marriage, or adoption."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "education,process,learning,knowledge"
+  content: "Education is the process of acquiring knowledge, skills, values, and habits through learning."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "religion,belief,supernatural,practice"
+  content: "Religion is a system of beliefs and practices centered on the supernatural or divine."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "government,system,authority,rule"
+  content: "Government is the system and group of people with authority to make and enforce rules."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "power,ability,influence,control"
+  content: "Power is the ability to influence or control the behavior of others, with or without resistance."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "authority,legitimate,power,right"
+  content: "Authority is legitimate power recognized as rightful by those who follow it."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "law,formal,rule,enforced"
+  content: "A law is a formal, written rule enforced by official authority to maintain order."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "right,entitlement,legal,moral"
+  content: "A right is a legal or moral entitlement to have, do, or expect something."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "justice,fairness,equity,morality"
+  content: "Justice is the moral principle of fairness, equity, and rightful treatment."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "equality,same,status,rights"
+  content: "Equality is the condition of having the same rights, status, and opportunities."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "equity,justice,fairness,access"
+  content: "Equity is fairness achieved by adjusting treatment to account for different needs."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "freedom,ability,choose,act"
+  content: "Freedom is the ability to think, choose, and act without undue restraint."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "citizenship,membership,state,rights"
+  content: "Citizenship is full membership in a state with corresponding rights and duties."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "identity,self,understanding,group"
+  content: "Identity is a person’s understanding of themselves as individuals and group members."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "ethnicity,shared,ancestry,culture"
+  content: "Ethnicity is affiliation with a group based on shared culture, ancestry, or heritage."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "race,social,construct,physical,traits"
+  content: "Race is a social construct categorizing people based on perceived physical traits."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "gender,social,roles,masculine,feminine"
+  content: "Gender is social and cultural roles linked to categories like masculine, feminine, or nonbinary."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "sex,biological,traits,male,female"
+  content: "Sex refers to biological traits used to classify people as male, female, or intersex."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "class,social,economic,position"
+  content: "Social class is a grouping based on economic position, education, and status."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "stratification,hierarchy,inequality"
+  content: "Social stratification is a hierarchical ranking system producing structured inequality."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "inequality,uneven,distribution,resources"
+  content: "Inequality is the uneven distribution of resources, power, or opportunity."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "prejudice,attitude,judgment,bias"
+  content: "Prejudice is a preconceived attitude or judgment about a group without evidence."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "discrimination,action,unfair,treatment"
+  content: "Discrimination is unfair action against a person based on group membership."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "stereotype,generalized,belief,group"
+  content: "A stereotype is a simplified, generalized belief about a social group."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "bias,preference,inclination,unfair"
+  content: "Bias is an unfair preference or inclination that affects judgment."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "marginalization,exclusion,group,mainstream"
+  content: "Marginalization is the process of pushing a group to the edge of social life."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "oppression,unjust,use,power,control"
+  content: "Oppression is the prolonged, unjust use of power to control and exploit groups."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "privilege,unearned,advantage,status"
+  content: "Privilege is an unearned advantage from belonging to a dominant social group."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "inclusion,belonging,participation,full"
+  content: "Inclusion is the practice of ensuring all people fully belong and participate."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "diversity,difference,variety,groups"
+  content: "Diversity is the presence of differences among people in a group or community."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "community,shared,interests,location"
+  content: "A community is a group united by location, interests, identity, or interaction."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "public,people,collective,society"
+  content: "The public refers to people as a collective body or society as a whole."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "private,personal,individual,nonpublic"
+  content: "The private sphere concerns personal, individual, or nonpublic life."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "policy,formal,plan,action"
+  content: "A policy is a formal plan or principle to guide decisions and actions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "politics,process,power,decision"
+  content: "Politics is the process of gaining and using power to make collective decisions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "state,political,entity,government"
+  content: "A state is a formal political entity with a government over a territory and people."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "nation,group,shared,identity"
+  content: "A nation is a large group with shared identity, history, culture, or territory."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "democracy,rule,people,voting"
+  content: "Democracy is a system where power rests with people through voting and participation."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "monopoly,control,market,single"
+  content: "A monopoly is exclusive control of a market or activity by one group or entity."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "revolution,radical,change,system"
+  content: "A revolution is a rapid, radical change in political or social systems."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "progress,forward,improvement,development"
+  content: "Progress is forward movement toward improvement, development, or better conditions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "development,growth,improvement,society"
+  content: "Development is growth and improvement in economic, social, or human conditions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "globalization,integration,world,interconnected"
+  content: "Globalization is the increasing integration and interconnectedness of the world."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "migration,movement,people,place"
+  content: "Migration is the movement of people from one place to another to live or work."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "immigrant,person,moves,country"
+  content: "An immigrant is a person who moves to a new country to live permanently."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "refugee,person,flee,danger"
+  content: "A refugee is a person forced to flee home due to conflict, disaster, or danger."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "citizen,member,state,obligation"
+  content: "A citizen is a legal member of a state with rights and obligations."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "behavior,action,conduct,response"
+  content: "Behavior is the way a person acts, conducts oneself, or responds to situations."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "motivation,reason,action,behavior"
+  content: "Motivation is the driving force or reason behind a person’s actions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "attitude,feeling,belief,disposition"
+  content: "An attitude is a settled feeling or belief that disposes one to act in a way."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "perception,process,interpret,experience"
+  content: "Perception is the process of interpreting and understanding sensory experience."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "cognition,thinking,knowing,processing"
+  content: "Cognition is the mental process of thinking, knowing, remembering, and processing."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "emotion,feeling,psychological,state"
+  content: "An emotion is a psychological state involving feelings, thoughts, and physical changes."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "personality,pattern,traits,individual"
+  content: "Personality is a unique pattern of traits, thoughts, and behaviors of an individual."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "communication,exchange,information,message"
+  content: "Communication is the exchange of information, messages, or ideas between people."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "interaction,action,between,people"
+  content: "Social interaction is the action that occurs between people influencing each other."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "relationship,connection,between,individuals"
+  content: "A relationship is a connection or association between individuals over time."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "trust,belief,reliability,honesty"
+  content: "Trust is belief in the reliability, truth, or honesty of another person."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "conflict,disagreement,opposition,clash"
+  content: "Conflict is a disagreement or clash between opposing ideas, needs, or people."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "cooperation,working,together,common,goal"
+  content: "Cooperation is working together toward a common goal or shared benefit."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "leadership,ability,guide,others"
+  content: "Leadership is the ability to guide, direct, or inspire others toward a goal."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "followership,role,follow,leader"
+  content: "Followership is the role of accepting guidance and direction from a leader."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "group,collection,people,interaction"
+  content: "A group is a collection of people with regular interaction and shared identity."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "team,group,common,goal"
+  content: "A team is a group of people working closely together for a common goal."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "organization,structured,group,purpose"
+  content: "An organization is a structured group with rules and a clear purpose."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "bureaucracy,formal,rules,structure"
+  content: "Bureaucracy is a formal system with rules, hierarchy, and specialized roles."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "hierarchy,ranking,levels,authority"
+  content: "A hierarchy is a ranking of levels with different authority and status."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "authoritarian,system,obedience,control"
+  content: "An authoritarian system requires obedience and concentrates power in few hands."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "freedom,speech,express,ideas"
+  content: "Freedom of speech is the right to express ideas and opinions without censorship."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "right,vote,elect,representatives"
+  content: "The right to vote is the legal right to elect representatives in a democracy."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "equality,opportunity,chance,succeed"
+  content: "Equality of opportunity is the idea that all have a fair chance to succeed."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "justice,social,fairness,society"
+  content: "Social justice is fairness in the distribution of wealth, rights, and opportunities."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "responsibility,duty,obligation,accountable"
+  content: "Responsibility is a duty or obligation to be accountable for actions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "accountability,answerable,actions,others"
+  content: "Accountability is being answerable for one’s decisions and actions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "integrity,honesty,moral,principles"
+  content: "Integrity is adherence to moral and honest principles consistently."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "morality,principles,right,wrong"
+  content: "Morality concerns principles of right and wrong conduct."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "ethics,system,morals,behavior"
+  content: "Ethics is a system of moral principles guiding behavior and decisions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "stereotyping,act,generalize,group"
+  content: "Stereotyping is the act of applying generalized beliefs to a whole group."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "racism,belief,inferiority,race"
+  content: "Racism is the belief in racial inferiority and discrimination based on race."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "sexism,bias,discrimination,gender"
+  content: "Sexism is bias or discrimination based on gender or sex."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "classism,prejudice,social,class"
+  content: "Classism is prejudice or discrimination based on social or economic class."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "activism,action,create,change"
+  content: "Activism is deliberate action to create political or social change."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "advocacy,support,promote,cause"
+  content: "Advocacy is active support and promotion of a cause or group."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "empowerment,giving,Power,ability"
+  content: "Empowerment is giving people the power and ability to control their lives."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "solidarity,unity,shared,purpose"
+  content: "Solidarity is unity or agreement among people with shared purpose."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "human,rights,fundamental,rights,people"
+  content: "Human rights are fundamental rights and freedoms belonging to all people."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "civil,rights,rights,citizens,equality"
+  content: "Civil rights are rights of citizens to equality and legal protection."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "public,opinion,views,people,society"
+  content: "Public opinion is the collection of views and attitudes of people in society."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "propaganda,information,influence,opinion"
+  content: "Propaganda is information designed to influence opinion or behavior."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "media,means,communication,information"
+  content: "Media is the means of mass communication and information sharing."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "social,media,online,platform,interaction"
+  content: "Social media is online platforms for interaction, content sharing, and networking."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "technology,tools,methods,systems"
+  content: "Technology is the use of tools, methods, and systems to solve problems."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "innovation,new,method,idea,creation"
+  content: "Innovation is the creation and use of new methods, ideas, or products."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "economy,system,production,consumption"
+  content: "An economy is a system of production, distribution, and consumption of goods."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "market,place,buying,selling,goods"
+  content: "A market is a system or place where buying and selling occurs."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "labor,work,physical,mental,effort"
+  content: "Labor is physical or mental work done to produce goods or services."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "capital,resources,wealth,production"
+  content: "Capital is resources or wealth used to produce goods and services."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "wealth,abundance,resources,money"
+  content: "Wealth is an abundance of money, property, or resources."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "poverty,lack,resources,basic,needs"
+  content: "Poverty is the lack of enough resources to meet basic human needs."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "employment,state,being,employed"
+  content: "Employment is the state of being hired to work for pay."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "unemployment,state,without,job"
+  content: "Unemployment is the state of being without a job while seeking work."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "wage,payment,work,labor"
+  content: "A wage is payment for labor or work performed."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "income,money,received,regularly"
+  content: "Income is money received regularly from work, investments, or other sources."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "budget,plan,income,expenses"
+  content: "A budget is a plan for managing income and expenses."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "debt,money,owed,person,organization"
+  content: "Debt is money owed to another person or organization."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "saving,keeping,money,future"
+  content: "Saving is keeping money for future use instead of spending it."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "investment,using,money,gain,profit"
+  content: "Investment is using money to gain profit or future income."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "inflation,rise,prices,fall,purchasing"
+  content: "Inflation is the rise in prices and fall in purchasing value of money."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "recession,decline,economic,activity"
+  content: "A recession is a significant decline in economic activity over months."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "consumption,using,goods,services"
+  content: "Consumption is the act of using goods and services."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "production,making,goods,services"
+  content: "Production is the process of making goods or providing services."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "demand,desire,ability,buy,good"
+  content: "Demand is the desire and ability to buy a good or service."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "supply,amount,good,available,sell"
+  content: "Supply is the amount of a good available to be sold."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "trade,exchange,goods,services"
+  content: "Trade is the exchange of goods and services between people or countries."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "export,sending,goods,other,countries"
+  content: "An export is a good sent to another country for sale."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "import,bringing,goods,other,countries"
+  content: "An import is a good brought into a country from another."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "global,economy,worldwide,economic,system"
+  content: "The global economy is the worldwide economic system of exchange and production."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "sustainability,use,resources,future"
+  content: "Sustainability is using resources to meet present needs without harming the future."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "environment,surroundings,conditions,life"
+  content: "The environment is the surroundings and conditions in which life operates."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "pollution,harmful,substances,environment"
+  content: "Pollution is the presence of harmful substances in the environment."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "climate,change,long,term,weather"
+  content: "Climate change is long-term shift in weather patterns and temperatures."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "conservation,protecting,resources,environment"
+  content: "Conservation is protecting and preserving resources and the environment."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "urbanization,growth,cities,population"
+  content: "Urbanization is the growth and spread of cities and urban population."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "rural,countryside,farming,areas"
+  content: "Rural describes countryside, farming, or low-population areas."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "urban,city,life,population"
+  content: "Urban describes city life and densely populated areas."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "community,service,helping,others"
+  content: "Community service is volunteer work to help others in a local area."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "volunteer,person,works,without,pay"
+  content: "A volunteer is a person who works without pay to help others."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "charity,helping,needy,people"
+  content: "Charity is help and support for people in need."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "welfare,aid,people,need"
+  content: "Welfare is government or public aid for people in need."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "security,safety,protection,harm"
+  content: "Security is safety and protection from harm, danger, or fear."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "crime,action,breaks,law"
+  content: "A crime is an action that breaks a formal law and may be punished."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "justice,criminal,system,law,violation"
+  content: "Criminal justice is the system dealing with law violations and punishment."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "punishment,penalty,wrongdoing,crime"
+  content: "Punishment is a penalty imposed for wrongdoing or crime."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "rehabilitation,restore,law,abiding,life"
+  content: "Rehabilitation is helping someone return to law-abiding life."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "safety,condition,being,safe"
+  content: "Safety is the condition of being protected from risk or harm."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "risk,chance,harm,danger"
+  content: "Risk is a chance of harm, danger, or loss."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "health,state,physical,mental,wellness"
+  content: "Health is the state of physical, mental, and social wellness."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "wellness,active,effort,health"
+  content: "Wellness is active effort to achieve good health and quality of life."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "public,health,safety,population,health"
+  content: "Public health concerns the health and safety of a whole population."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "healthcare,services,maintain,health"
+  content: "Healthcare is services to maintain or improve health."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "medicine,diagnosis,treatment,disease"
+  content: "Medicine is the science and practice of diagnosing and treating disease."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "disease,condition,impairs,health"
+  content: "A disease is a condition that impairs normal body or mind function."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "mental,health,emotional,psychological,wellness"
+  content: "Mental health is emotional and psychological wellness."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "stress,mental,physical,tension"
+  content: "Stress is mental or physical tension from demands or pressure."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "trauma,severe,emotional,shock"
+  content: "Trauma is severe emotional shock from a disturbing event."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "support,system,people,help"
+  content: "A support system is people who provide help and encouragement."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "resilience,ability,recover,difficulties"
+  content: "Resilience is the ability to recover from difficulties or stress."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "growth,personal,development,improvement"
+  content: "Personal growth is development and improvement over time."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "learning,acquisition,knowledge,skills"
+  content: "Learning is the acquisition of knowledge, skills, attitudes, or understanding."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "literacy,ability,read,write"
+  content: "Literacy is the ability to read, write, and understand text."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "numeracy,ability,use,numbers"
+  content: "Numeracy is the ability to understand and use numbers."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "skill,ability,do,well,competence"
+  content: "A skill is the ability to do something well through competence."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "training,process,teaching,skill"
+  content: "Training is the process of teaching a particular skill or behavior."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "expertise,high,level,skill,knowledge"
+  content: "Expertise is a high level of skill or knowledge in a field."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "creativity,ability,create,new,ideas"
+  content: "Creativity is the ability to create new ideas, solutions, or expressions."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "critical,thinking,analyze,evaluate,clearly"
+  content: "Critical thinking is clear, rational analysis and evaluation of ideas."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "problem,solving,process,finding,solutions"
+  content: "Problem-solving is the process of finding solutions to challenges."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "decision,making,process,choosing,options"
+  content: "Decision-making is the process of choosing between options."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "goal,aim,target,achieve"
+  content: "A goal is an aim or target a person wants to achieve."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "motivation,drive,achieve,goals"
+  content: "Motivation is the drive to achieve goals or take action."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "discipline,training,self,control"
+  content: "Discipline is training and self-control to follow rules or meet goals."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "habit,pattern,behavior,regular"
+  content: "A habit is a regular pattern of behavior done automatically."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "lifestyle,way,person,lives"
+  content: "Lifestyle is the way a person lives, including habits and attitudes."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "balance,state,equilibrium,life"
+  content: "Balance is a state of equilibrium in life or resources."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "harmony,agreement,peaceful,coexistence"
+  content: "Harmony is agreement and peaceful coexistence."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "peace,freedom,conflict,violence"
+  content: "Peace is freedom from conflict, violence, or war."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "war,armed,conflict,between,groups"
+  content: "War is large-scale armed conflict between groups or states."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "security,personal,protection,danger"
+  content: "Personal security is protection from danger, violence, or fear."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "freedom,assembly,gather,peacefully"
+  content: "Freedom of assembly is the right to gather peacefully."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "diversity,thought,different,ideas"
+  content: "Diversity of thought is the presence of different ideas and perspectives."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "pluralism,acceptance,multiple,groups"
+  content: "Pluralism is the acceptance of multiple groups, cultures, and views."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "tolerance,acceptance,differences"
+  content: "Tolerance is fair acceptance of people with differences."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "respect,admiration,consideration,others"
+  content: "Respect is admiration and consideration for others."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "empathy,ability,understand,feelings,others"
+  content: "Empathy is the ability to understand and share others’ feelings."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "compassion,feeling,sympathy,desire,help"
+  content: "Compassion is sympathy and desire to help those suffering."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "kindness,quality,being,friendly,generous"
+  content: "Kindness is the quality of being friendly, generous, and considerate."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "courage,ability,face,fear,danger"
+  content: "Courage is the ability to face fear, difficulty, or danger."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "patience,ability,wait,without,anger"
+  content: "Patience is the ability to wait without frustration or anger."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "honesty,quality,being,truthful"
+  content: "Honesty is the quality of being truthful and sincere."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "humility,quality,being,modest"
+  content: "Humility is the quality of being modest and respectful."
+- domain: social science
+  intent: define
+  epistemic: Red
+  keyword: "wisdom,knowledge,experience,judgment"
+  content: "Wisdom is good judgment from knowledge, experience, and understanding."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "culture,shapes,behavior,values"
+  content: "Culture explains shared beliefs and norms that shape how people think, behave, and judge right and wrong."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "society,interdependence,individuals"
+  content: "Society explains how people depend on each other for safety, resources, rules, and meaning to live together."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "norm,guides,acceptable,behavior"
+  content: "Social norms explain unwritten rules that tell people what is acceptable or expected in a group."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "value,guides,choices,priorities"
+  content: "Values explain deep principles that guide people’s choices, priorities, and moral judgments."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "social,role,expectations,position"
+  content: "A social role explains the behaviors expected from someone in a certain position like parent, teacher, or friend."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "status,rank,hierarchy,respect"
+  content: "Social status explains a person’s rank or level of respect in a group or hierarchy."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "social,institution,meets,needs"
+  content: "Social institutions explain structured systems like family, school, and government that meet basic human needs."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "family,raises,supports,individuals"
+  content: "The family explains the primary group that raises, protects, and supports individuals from childhood."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "education,transmits,knowledge,skills"
+  content: "Education explains how societies pass on knowledge, skills, and values to new generations."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "religion,explains,meaning,morality"
+  content: "Religion explains beliefs about the divine that give life meaning and create moral rules."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "government,maintains,order,protection"
+  content: "Government explains systems that make and enforce rules to keep order and protect people."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "power,influences,controls,others"
+  content: "Power explains the ability to influence or control what other people do, even if they resist."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "authority,legitimate,power,accepted"
+  content: "Authority explains power that people accept as rightful, fair, and legitimate."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "law,formal,rule,enforced,society"
+  content: "Laws explain formal written rules enforced by officials to keep society stable and safe."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "right,entitlement,protected,society"
+  content: "Rights explain entitlements that a society promises to protect for all people."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "justice,ensures,fairness,treatment"
+  content: "Justice explains the idea that people should get fair, equal, and rightful treatment."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "equality,same,rights,opportunities"
+  content: "Equality explains the idea that all people should have the same rights and chances."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "equity,adjusts,treatment,needs"
+  content: "Equity explains fairness that adjusts treatment to meet different people’s real needs."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "freedom,chooses,without,restraint"
+  content: "Freedom explains the ability to choose and act without unfair control or restraint."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "citizenship,belongs,state,rights,duties"
+  content: "Citizenship explains full membership in a country with rights and duties."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "identity,understands,self,group"
+  content: "Identity explains how people understand themselves as individuals and as part of groups."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "ethnicity,shared,culture,ancestry"
+  content: "Ethnicity explains belonging based on shared culture, language, or ancestry."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "race,social,category,appearance"
+  content: "Race explains a social category based on how people look, not real biological differences."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "gender,roles,expectations,masculine,feminine"
+  content: "Gender explains social roles and expectations linked to being masculine, feminine, or nonbinary."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "sex,biological,traits,classification"
+  content: "Sex explains biological traits used to classify people as male, female, or intersex."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "social,class,economic,position,status"
+  content: "Social class explains grouping by money, education, job, and social status."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "stratification,layers,inequality,hierarchy"
+  content: "Social stratification explains layers of hierarchy that create inequality in a society."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "inequality,uneven,resources,power"
+  content: "Inequality explains the uneven spread of money, power, education, and chances."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "prejudice,prejudgment,group,without,evidence"
+  content: "Prejudice explains unfair judgments about a group before knowing individual people."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "discrimination,unfair,action,group,membership"
+  content: "Discrimination explains unfair actions against people because of their group."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "stereotype,simplified,belief,group"
+  content: "Stereotypes explain simplified beliefs that treat every person in a group the same."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "bias,unfair,preference,judgment"
+  content: "Bias explains an unfair preference that affects how people see or judge others."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "marginalization,pushes,group,aside"
+  content: "Marginalization explains pushing a group to the edge so they have less power and voice."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "oppression,unjust,power,control,groups"
+  content: "Oppression explains long-term unjust power used to control and hurt groups."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "privilege,unearned,advantage,group"
+  content: "Privilege explains unearned advantages people get just from being in a dominant group."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "inclusion,includes,everyone,participate"
+  content: "Inclusion explains making sure everyone can join, belong, and participate fully."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "diversity,differences,people,groups"
+  content: "Diversity explains the range of differences among people in a group or community."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "community,shares,bonds,interests"
+  content: "A community explains people connected by shared place, bonds, or interests."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "public,collective,people,society"
+  content: "The public explains people as a collective group involved in shared life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "private,personal,life,not,public"
+  content: "The private sphere explains personal life that is not public or controlled by authority."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "policy,formal,plan,guide,decisions"
+  content: "Policies explain formal plans that guide decisions in governments, schools, or groups."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "politics,decides,power,resources"
+  content: "Politics explains how people compete and cooperate to decide power and resources."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "state,formal,political,structure,territory"
+  content: "A state explains a formal political structure over a territory with laws and borders."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "nation,shared,identity,history"
+  content: "A nation explains a large group with shared identity, history, culture, or land."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "democracy,people,hold,power,vote"
+  content: "Democracy explains a system where people hold power by voting and participating."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "monopoly,controls,entire,market"
+  content: "A monopoly explains one group controlling an entire market with little competition."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "revolution,rapid,system,change"
+  content: "A revolution explains rapid, large-scale change in a political or social system."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "progress,moves,better,conditions"
+  content: "Progress explains moving toward better conditions, fairness, or quality of life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "development,improves,life,conditions"
+  content: "Development explains improving economic, health, and life conditions in a society."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "globalization,connects,world,closer"
+  content: "Globalization explains how trade, media, and travel connect the world closer together."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "migration,moves,people,places"
+  content: "Migration explains people moving from one place to another to live or work."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "immigrant,moves,new,country,stay"
+  content: "An immigrant explains someone who moves to a new country to live permanently."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "refugee,forced,flee,danger"
+  content: "A refugee explains someone forced to flee home because of war, disaster, or danger."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "citizen,legal,member,country"
+  content: "A citizen explains a legal member of a country with rights and responsibilities."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "behavior,shows,how,people,act"
+  content: "Behavior explains how people act, react, and function in daily life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "motivation,drives,actions,choices"
+  content: "Motivation explains the drive or reason behind a person’s actions and choices."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "attitude,shapes,how,see,world"
+  content: "Attitudes explain feelings and beliefs that shape how people see the world."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "perception,interprets,information,world"
+  content: "Perception explains how people interpret information and experience the world."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "cognition,thinks,knows,remembers"
+  content: "Cognition explains thinking, knowing, remembering, and understanding things."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "emotion,feeling,affects,behavior"
+  content: "Emotions explain strong feelings that affect thoughts, choices, and behavior."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "personality,makes,individual,unique"
+  content: "Personality explains traits that make one person unique and consistent over time."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "communication,shares,ideas,feelings"
+  content: "Communication explains sharing ideas, feelings, and messages between people."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "interaction,people,affect,each,other"
+  content: "Social interaction explains how people act with and affect each other."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "relationship,connects,people,time"
+  content: "Relationships explain connections between people that last over time."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "trust,believes,others,reliable"
+  content: "Trust explains believing others are reliable, honest, and safe."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "conflict,clashes,needs,ideas"
+  content: "Conflict explains clashes between people’s needs, ideas, or interests."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "cooperation,works,together,goal"
+  content: "Cooperation explains working together to reach a shared goal."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "leadership,guides,others,direction"
+  content: "Leadership explains guiding others toward a direction or goal."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "followership,follows,guidance,leader"
+  content: "Followership explains accepting guidance and direction from a leader."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "group,people,interact,regularly"
+  content: "A group explains people who interact regularly and feel connected."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "team,works,together,specific,goal"
+  content: "A team explains a group working closely together for a specific goal."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "organization,structured,purpose,rules"
+  content: "An organization explains a structured group with rules and a clear purpose."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "bureaucracy,rules,roles,hierarchy"
+  content: "Bureaucracy explains a formal system with rules, roles, and clear hierarchy."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "hierarchy,levels,authority,power"
+  content: "A hierarchy explains levels of authority where some have more power than others."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "authoritarian,concentrates,power,few"
+  content: "Authoritarian systems explain concentrating power in a few with strong control."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "freedom,speech,express,without,censorship"
+  content: "Freedom of speech explains expressing ideas without unfair censorship."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "right,vote,choose,leaders,fairly"
+  content: "The right to vote explains choosing leaders fairly in a democracy."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "equality,opportunity,fair,chance,all"
+  content: "Equality of opportunity explains giving everyone a fair chance to succeed."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "social,justice,distributes,fairly,resources"
+  content: "Social justice explains distributing resources, rights, and power fairly."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "responsibility,duty,accountable,actions"
+  content: "Responsibility explains the duty to be accountable for one’s actions."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "accountability,answerable,actions,others"
+  content: "Accountability explains being answerable to others for decisions and actions."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "integrity,consistent,moral,behavior"
+  content: "Integrity explains being consistently honest and moral in behavior."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "morality,judges,right,wrong,conduct"
+  content: "Morality explains judging what is right and wrong in conduct."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "ethics,system,guides,behavior,choices"
+  content: "Ethics explains a system that guides good behavior and fair choices."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "stereotyping,applies,generalizations,group"
+  content: "Stereotyping explains applying broad generalizations to every person in a group."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "racism,uses,race,to,discriminate"
+  content: "Racism explains using race to discriminate, dominate, or treat people unfairly."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "sexism,uses,gender,to,discriminate"
+  content: "Sexism explains using gender or sex to discriminate or limit people."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "classism,uses,class,to,discriminate"
+  content: "Classism explains judging or discriminating based on social or economic class."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "activism,acts,to,create,change"
+  content: "Activism explains acting deliberately to create social or political change."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "advocacy,supports,promotes,cause"
+  content: "Advocacy explains supporting and promoting a cause or group publicly."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "empowerment,gives,people,control,lives"
+  content: "Empowerment explains giving people the power to control their own lives."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "solidarity,unity,shared,cause"
+  content: "Solidarity explains unity and support among people with a shared cause."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "human,rights,belong,all,people"
+  content: "Human rights explain basic rights that belong to all people everywhere."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "civil,rights,equal,protection,citizens"
+  content: "Civil rights explain equal legal protection for all citizens."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "public,opinion,shapes,policy,choices"
+  content: "Public opinion explains collective views that shape policy and leader choices."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "propaganda,influences,opinions,beliefs"
+  content: "Propaganda explains messages designed to influence opinions and beliefs."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "media,shares,information,public"
+  content: "Media explains systems that share information, news, and stories with the public."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "social,media,connects,people,online"
+  content: "Social media explains online platforms that connect people and share content."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "technology,solves,problems,tools"
+  content: "Technology explains using tools and systems to solve problems and do work."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "innovation,creates,new,methods,ideas"
+  content: "Innovation explains creating new methods, ideas, or products."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "economy,organizes,production,goods"
+  content: "An economy explains how a society organizes making and sharing goods."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "market,matches,buyers,sellers"
+  content: "A market explains a system that matches buyers and sellers."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "labor,uses,work,produce,goods"
+  content: "Labor explains using physical or mental work to produce goods and services."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "capital,uses,resources,produce,wealth"
+  content: "Capital explains using resources to produce goods and create wealth."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "wealth,accumulates,resources,money"
+  content: "Wealth explains accumulated money, property, and resources."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "poverty,lacks,basic,needs,resources"
+  content: "Poverty explains lacking enough resources for basic needs like food and shelter."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "employment,works,for,payment"
+  content: "Employment explains working for others in exchange for payment."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "unemployment,seeks,work,without,job"
+  content: "Unemployment explains wanting work but not having a job."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "wage,pays,for,labor,work"
+  content: "A wage explains payment given for labor or work done."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "income,receives,money,regularly"
+  content: "Income explains money received regularly from work or other sources."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "budget,plans,income,expenses"
+  content: "A budget explains a plan for managing income and expenses."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "debt,owes,money,others"
+  content: "Debt explains money owed to another person or group."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "saving,keeps,money,future,use"
+  content: "Saving explains keeping money for future use instead of spending it."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "investment,uses,money,gain,profit"
+  content: "Investment explains using money to gain future profit or value."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "inflation,raises,prices,lowers,value"
+  content: "Inflation explains rising prices that lower the purchasing value of money."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "recession,slows,economic,activity"
+  content: "A recession explains a slowdown in economic activity over many months."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "consumption,uses,goods,services"
+  content: "Consumption explains using goods and services in daily life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "production,makes,goods,services"
+  content: "Production explains making goods or providing services."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "demand,wants,ability,buy,goods"
+  content: "Demand explains wanting and being able to buy goods or services."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "supply,available,amount,sell"
+  content: "Supply explains the amount of goods available to be sold."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "trade,exchanges,goods,services"
+  content: "Trade explains exchanging goods and services between people or countries."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "export,sends,goods,other,countries"
+  content: "An export explains goods sent to other countries for sale."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "import,brings,goods,other,countries"
+  content: "An import explains goods brought into a country from elsewhere."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "global,economy,links,world,economies"
+  content: "The global economy explains linked economies across the world."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "sustainability,uses,resources,without,harming"
+  content: "Sustainability explains using resources without harming future generations."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "environment,surrounds,life,conditions"
+  content: "The environment explains surroundings and conditions that affect life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "pollution,harms,environment,substances"
+  content: "Pollution explains harmful substances that damage the environment."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "climate,change,alters,weather,long,term"
+  content: "Climate change explains long-term shifts in weather and temperature patterns."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "conservation,protects,resources,environment"
+  content: "Conservation explains protecting resources and the environment."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "urbanization,grows,cities,populations"
+  content: "Urbanization explains the growth of cities and urban populations."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "rural,describes,countryside,areas"
+  content: "Rural describes countryside areas with low population and farming."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "urban,describes,city,areas"
+  content: "Urban describes city areas with high population density."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "community,service,helps,local,people"
+  content: "Community service explains helping local people through volunteer work."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "volunteer,works,without,payment"
+  content: "A volunteer explains someone who works without pay to help others."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "charity,helps,people,in,need"
+  content: "Charity explains giving help and support to people in need."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "welfare,provides,aid,people,need"
+  content: "Welfare explains government aid for people in need."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "security,protects,from,danger,harm"
+  content: "Security explains protection from danger, harm, or fear."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "crime,breaks,law,punishable"
+  content: "A crime explains an action that breaks the law and may be punished."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "criminal,justice,handles,law,violations"
+  content: "Criminal justice explains systems that handle law violations and punishment."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "punishment,penalizes,wrongdoing,crime"
+  content: "Punishment explains a penalty for wrongdoing or crime."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "rehabilitation,restores,law,abiding,life"
+  content: "Rehabilitation explains helping someone return to lawful life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "safety,avoids,risk,harm,danger"
+  content: "Safety explains being protected from risk, harm, or danger."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "risk,chance,harm,loss,danger"
+  content: "Risk explains a chance of harm, loss, or danger."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "health,state,well,physical,mental"
+  content: "Health explains being well in physical, mental, and social ways."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "wellness,actively,pursues,health"
+  content: "Wellness explains actively pursuing good health and quality of life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "public,health,protects,population,health"
+  content: "Public health explains protecting the health of a whole population."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "healthcare,provides,services,maintain,health"
+  content: "Healthcare explains services to maintain or improve health."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "medicine,treats,prevents,disease"
+  content: "Medicine explains science and practice to treat and prevent disease."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "disease,impairs,normal,body,function"
+  content: "A disease explains a condition that impairs normal body function."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "mental,health,well,emotional,psychological"
+  content: "Mental health explains emotional and psychological well-being."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "stress,causes,tension,pressure,demands"
+  content: "Stress explains tension from pressure, demands, or challenges."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "trauma,causes,severe,emotional,shock"
+  content: "Trauma explains severe emotional shock from a disturbing event."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "support,system,helps,people,difficulties"
+  content: "A support system explains people who help during difficulties."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "resilience,recovers,from,difficulties"
+  content: "Resilience explains recovering quickly from difficulties or stress."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "personal,growth,improves,over,time"
+  content: "Personal growth explains improving skills and character over time."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "learning,acquires,knowledge,skills"
+  content: "Learning explains acquiring knowledge, skills, and understanding."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "literacy,understands,written,language"
+  content: "Literacy explains being able to read, write, and understand language."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "numeracy,understands,numbers,data"
+  content: "Numeracy explains being able to understand numbers and data."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "skill,does,well,ability,experience"
+  content: "A skill explains being able to do something well through ability and practice."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "training,teaches,specific,skills,behaviors"
+  content: "Training explains teaching specific skills or behaviors."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "expertise,very,high,skill,knowledge"
+  content: "Expertise explains very high skill or knowledge in a field."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "creativity,creates,new,ideas,solutions"
+  content: "Creativity explains creating new ideas, solutions, or expressions."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "critical,thinking,analyzes,clearly,rationally"
+  content: "Critical thinking explains analyzing ideas clearly and rationally."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "problem,solving,finds,solutions,challenges"
+  content: "Problem-solving explains finding solutions to challenges."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "decision,making,chooses,options,carefully"
+  content: "Decision-making explains choosing between options carefully."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "goal,aims,achieve,target,purpose"
+  content: "A goal explains a target or purpose a person wants to achieve."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "motivation,drives,reach,goals,act"
+  content: "Motivation explains the drive to reach goals and take action."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "discipline,controls,behavior,goals,rules"
+  content: "Discipline explains controlling behavior to meet goals or rules."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "habit,automatic,behavior,regularly"
+  content: "A habit explains automatic behavior done regularly."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "lifestyle,way,person,lives,daily"
+  content: "Lifestyle explains the way a person lives daily."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "balance,stable,life,areas"
+  content: "Balance explains being stable across different areas of life."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "harmony,peaceful,agreement,people"
+  content: "Harmony explains peaceful agreement between people."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "peace,free,from,conflict,violence"
+  content: "Peace explains being free from conflict, violence, or war."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "war,large,scale,armed,conflict"
+  content: "War explains large-scale armed conflict between groups or states."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "personal,security,feels,safe,danger"
+  content: "Personal security explains feeling safe from danger or harm."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "freedom,assembly,gathers,peacefully"
+  content: "Freedom of assembly explains gathering peacefully with others."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "diversity,thought,many,different,ideas"
+  content: "Diversity of thought explains having many different ideas and views."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "pluralism,accepts,many,groups,views"
+  content: "Pluralism explains accepting many groups, cultures, and views."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "tolerance,accepts,differences,peacefully"
+  content: "Tolerance explains accepting differences peacefully."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "respect,values,others,worth"
+  content: "Respect explains valuing the worth and dignity of others."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "empathy,understands,others,feelings"
+  content: "Empathy explains understanding and sharing others’ feelings."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "compassion,wants,to,help,suffering"
+  content: "Compassion explains wanting to help people who are suffering."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "kindness,friendly,considerate,helpful"
+  content: "Kindness explains being friendly, considerate, and helpful."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "courage,faces,fear,danger,strongly"
+  content: "Courage explains facing fear or difficulty with strength."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "patience,waits,calmly,without,frustration"
+  content: "Patience explains waiting calmly without frustration."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "honesty,truthful,sincere,trustworthy"
+  content: "Honesty explains being truthful, sincere, and trustworthy."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "humility,modest,does,not,overvalue,self"
+  content: "Humility explains being modest and not overvaluing oneself."
+- domain: social science
+  intent: explain
+  epistemic: Red
+  keyword: "wisdom,uses,knowledge,good,judgment"
+  content: "Wisdom explains using knowledge and experience for good judgment."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "population growth rate,change,time"
+  content: "Compute population growth rate: (new − original) / original × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "population density,people,area"
+  content: "Compute population density: total people / total land area."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "birth rate,births,population"
+  content: "Compute crude birth rate: (number of births / total population) × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "death rate,deaths,population"
+  content: "Compute crude death rate: (number of deaths / total population) × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "rate of natural increase,birth,death"
+  content: "Compute natural increase rate: birth rate − death rate."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "doubling time,growth rate,rule 70"
+  content: "Compute doubling time: 70 / annual growth rate percentage."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "migration rate,immigrants,emigrants"
+  content: "Compute net migration rate: (immigrants − emigrants) / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "life expectancy,average,age,death"
+  content: "Compute life expectancy: average age at death for a group."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "dependency ratio,young,old,working"
+  content: "Compute dependency ratio: (young + old) / working-age population × 100."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "gender ratio,male,female,comparison"
+  content: "Compute gender ratio: (number of males / number of females) × 100."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "literacy rate,can read,total population"
+  content: "Compute literacy rate: (literate people / total adult population) × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "unemployment rate,jobless,labor force"
+  content: "Compute unemployment rate: unemployed / labor force × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "labor force participation rate,working,age"
+  content: "Compute labor force participation: labor force / working-age population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "per capita income,total income,population"
+  content: "Compute per capita income: total income / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "gini coefficient,income inequality"
+  content: "Compute Gini coefficient: statistical measure of income inequality from 0 to 1."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "poverty rate,below poverty line,total"
+  content: "Compute poverty rate: people below poverty line / total population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "inflation rate,price change,time"
+  content: "Compute inflation rate: (new price index − old price index) / old × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "budget deficit,spending, revenue"
+  content: "Compute budget deficit: total spending − total revenue."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "budget surplus,revenue,spending"
+  content: "Compute budget surplus: total revenue − total spending."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "GDP per capita,GDP,population"
+  content: "Compute GDP per capita: total GDP / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "economic growth rate,GDP change,time"
+  content: "Compute economic growth rate: (new GDP − old GDP) / old GDP × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "consumer price index,price change,basket"
+  content: "Compute CPI: cost of basic goods basket / base-year cost × 100."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "vote percentage,votes,total votes"
+  content: "Compute vote percentage: candidate votes / total votes × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "approval rating,approve,total respondents"
+  content: "Compute approval rating: approve responses / total respondents × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "survey margin of error,sample size"
+  content: "Compute margin of error: 1 / √sample size × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "sample size,population,confidence"
+  content: "Compute representative sample size: based on population size and confidence level."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "crime rate,crimes,population"
+  content: "Compute crime rate: number of crimes / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "incarceration rate,prisoners,population"
+  content: "Compute incarceration rate: prisoners / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "divorce rate,divorces,marriages"
+  content: "Compute crude divorce rate: divorces / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "marriage rate,marriages,population"
+  content: "Compute crude marriage rate: marriages / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "fertility rate,average,children,woman"
+  content: "Compute total fertility rate: average children per woman in lifetime."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "urbanization rate,urban,total population"
+  content: "Compute urbanization rate: urban population / total population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "rural population rate,rural,total"
+  content: "Compute rural population rate: rural population / total population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "educational attainment rate,degree,adults"
+  content: "Compute attainment rate: people with degree / total adult population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "student-teacher ratio,students,teachers"
+  content: "Compute student-teacher ratio: total students / total teachers."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "school enrollment ratio,enrolled,age group"
+  content: "Compute enrollment ratio: enrolled students / eligible population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "dropout rate,left school,enrolled"
+  content: "Compute dropout rate: students who left / initial enrolled × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "graduation rate,graduates,enrollees"
+  content: "Compute graduation rate: graduates / entering students × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "test score average,sum,scores,number"
+  content: "Compute average test score: total score sum / number of test-takers."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "healthcare access rate,insured,total"
+  content: "Compute healthcare access rate: insured people / total population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "hospital beds per capita,beds,population"
+  content: "Compute hospital beds per capita: total beds / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "doctor density,physicians,population"
+  content: "Compute physician density: number of doctors / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "disease prevalence rate,cases,population"
+  content: "Compute prevalence rate: total cases / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "disease incidence rate,new cases,time"
+  content: "Compute incidence rate: new cases / population at risk × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "mortality rate,deaths,population"
+  content: "Compute mortality rate: deaths / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "child mortality rate,under 5 deaths,births"
+  content: "Compute under-5 mortality: deaths before age 5 / live births × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "maternal mortality rate,deaths,births"
+  content: "Compute maternal mortality: maternal deaths / live births × 100000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "vaccination rate,immunized,eligible"
+  content: "Compute vaccination rate: fully immunized / eligible population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "social distance index,contact,measure"
+  content: "Compute social distance: score based on interaction and acceptance measures."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "segregation index,evenness,groups"
+  content: "Compute segregation index: measure of unevenness between groups."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "integration index,mixing,groups"
+  content: "Compute integration index: degree of group mixing in areas."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "income share,top 10%,total income"
+  content: "Compute top 10% income share: top 10% income / total income × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "gender pay gap,earnings,difference"
+  content: "Compute gender pay gap: (male earnings − female earnings) / male earnings × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "labor force gender gap,male,female,participation"
+  content: "Compute labor force gender gap: male participation − female participation."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "representation ratio,group share,population share"
+  content: "Compute group representation: group share in role / population share × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "turnout rate,voters,eligible"
+  content: "Compute voter turnout: ballots cast / eligible voters × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "registration rate,registered,eligible"
+  content: "Compute registration rate: registered voters / eligible population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "electoral votes,state,population,formula"
+  content: "Compute electoral votes: based on state population and fixed formula."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "opinion change rate,before,after,time"
+  content: "Compute opinion change: (after − before) / before × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "media usage rate,time spent,total time"
+  content: "Compute media usage rate: time spent / total daily time × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "digital divide rate,online,offline,access"
+  content: "Compute digital divide: online access rate − offline access rate."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "social capital index,trust,groups,help"
+  content: "Compute social capital index: combined score of trust, groups, and help."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "volunteering rate,volunteers,population"
+  content: "Compute volunteer rate: volunteers / population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "charitable giving rate,donations,income"
+  content: "Compute giving rate: total donations / total income × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "household size average,people,households"
+  content: "Compute average household size: total people / total households."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "homeownership rate,owners,households"
+  content: "Compute homeownership rate: owner-occupied / total households × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "rent burden ratio,housing cost,income"
+  content: "Compute rent burden: housing cost / household income × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "energy consumption per capita,energy,population"
+  content: "Compute energy use per person: total energy / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "carbon footprint per capita,emissions,people"
+  content: "Compute carbon footprint: total emissions / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "water usage per capita,water,population"
+  content: "Compute water use per person: total water / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "waste generation per capita,trash,population"
+  content: "Compute waste per person: total waste / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "recycling rate,recycled,total waste"
+  content: "Compute recycling rate: recycled waste / total waste × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "forest cover rate,forest,land area"
+  content: "Compute forest cover: forest area / total land area × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "green space per capita,park area,people"
+  content: "Compute green space per person: park land / total population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "air quality index,pollutant,measure"
+  content: "Compute AQI: standardized score from pollutant levels."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "traffic congestion index,delay,free flow"
+  content: "Compute congestion index: actual delay / free-flow time × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "commute time average,travel time,workers"
+  content: "Compute average commute: total travel time / number of workers."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "housing price average,total value,units"
+  content: "Compute average home price: total sales value / number of units."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "affordability index,income,housing cost"
+  content: "Compute housing affordability: median income / median cost × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "poverty gap,income gap,threshold"
+  content: "Compute poverty gap: (poverty line − average income) / poverty line × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "wealth inequality ratio,top,bottom,assets"
+  content: "Compute wealth ratio: top 10% assets / bottom 50% assets."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "debt-to-income ratio,debt,income"
+  content: "Compute debt-to-income: total debt / annual income × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "savings rate,savings,disposable income"
+  content: "Compute savings rate: household savings / disposable income × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "investment rate,investment,GDP"
+  content: "Compute investment rate: total investment / GDP × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "tax rate,tax paid,income"
+  content: "Compute average tax rate: total tax paid / total income × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "government spending rate,spending,GDP"
+  content: "Compute public spending rate: government spending / GDP × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "export ratio,exports,GDP"
+  content: "Compute export ratio: total exports / GDP × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "import ratio,imports,GDP"
+  content: "Compute import ratio: total imports / GDP × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "trade balance,exports,imports"
+  content: "Compute trade balance: total exports − total imports."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "foreign direct investment,inflow,GDP"
+  content: "Compute FDI ratio: foreign investment inflow / GDP × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "tourism rate,tourists,population"
+  content: "Compute tourism intensity: tourist arrivals / local population."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "remittance rate,money sent,GDP"
+  content: "Compute remittance rate: money sent home / GDP × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "human development index,health,education,income"
+  content: "Compute HDI: composite index of life expectancy, education, and income."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "gender inequality index,health,empowerment"
+  content: "Compute GII: composite measure of gender gaps in health and empowerment."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "social progress index,basic,needs,opportunity"
+  content: "Compute SPI: index of basic needs, well-being, and opportunity."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "corruption perception index,score,0 to 100"
+  content: "Compute CPI: score from 0 to 100 measuring perceived corruption."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "rule of law index,law,enforcement,score"
+  content: "Compute rule of law index: score based on enforcement and fairness."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "democracy index,electoral,freedom,score"
+  content: "Compute democracy index: score based on elections, rights, and culture."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "political participation index,activity,rate"
+  content: "Compute participation index: rate of political activity × 100."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "protest rate,events,population"
+  content: "Compute protest rate: number of events / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "strike rate,days lost,workers"
+  content: "Compute strike rate: workdays lost / total workers × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "union density rate,union members,labor force"
+  content: "Compute union density: union members / labor force × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "wage growth rate,pay change,time"
+  content: "Compute wage growth: (new wage − old wage) / old wage × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "minimum wage ratio,minimum,median wage"
+  content: "Compute min-wage ratio: minimum wage / median wage × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "occupational segregation index,gender,job"
+  content: "Compute occupational segregation: unevenness of gender across jobs."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "leadership representation ratio,women,men,roles"
+  content: "Compute leadership ratio: women in roles / men in roles × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "class mobility rate,upward,total,people"
+  content: "Compute upward class mobility: upwardly mobile / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "intergenerational income correlation,parent,child"
+  content: "Compute intergenerational correlation: link between parent and child income."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "educational mobility rate,degree,parents,children"
+  content: "Compute educational mobility: children with higher degree than parents × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "residential mobility rate,moved,households"
+  content: "Compute residential mobility: households that moved / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "digital literacy rate,can use tech,total"
+  content: "Compute digital literacy: skilled users / total population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "civic literacy rate,knows rights,total"
+  content: "Compute civic literacy: informed citizens / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "health literacy rate,understands care,total"
+  content: "Compute health literacy: informed patients / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "financial literacy rate,manages money,total"
+  content: "Compute financial literacy: financially skilled / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "emotional intelligence score,self,awareness,measure"
+  content: "Compute EQ score: standardized score of self-awareness and empathy."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "resilience score,recovery,difficulty"
+  content: "Compute resilience score: recovery strength after difficulty."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "wellbeing index,life satisfaction,score"
+  content: "Compute wellbeing index: average life satisfaction score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "happiness index,positive,emotion,score"
+  content: "Compute happiness index: average positive emotion score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "stress level score,reported,stress,measure"
+  content: "Compute stress score: average reported stress level."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "sleep duration average,hours,night,people"
+  content: "Compute average sleep: total hours / number of people."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "physical activity rate,active,people,total"
+  content: "Compute activity rate: regularly active / total population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "obesity rate,overweight,people,total"
+  content: "Compute obesity rate: obese individuals / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "nutrition rate,balanced,diet,people"
+  content: "Compute nutrition rate: balanced diet group / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "substance use rate,users,population"
+  content: "Compute substance use rate: users / population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "mental health service use rate,patients,population"
+  content: "Compute mental health use: treated patients / population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "social support score,contacts,help,score"
+  content: "Compute social support: score from available help and contacts."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "loneliness rate,socially isolated,total"
+  content: "Compute loneliness rate: isolated people / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "trust index,trust in others,score"
+  content: "Compute trust index: average trust in other people score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "social cohesion index,unity,harmony,score"
+  content: "Compute cohesion index: score of unity and harmony."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "conflict rate,incidents,population"
+  content: "Compute conflict rate: number of conflicts / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "peace index,absence,violence,score"
+  content: "Compute peace index: score based on absence of violence."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "violence rate,violent acts,population"
+  content: "Compute violence rate: violent incidents / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "domestic abuse rate,cases,households"
+  content: "Compute domestic abuse rate: cases / total households × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "hate crime rate,biased incidents,population"
+  content: "Compute hate crime rate: biased incidents / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "victimization rate,crime victims,population"
+  content: "Compute victimization rate: victims / population × 1000."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "clearance rate,solved crimes,total crimes"
+  content: "Compute clearance rate: solved crimes / total crimes × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "recidivism rate,repeat offenders,releasees"
+  content: "Compute recidivism rate: re-arrested / released prisoners × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "probation success rate,completed,total"
+  content: "Compute probation success: completed successfully / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "parole success rate,completed,total"
+  content: "Compute parole success: completed without violation × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "diversion rate,program cases,total cases"
+  content: "Compute diversion rate: program cases / total cases × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "restorative justice success rate,agreements,total"
+  content: "Compute restorative success: agreements reached / total referred × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "child protection rate,served children,eligible"
+  content: "Compute child protection rate: served / eligible × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "elder care rate,served seniors,eligible"
+  content: "Compute elder care rate: served / eligible × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "disability support rate,supported people,eligible"
+  content: "Compute disability support: supported / eligible × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "housing assistance rate,aided households,eligible"
+  content: "Compute housing aid: aided households / eligible × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "food security rate,secure households,total"
+  content: "Compute food security: secure households / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "energy poverty rate,can afford power,total"
+  content: "Compute energy poverty: unable to afford power / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "internet access rate,connected households,total"
+  content: "Compute internet access: connected households / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "broadband speed average,mbps,connections"
+  content: "Compute average broadband speed: total mbps / number of connections."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "mobile phone penetration rate,subscriptions,people"
+  content: "Compute mobile penetration: subscriptions / population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "social media usage rate,users,population"
+  content: "Compute social media use: active users / population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "online harassment rate,victims,users"
+  content: "Compute online harassment: victims / users × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "data privacy concern rate,worried users,total"
+  content: "Compute privacy concern: worried users / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "cultural participation rate,events,population"
+  content: "Compute cultural participation: attendees / population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "religious participation rate,attendees,population"
+  content: "Compute religious attendance: regular attendees / population × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "volunteer hours per capita,hours,people"
+  content: "Compute volunteer hours: total hours / total volunteers."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "civic engagement index,activities,score"
+  content: "Compute civic engagement: score from group and political activities."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "environmental action rate,participants,total"
+  content: "Compute environmental action: participants / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "policy implementation rate,actions,goals"
+  content: "Compute policy implementation: actions taken / policy goals × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "service delivery rate,requests met,total"
+  content: "Compute service delivery: requests fulfilled / total requests × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "transparency rate,public documents,released"
+  content: "Compute transparency: released documents / total documents × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "accountability rate,officials sanctioned,total"
+  content: "Compute accountability: sanctioned officials / total cases × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "responsiveness rate,replies,complaints"
+  content: "Compute responsiveness: official replies / complaints × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "equity index,outcome gaps,groups"
+  content: "Compute equity index: 1 − average group outcome gap."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "inclusion index,belonging,score"
+  content: "Compute inclusion index: average belonging score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "diversity index,variety,groups,score"
+  content: "Compute diversity index: score of group variety and representation."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "tolerance index,acceptance,score"
+  content: "Compute tolerance index: average acceptance of differences score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "empathy index,understanding others,score"
+  content: "Compute empathy index: average perspective-taking score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "ethical climate index,honesty,score"
+  content: "Compute ethical climate: average honesty and fairness score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "work engagement index,involvement,score"
+  content: "Compute work engagement: average job involvement score."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "burnout rate,stressed workers,total"
+  content: "Compute burnout rate: burned-out workers / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "job satisfaction rate,satisfied workers,total"
+  content: "Compute job satisfaction: satisfied workers / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "turnover rate,workers left,average employment"
+  content: "Compute turnover rate: workers left / average employment × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "absenteeism rate,days missed,total days"
+  content: "Compute absenteeism: missed days / total workdays × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "training participation rate,trained workers,total"
+  content: "Compute training participation: trained workers / total × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "skill gap rate,needed skills,available skills"
+  content: "Compute skill gap: missing skills / required skills × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "innovation rate,new ideas,adopted"
+  content: "Compute innovation rate: new ideas adopted / total proposed × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "productivity rate,output,workers"
+  content: "Compute labor productivity: total output / number of workers."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "efficiency rate,input,output,ratio"
+  content: "Compute efficiency: useful output / total input × 100%."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "quality of life index,conditions,score"
+  content: "Compute quality of life: composite score of living conditions."
+- domain: social science
+  intent: compute
+  epistemic: Red
+  keyword: "sustainability index,balance,use,future"
+  content: "Compute sustainability index: score of resource balance for future."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: culture vs society
+  content: "Compare: Culture is shared beliefs and values; Society is a group living together with shared rules."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: norm vs value
+  content: "Compare: Norms are unwritten rules of behavior; Values are deep moral principles guiding choices."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: role vs status
+  content: "Compare: Social role is expected behavior; Social status is rank, respect, and position in a group."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: equality vs equity
+  content: "Compare: Equality gives everyone the same; Equity gives different support based on individual needs."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: sex vs gender
+  content: "Compare: Sex is biological physical traits; Gender is social roles and identity expectations."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: ethnicity vs race
+  content: "Compare: Ethnicity is shared culture and ancestry; Race is a social category based on appearance."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: prejudice vs discrimination
+  content: "Compare: Prejudice is unfair belief in mind; Discrimination is unfair action toward a group."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: stereotype vs bias
+  content: "Compare: Stereotype overgeneralizes an entire group; Bias is a personal unfair preference or tilt."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: privilege vs marginalization
+  content: "Compare: Privilege is unearned advantages; Marginalization is being pushed to powerless edges of society."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: inclusion vs diversity
+  content: "Compare: Diversity means having many different people; Inclusion means letting everyone fully participate."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: power vs authority
+  content: "Compare: Power is raw ability to control others; Authority is legitimate, accepted right to lead."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: law vs policy
+  content: "Compare: Law is formal enforced legal rule; Policy is official plan to guide decisions and actions."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: state vs nation
+  content: "Compare: State is territory with government and borders; Nation is people with shared identity and history."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: public vs private sphere
+  content: "Compare: Public is collective social life under rules; Private is personal life free from public control."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: democracy vs authoritarian
+  content: "Compare: Democracy lets people vote and share power; Authoritarian concentrates power in a small group."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: migrant vs refugee
+  content: "Compare: Migrant moves for work or life choice; Refugee flees war, danger and cannot return home."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: immigrant vs emigrant
+  content: "Compare: Immigrant moves into a new country; Emigrant leaves their original home country."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: cooperation vs conflict
+  content: "Compare: Cooperation works together for shared goals; Conflict clashes over needs, ideas or resources."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: group vs team
+  content: "Compare: A group is people who interact casually; A team works closely toward one specific goal."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: organization vs bureaucracy
+  content: "Compare: Organization is structured group with purpose; Bureaucracy adds strict hierarchy and fixed rules."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: stratification vs inequality
+  content: "Compare: Stratification is layered social ranks; Inequality is uneven distribution of wealth and power."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: capitalism vs socialism
+  content: "Compare: Capitalism focuses private ownership and market; Socialism focuses public shared resources."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: urban vs rural
+  content: "Compare: Urban is city with dense population; Rural is countryside with farming and sparse population."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: urbanization vs globalization
+  content: "Compare: Urbanization is growth of cities; Globalization is worldwide connection of trade and culture."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: production vs consumption
+  content: "Compare: Production makes goods and services; Consumption uses them for daily life."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: supply vs demand
+  content: "Compare: Supply is goods available for sale; Demand is people’s desire and ability to buy."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: export vs import
+  content: "Compare: Export sends goods out to other countries; Import brings goods in from abroad."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: inflation vs recession
+  content: "Compare: Inflation is rising prices lowering money value; Recession is slow economic activity."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: wealth vs income
+  content: "Compare: Wealth is total accumulated assets; Income is regular money earned each period."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: poverty vs low income
+  content: "Compare: Poverty lacks basic life needs; Low income earns little but may still cover basics."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: employment vs unemployment
+  content: "Compare: Employment has paid work; Unemployment wants work but has no job."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: saving vs investment
+  content: "Compare: Saving keeps money safe for future; Investment uses money to grow profit."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: budget surplus vs deficit
+  content: "Compare: Surplus means revenue is higher than spending; Deficit means spending exceeds revenue."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: labor vs capital
+  content: "Compare: Labor is human work and effort; Capital is resources and money used to produce."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: community vs society
+  content: "Compare: Community is local small connected group; Society is large system of many groups."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: activism vs advocacy
+  content: "Compare: Activism takes direct action for change; Advocacy speaks and supports a cause publicly."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: human rights vs civil rights
+  content: "Compare: Human rights belong to all people globally; Civil rights are legal protections for citizens."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: media vs social media
+  content: "Compare: Traditional media is one-way news delivery; Social media is two-way online interaction."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: innovation vs technology
+  content: "Compare: Technology is tools and systems; Innovation is creating new ideas and methods."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: personality vs attitude
+  content: "Compare: Personality is long-term stable traits; Attitude is temporary feelings toward something."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: emotion vs cognition
+  content: "Compare: Emotion is feeling and mood; Cognition is thinking, understanding and remembering."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: motivation vs discipline
+  content: "Compare: Motivation gives drive to start goals; Discipline controls behavior to keep goals."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: habit vs lifestyle
+  content: "Compare: Habit is repeated single behavior; Lifestyle is overall daily way of living."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: critical thinking vs problem solving
+  content: "Compare: Critical thinking analyzes ideas logically; Problem solving finds practical solutions."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: literacy vs numeracy
+  content: "Compare: Literacy is reading and writing skill; Numeracy is understanding numbers and data."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: skill vs expertise
+  content: "Compare: Skill is basic ability to do something; Expertise is advanced deep knowledge in a field."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: formal education vs informal learning
+  content: "Compare: Formal education is school structured learning; Informal learning gains knowledge from life experience."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: graduation vs dropout
+  content: "Compare: Graduation completes all school requirements; Dropout leaves school before finishing."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: health vs wellness
+  content: "Compare: Health is being free from illness; Wellness is actively pursuing balanced good living."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: physical health vs mental health
+  content: "Compare: Physical health concerns body function; Mental health concerns emotion and psychology."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: stress vs trauma
+  content: "Compare: Stress is daily pressure and tension; Trauma is severe emotional shock from serious events."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: resilience vs personal growth
+  content: "Compare: Resilience recovers fast from hardship; Personal growth improves self over long time."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: healthcare vs public health
+  content: "Compare: Healthcare treats individual patients; Public health protects whole population well-being."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: disease vs illness
+  content: "Compare: Disease is medical physical condition; Illness is personal feeling of poor health."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: prevalence vs incidence
+  content: "Compare: Prevalence is total existing cases; Incidence is new cases appearing over time."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: charity vs welfare
+  content: "Compare: Charity is private voluntary giving; Welfare is government official aid for people in need."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: volunteer vs employee
+  content: "Compare: Volunteer works without payment; Employee works for salary and benefits."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: safety vs security
+  content: "Compare: Safety avoids immediate harm; Security protects from long-term danger and risk."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: crime vs deviance
+  content: "Compare: Crime breaks written law; Deviance violates social norms even if not illegal."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: punishment vs rehabilitation
+  content: "Compare: Punishment penalizes wrongdoing; Rehabilitation helps people return to lawful life."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: prison vs probation
+  content: "Compare: Prison is locked confinement; Probation allows freedom under supervised rules."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: peace vs harmony
+  content: "Compare: Peace is absence of conflict and violence; Harmony is positive peaceful agreement."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: war vs conflict
+  content: "Compare: War is large-scale armed fight; Conflict is any clashing of ideas or interests."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: tolerance vs respect
+  content: "Compare: Tolerance peacefully accepts differences; Respect values others’ dignity and worth."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: empathy vs compassion
+  content: "Compare: Empathy understands others’ feelings; Compassion feels care and wants to help suffering."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: kindness vs courage
+  content: "Compare: Kindness is friendly helpful behavior; Courage faces fear and difficulty bravely."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: honesty vs integrity
+  content: "Compare: Honesty tells the truth; Integrity stays moral and consistent in all situations."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: ethics vs morality
+  content: "Compare: Morality is personal right and wrong; Ethics is formal system of fair rules."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: responsibility vs accountability
+  content: "Compare: Responsibility is personal duty; Accountability is answering to others for actions."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: pluralism vs diversity
+  content: "Compare: Pluralism accepts multiple cultures and views; Diversity just means having many different groups."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: segregation vs integration
+  content: "Compare: Segregation separates groups apart; Integration mixes groups together equally."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: classism vs racism
+  content: "Compare: Classism discriminates by social rank; Racism discriminates by race and origin."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: sexism vs gender bias
+  content: "Compare: Sexism discriminates by biological sex; Gender bias judges by social gender roles."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: formal rule vs informal norm
+  content: "Compare: Formal rules are written and enforced; Informal norms are unwritten everyday customs."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: leadership vs followership
+  content: "Compare: Leadership guides and directs the group; Followership supports and obeys direction."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: primary group vs secondary group
+  content: "Compare: Primary group is close long-term relationships; Secondary group is formal temporary task groups."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: family vs institution
+  content: "Compare: Family is basic small social unit; Institution is large structured system like education or law."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: religion vs education
+  content: "Compare: Religion provides meaning and moral rules; Education passes knowledge and life skills."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: census vs sample survey
+  content: "Compare: Census collects data from everyone; Sample survey only studies a small representative group."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: birth rate vs fertility rate
+  content: "Compare: Birth rate is annual births per population; Fertility rate is average children per woman lifetime."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: life expectancy vs mortality rate
+  content: "Compare: Life expectancy is average years to live; Mortality rate is frequency of deaths in a group."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: labor force vs working population
+  content: "Compare: Labor force includes employed and job seekers; Working population only counts people with jobs."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: GDP vs per capita GDP
+  content: "Compare: GDP is total economic output; Per capita GDP divides total GDP by population size."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: trade balance vs trade deficit
+  content: "Compare: Trade balance is exports minus imports; Trade deficit happens when imports are larger."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: carbon footprint vs pollution
+  content: "Compare: Carbon footprint is personal greenhouse emission; Pollution is any harmful substance damaging nature."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: sustainability vs conservation
+  content: "Compare: Sustainability balances resources for future; Conservation protects existing natural resources."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: climate change vs pollution
+  content: "Compare: Climate change is long-term weather shift; Pollution is immediate environmental damage."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: housing ownership vs rental
+  content: "Compare: Ownership means owning home permanently; Rental means paying to use temporarily."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: commute time vs congestion
+  content: "Compare: Commute time is daily travel length; Congestion is traffic delay slowing movement."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: digital divide vs media literacy
+  content: "Compare: Digital divide is gap in internet access; Media literacy is skill to judge online information."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: online community vs physical community
+  content: "Compare: Online community connects through internet; Physical community lives and interacts locally."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: protest vs strike
+  content: "Compare: Protest is public demonstration of opinion; Strike is work stoppage to demand rights."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: union vs activist group
+  content: "Compare: Union fights worker rights; Activist group pursues broad social and political change."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: job satisfaction vs work engagement
+  content: "Compare: Job satisfaction is feeling happy with work; Work engagement is active involvement in tasks."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: turnover vs absenteeism
+  content: "Compare: Turnover is workers leaving the job; Absenteeism is missing work regularly."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: skill gap vs training
+  content: "Compare: Skill gap is missing required abilities; Training is teaching new skills to fill gaps."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: productivity vs efficiency
+  content: "Compare: Productivity is total output per worker; Productivity efficiency is output relative to input used."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: happiness vs quality of life
+  content: "Compare: Happiness is temporary positive feeling; Quality of life covers overall living standard."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: loneliness vs social isolation
+  content: "Compare: Loneliness is emotional sad feeling; Social isolation is actual lack of social contact."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: social capital vs solidarity
+  content: "Compare: Social capital is trust and network benefits; Solidarity is unity for shared group goals."
+- domain: social science
+  intent: compare
+  epistemic: Red
+  keyword: civic participation vs political participation
+  content: "Compare: Civic participation joins community activities; Political participation involves voting and elections."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: culture influence behavior
+  content: "Analyze how culture shapes beliefs, sets norms, and guides individual and group daily behavior."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social norms function
+  content: "Analyze social norms as unwritten rules that maintain order, set expectations and control deviance."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social role impact
+  content: "Analyze how assigned social roles create expectations, limit choices and shape personal identity."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social stratification effect
+  content: "Analyze stratification creates hierarchy, limits opportunity and reproduces inequality across generations."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: prejudice root cause
+  content: "Analyze prejudice comes from ignorance, group loyalty, fear and social learning from environment."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: discrimination consequence
+  content: "Analyze discrimination lowers opportunity, creates poverty, damages mental health and divides society."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: stereotype harm
+  content: "Analyze stereotypes oversimplify groups, ignore individual differences and justify unfair treatment."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: privilege mechanism
+  content: "Analyze unearned privilege creates hidden advantages in education, job opportunity and social respect."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: marginalization process
+  content: "Analyze marginalization pushes groups away from resources, power, voice and full social participation."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: gender role socialization
+  content: "Analyze family, media and school teach gender roles that shape behavior and career choices."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: identity formation process
+  content: "Analyze identity forms through family background, peer groups, culture and life experience."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: family social function
+  content: "Analyze family provides care, socialization, emotional support and passes values to new generations."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: education social function
+  content: "Analyze education sorts people by ability, transmits culture and prepares workforce for society."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: religion social impact
+  content: "Analyze religion provides life meaning, moral rules, social unity and can also create division."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: government role society
+  content: "Analyze government makes laws, maintains order, provides public services and redistributes resources."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: power distribution impact
+  content: "Analyze unequal power distribution leads to unfair rules, policy bias and weak representation."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: authority legitimacy source
+  content: "Analyze legitimate authority comes from tradition, law, election and public trust."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: law social control
+  content: "Analyze law acts as formal social control to punish harm, set standards and stabilize society."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: equality promote stability
+  content: "Analyze greater equality reduces conflict, increases trust and improves social stability."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: equity reduce gap
+  content: "Analyze targeted equity policies reduce unfair gaps in education, income and healthcare."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: democracy advantage limit
+  content: "Analyze democracy enables citizen voice but can be slowed by public ignorance and interest groups."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: authoritarian system effect
+  content: "Analyze authoritarian systems maintain order but limit freedom, participation and public oversight."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: population growth pressure
+  content: "Analyze rapid population growth creates pressure on food, housing, jobs and public services."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: aging population challenge
+  content: "Analyze aging population creates labor shortage, higher pension cost and healthcare burden."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: migration social effect
+  content: "Analyze migration changes culture, labor supply, population structure and creates social tension."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: refugee crisis impact
+  content: "Analyze refugee flows strain local resources, change community culture and test government policy."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: urbanization advantage problem
+  content: "Analyze urbanization brings job opportunity and convenience but causes crowding, pollution and inequality."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: rural decline cause
+  content: "Analyze rural decline results from youth migration, limited jobs and weak public service."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: globalization cultural change
+  content: "Analyze globalization spreads global culture, weakens local tradition and increases economic connection."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: economy daily life influence
+  content: "Analyze economic conditions shape employment, income level, cost of living and life choices."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: inflation living standard
+  content: "Analyze inflation reduces purchasing power, raises living cost and pressures low-income families."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: recession social consequence
+  content: "Analyze recession causes unemployment, poverty rise, marriage delay and social stress."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: unemployment social cost
+  content: "Analyze long-term unemployment reduces income, lowers self-esteem and increases family conflict."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: income inequality social harm
+  content: "Analyze large income inequality reduces trust, limits upward mobility and weakens social cohesion."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: poverty cycle formation
+  content: "Analyze poverty repeats across generations due to poor education, limited capital and weak networks."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: education mobility role
+  content: "Analyze education acts as main pathway for individuals to move up social and economic class."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: media public opinion shape
+  content: "Analyze media frames news, selects topics and strongly shapes public attitude and belief."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social media society impact
+  content: "Analyze social media enables fast information spread but spreads misinformation and polarizes views."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: digital divide opportunity gap
+  content: "Analyze digital divide creates gap in education access, job information and civic participation."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: technology work change
+  content: "Analyze technology automates jobs, creates new careers and changes required work skills."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social interaction build relationship
+  content: "Analyze daily social interaction builds trust, creates norms and forms stable relationships."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: group dynamic influence
+  content: "Analyze group dynamics shape individual opinion, encourage conformity and create peer pressure."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: leadership group performance
+  content: "Analyze good leadership unites goals, solves conflict and improves group efficiency."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: conflict positive function
+  content: "Analyze social conflict exposes unfair problems, encourages change and rebuilds fair rules."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: cooperation community development
+  content: "Analyze cooperation allows communities to solve shared problems and build public goods."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: personality behavior link
+  content: "Analyze personality traits shape reaction style, life choices and long-term behavior patterns."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: emotion decision influence
+  content: "Analyze strong emotions often override rational thinking and affect important life decisions."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: motivation goal achievement
+  content: "Analyze high motivation supports consistent effort, overcomes difficulty and boosts goal success."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: critical thinking solve problem
+  content: "Analyze critical thinking helps evaluate information, avoid bias and make rational judgments."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: health social determinant
+  content: "Analyze income, education, housing and environment strongly affect individual health level."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: mental health social pressure
+  content: "Analyze academic pressure, work stress and social expectation cause anxiety and mental burden."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: stress source management
+  content: "Analyze stress comes from workload, relationship conflict and life change; relief needs balance and support."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social support mental recovery
+  content: "Analyze family and friend support reduce stress, speed recovery and improve wellbeing."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: resilience life challenge
+  content: "Analyze resilience allows individuals to recover from failure, trauma and difficult life events."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: crime social root cause
+  content: "Analyze crime roots include poverty, weak family control, peer influence and limited opportunity."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: punishment deterrence effect
+  content: "Analyze legal punishment deters future crime but may also push offenders into repeated violation."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: rehabilitation reoffending reduce
+  content: "Analyze education and skill training in rehabilitation lower recidivism and help reintegrate."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: human rights society progress
+  content: "Analyze respect for human rights reduces oppression, increases fairness and drives social progress."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: activism social change role
+  content: "Analyze activism raises public attention, pushes policy reform and corrects social unfairness."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: charity welfare difference effect
+  content: "Analyze charity relieves immediate need while long-term welfare fixes structural poverty causes."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: environmental problem social cause
+  content: "Analyze overconsumption, unregulated industry and population pressure create pollution and climate risk."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: climate change social impact
+  content: "Analyze climate change causes resource shortage, migration pressure and increased group conflict."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: sustainability lifestyle adjust
+  content: "Analyze sustainable lifestyle reduces waste, saves resources and protects future living conditions."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: housing cost social mobility
+  content: "Analyze high housing cost locks wealth gap, delays marriage and limits youth upward mobility."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: workplace inequality gender
+  content: "Analyze gender workplace inequality comes from role expectation, bias and limited promotion opportunity."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: job satisfaction performance
+  content: "Analyze high job satisfaction improves work effort, reduces turnover and raises team productivity."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: skill training economic adapt
+  content: "Analyze continuous skill training helps individuals adapt to technological and economic change."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: cultural diversity social benefit
+  content: "Analyze cultural diversity brings new ideas, enriches society and drives innovation."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: cultural conflict solution
+  content: "Analyze cultural conflict can be reduced by respect, communication, tolerance and fair policy."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: trust social cohesion base
+  content: "Analyze interpersonal trust is the foundation of social cooperation, stability and community harmony."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: empathy social relationship
+  content: "Analyze empathy improves communication, reduces conflict and builds closer social bonds."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: ethics daily decision guide
+  content: "Analyze ethical principles guide daily choices, limit selfish behavior and maintain social order."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: public policy social redistribute
+  content: "Analyze public policy redistributes resources, corrects market failure and protects vulnerable groups."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: voting right citizen influence
+  content: "Analyze voting allows citizens to select leaders, shape policy and restrain government power."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: public opinion policy change
+  content: "Analyze strong public opinion can push government to adjust laws, services and social plans."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: formal informal norm interaction
+  content: "Analyze formal laws and informal norms support each other and together control social behavior."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: peer group youth socialization
+  content: "Analyze peer groups strongly shape youth values, fashion, behavior and life attitude."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: school hidden curriculum
+  content: "Analyze schools teach hidden rules of obedience, competition and social hierarchy beyond textbook knowledge."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: consumerism lifestyle impact
+  content: "Analyze consumerism encourages overspending, creates debt pressure and changes life values."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: saving investment life security
+  content: "Analyze reasonable saving and investment reduce risk, stabilize income and improve long-term security."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: trade national economy effect
+  content: "Analyze international trade boosts economic growth, creates jobs and lowers consumer cost."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: tourism local culture change
+  content: "Analyze tourism brings income but also changes local lifestyle, tradition and social structure."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: loneliness modern society cause
+  content: "Analyze modern loneliness comes from busy work, weak community bond and overuse of online life."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: online interaction advantage limit
+  content: "Analyze online interaction connects people easily but lacks deep emotion and real social skill practice."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: misinformation social harm
+  content: "Analyze misinformation spreads fear, divides public opinion and interferes with rational decision-making."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: civic engagement community build
+  content: "Analyze civic engagement strengthens community connection, improves public services and builds trust."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: aging care system challenge
+  content: "Analyze aging forces society to adjust pension policy, healthcare service and family care model."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: youth employment social stability
+  content: "Analyze stable youth employment reduces social unrest, supports marriage and drives future development."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: gender equality economic benefit
+  content: "Analyze gender equality increases labor participation, boosts economy and improves family wellbeing."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: class mobility society fairness
+  content: "Analyze high class mobility makes society fair, motivates effort and reduces class conflict."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social change resistance reason
+  content: "Analyze social change faces resistance from tradition, vested interest and fear of uncertainty."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: tradition modernization conflict
+  content: "Analyze tradition and modernization often conflict in values, family structure and lifestyle choices."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: mental health education importance
+  content: "Analyze mental health education reduces anxiety, improves self-awareness and builds healthy coping skills."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: public health epidemic control
+  content: "Analyze public health systems prevent disease spread, protect groups and reduce social loss."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: volunteer work personal social gain
+  content: "Analyze volunteering improves personal wellbeing, expands social network and strengthens community bond."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: corruption social damage
+  content: "Analyze corruption wastes public resources, breaks fairness and weakens public trust in government."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: rule of law development role
+  content: "Analyze rule of law protects rights, limits power abuse and creates stable environment for development."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: education inequality opportunity gap
+  content: "Analyze education inequality creates lifelong opportunity gap and reproduces social inequality."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: family structure change social effect
+  content: "Analyze smaller family structures change care models, aging support and youth independence."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: media stereotype reinforce
+  content: "Analyze media often reinforces gender, class and racial stereotypes and limits public perception."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: self identity social feedback
+  content: "Analyze self identity is constantly shaped by others’ feedback, group belonging and life experience."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: competition cooperation balance
+  content: "Analyze proper balance of competition and cooperation improves both individual growth and group result."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: life goal value direction
+  content: "Analyze clear life values set goal direction, support persistence and reduce confusion in choices."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: discipline long term success
+  content: "Analyze self-discipline controls bad habits, maintains effort and determines long-term achievement."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: habit shape lifestyle
+  content: "Analyze repeated daily habits slowly shape health, productivity and overall lifestyle quality."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: tolerance peaceful coexistence
+  content: "Analyze tolerance allows different beliefs and groups to coexist peacefully in diverse society."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: respect reduce conflict
+  content: "Analyze mutual respect lowers prejudice, improves communication and avoids unnecessary conflict."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: compassion social warmth
+  content: "Analyze compassion increases mutual help, strengthens community warmth and reduces indifference."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: honesty trust foundation
+  content: "Analyze personal honesty builds interpersonal trust, simplifies cooperation and stabilizes relationships."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: integrity leadership credibility
+  content: "Analyze integrity makes leaders credible, unites group members and maintains long-term influence."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: accountability system operation
+  content: "Analyze clear accountability prevents power abuse, improves efficiency and keeps system fair."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: urban planning life quality
+  content: "Analyze reasonable urban planning reduces congestion, increases green space and lifts living quality."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: public service equity
+  content: "Analyze equal public service ensures vulnerable groups access education, healthcare and basic support."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: market economy advantage defect
+  content: "Analyze market economy drives efficiency and innovation but creates inequality and resource waste."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: government intervention market failure
+  content: "Analyze government intervention corrects market failure, protects public goods and stabilizes economy."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: labor market skill mismatch
+  content: "Analyze skill mismatch between education output and job demand causes unemployment and talent waste."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: upward mobility personal effort policy
+  content: "Analyze upward mobility needs both individual effort and fair social policy and equal opportunity."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: cultural assimilation advantage problem
+  content: "Analyze cultural assimilation promotes unity but may erase unique local tradition and identity."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: social progress value technology
+  content: "Analyze social progress relies on both technological advancement and moral value improvement."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: violence cycle root
+  content: "Analyze family and community violence can create repeated cycle across generations through learning."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: inclusion economic growth
+  content: "Analyze full social inclusion unlocks talent, expands consumption and supports sustainable growth."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: survey data limit bias
+  content: "Analyze survey data is useful but limited by sample bias, response error and time constraint."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: population structure future trend
+  content: "Analyze current population structure determines future labor supply, aging speed and social spending."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: media literacy resist bias
+  content: "Analyze media literacy helps people identify bias, fake news and avoid being manipulated."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: financial literacy life stability
+  content: "Analyze financial literacy prevents debt risk, guides saving investment and improves long-term life stability."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: health literacy self care
+  content: "Analyze health literacy helps people understand medical information, choose care and prevent disease."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: work life balance wellbeing
+  content: "Analyze work-life balance reduces burnout, protects mental health and sustains long-term productivity."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: innovation society upgrade
+  content: "Analyze continuous innovation upgrades industry, changes lifestyle and drives social development."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: pollution control policy public
+  content: "Analyze pollution control needs policy regulation, public awareness and lifestyle change together."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: community service social bond
+  content: "Analyze community service strengthens neighbor connection, builds trust and improves local harmony."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: political apathy consequence
+  content: "Analyze political apathy weakens citizen representation, allows unfair policy and reduces democratic quality."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: youth value change future society
+  content: "Analyze youth value changes shape future family model, work attitude and social development direction."
+- domain: social science
+  intent: analyze
+  epistemic: Red
+  keyword: global culture local tradition balance
+  content: "Analyze balancing global culture and local tradition keeps openness while preserving unique identity."
