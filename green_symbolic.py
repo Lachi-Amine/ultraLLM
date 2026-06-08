@@ -5,15 +5,36 @@ import os
 import sys
 import yaml
 import sympy
-from typing import Optional
+from typing import Optional, List
+from dataclasses import dataclass, field
 from rank_bm25 import BM25Okapi
 
 # Allows direct script execution to import schemas
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from pipeline.schemas import Query, EvidenceRecord
+
+# Shared Schemas Alignment (Aligned with Red & Yellow Engines)
+try:
+    from pipeline.schemas import Query, EvidenceRecord
+except ImportError:
+    @dataclass
+    class Query:
+        text: str  # The original search sentence from the user
+        tokens: List[str] = field(default_factory=list)  # Words split from the sentence
+
+
+    @dataclass
+    class EvidenceRecord:
+        engine_type: str  # Always "Green" for this engine
+        status: str  # "success" or "failed"
+        output: str  # The best matching answer found
+        top_passages: List[str]  # A list of top matching answers
+        trace: List[str]  # Step-by-step logs for debugging (:debug command)
+        score: float = 0.0  # Search or computation confidence score
+
 
 def _tokenize(text: str) -> list[str]:
     return re.findall(r"[a-zA-Z0-9]+", text.lower())
+
 
 # ─────────────────────────────────────────────
 # Symbolic Computation Module
@@ -70,21 +91,21 @@ class SymbolicSolver:
                 sol = sympy.solve(expr, var)
 
             return EvidenceRecord(
-                engine="green",
-                content=f"Solutions for {var}: {sol}",
-                score=1.0,
-                source="SymPy Equation Solver",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="success",
+                output=f"Solutions for {var}: {sol}",
+                top_passages=[],
+                trace=["Executed solve_equation via SymPy Solver"],
+                score=1.0
             )
         except Exception as e:
             return EvidenceRecord(
-                engine="green",
-                content=f"Error solving equation: {str(e)}",
-                score=0.0,
-                source="SymPy Equation Solver",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="failed",
+                output=f"Error solving equation: {str(e)}",
+                top_passages=[],
+                trace=[f"Error occurred in solve_equation: {str(e)}"],
+                score=0.0
             )
 
     def simplify_expr(self, expr_str: str) -> EvidenceRecord:
@@ -92,21 +113,21 @@ class SymbolicSolver:
             expr, _ = self._parse_expr(expr_str)
             res = sympy.simplify(expr)
             return EvidenceRecord(
-                engine="green",
-                content=f"Simplified expression: {res}",
-                score=1.0,
-                source="SymPy Simplifier",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="success",
+                output=f"Simplified expression: {res}",
+                top_passages=[],
+                trace=["Executed simplify_expr via SymPy Solver"],
+                score=1.0
             )
         except Exception as e:
             return EvidenceRecord(
-                engine="green",
-                content=f"Error simplifying expression: {str(e)}",
-                score=0.0,
-                source="SymPy Simplifier",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="failed",
+                output=f"Error simplifying expression: {str(e)}",
+                top_passages=[],
+                trace=[f"Error occurred in simplify_expr: {str(e)}"],
+                score=0.0
             )
 
     def differentiate(self, expr_str: str, var_str: Optional[str] = None) -> EvidenceRecord:
@@ -115,21 +136,21 @@ class SymbolicSolver:
             var = self._get_var(var_str) if var_str else var_e
             res = sympy.diff(expr, var)
             return EvidenceRecord(
-                engine="green",
-                content=f"Derivative w.r.t {var}: {res}",
-                score=1.0,
-                source="SymPy Calculus Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="success",
+                output=f"Derivative w.r.t {var}: {res}",
+                top_passages=[],
+                trace=["Executed differentiate via SymPy Solver"],
+                score=1.0
             )
         except Exception as e:
             return EvidenceRecord(
-                engine="green",
-                content=f"Error performing differentiation: {str(e)}",
-                score=0.0,
-                source="SymPy Calculus Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="failed",
+                output=f"Error performing differentiation: {str(e)}",
+                top_passages=[],
+                trace=[f"Error occurred in differentiate: {str(e)}"],
+                score=0.0
             )
 
     def integrate_expr(self, expr_str: str, var_str: Optional[str] = None) -> EvidenceRecord:
@@ -138,21 +159,21 @@ class SymbolicSolver:
             var = self._get_var(var_str) if var_str else var_e
             res = sympy.integrate(expr, var)
             return EvidenceRecord(
-                engine="green",
-                content=f"Integral w.r.t {var}: {res} + C",
-                score=1.0,
-                source="SymPy Calculus Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="success",
+                output=f"Integral w.r.t {var}: {res} + C",
+                top_passages=[],
+                trace=["Executed integrate_expr via SymPy Solver"],
+                score=1.0
             )
         except Exception as e:
             return EvidenceRecord(
-                engine="green",
-                content=f"Error performing integration: {str(e)}",
-                score=0.0,
-                source="SymPy Calculus Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="failed",
+                output=f"Error performing integration: {str(e)}",
+                top_passages=[],
+                trace=[f"Error occurred in integrate_expr: {str(e)}"],
+                score=0.0
             )
 
     def factor_expr(self, expr_str: str) -> EvidenceRecord:
@@ -160,21 +181,21 @@ class SymbolicSolver:
             expr, _ = self._parse_expr(expr_str)
             res = sympy.factor(expr)
             return EvidenceRecord(
-                engine="green",
-                content=f"Factored form: {res}",
-                score=1.0,
-                source="SymPy Algebra Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="success",
+                output=f"Factored form: {res}",
+                top_passages=[],
+                trace=["Executed factor_expr via SymPy Solver"],
+                score=1.0
             )
         except Exception as e:
             return EvidenceRecord(
-                engine="green",
-                content=f"Error factoring expression: {str(e)}",
-                score=0.0,
-                source="SymPy Algebra Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="failed",
+                output=f"Error factoring expression: {str(e)}",
+                top_passages=[],
+                trace=[f"Error occurred in factor_expr: {str(e)}"],
+                score=0.0
             )
 
     def expand_expr(self, expr_str: str) -> EvidenceRecord:
@@ -182,21 +203,21 @@ class SymbolicSolver:
             expr, _ = self._parse_expr(expr_str)
             res = sympy.expand(expr)
             return EvidenceRecord(
-                engine="green",
-                content=f"Expanded form: {res}",
-                score=1.0,
-                source="SymPy Algebra Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="success",
+                output=f"Expanded form: {res}",
+                top_passages=[],
+                trace=["Executed expand_expr via SymPy Solver"],
+                score=1.0
             )
         except Exception as e:
             return EvidenceRecord(
-                engine="green",
-                content=f"Error expanding expression: {str(e)}",
-                score=0.0,
-                source="SymPy Algebra Module",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="failed",
+                output=f"Error expanding expression: {str(e)}",
+                top_passages=[],
+                trace=[f"Error occurred in expand_expr: {str(e)}"],
+                score=0.0
             )
 
     def evaluate_expr(self, expr_str: str) -> EvidenceRecord:
@@ -206,21 +227,21 @@ class SymbolicSolver:
             expr, _ = self._parse_expr(expr_str)
             res = expr.evalf()
             return EvidenceRecord(
-                engine="green",
-                content=f"Numerical evaluation: {res}",
-                score=1.0,
-                source="SymPy Evaluator",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="success",
+                output=f"Numerical evaluation: {res}",
+                top_passages=[],
+                trace=["Executed evaluate_expr via SymPy Solver"],
+                score=1.0
             )
         except Exception as e:
             return EvidenceRecord(
-                engine="green",
-                content=f"Error evaluating expression: {str(e)}",
-                score=0.0,
-                source="SymPy Evaluator",
-                domain="mathematics",
-                intent="compute"
+                engine_type="Green",
+                status="failed",
+                output=f"Error evaluating expression: {str(e)}",
+                top_passages=[],
+                trace=[f"Error occurred in evaluate_expr: {str(e)}"],
+                score=0.0
             )
 
 
@@ -270,7 +291,7 @@ def _extract_expression(raw: str) -> tuple[str, Optional[str]]:
 # Core Engine Implementation
 # ─────────────────────────────────────────────
 class GreenEngine:
-    def __init__(self, knowledge_path: str):
+    def __init__(self, knowledge_path: str = "knowledge/symbolic"):
         self.knowledge_path = knowledge_path
         self.solver = SymbolicSolver()
         self.kb_data = []
@@ -304,62 +325,100 @@ class GreenEngine:
     def status(self) -> str:
         return f"GreenEngine active. KB size: {len(self.kb_data)} records mapped."
 
-    def run(self, query: Query) -> list[EvidenceRecord]:
-        intent = _detect_intent(query.raw)
-        records = []
+    def evaluate(self, query: Query, top_n: int = 2) -> EvidenceRecord:
+        """
+        Aligned Interface: Processes the user query and returns a single EvidenceRecord.
+        """
+        trace_log = []
+        trace_log.append("Initializing Green Engine retrieval and symbolic pipeline.")
+        trace_log.append(f"Received query text: '{query.text}'")
+
+        # Aligned tokens mapping fallback
+        query_tokens = query.tokens if query.tokens else _tokenize(query.text)
+
+        intent = _detect_intent(query.text)
 
         # Route 1: Computational Logic Execution
         if intent == "compute":
-            compute_records = self._handle_compute(query.raw)
-            records.extend(compute_records)
+            trace_log.append("Intent 'compute' detected. Diverting to Symbolic Solver.")
+            compute_res = self._handle_compute(query.text)
+            if compute_res and compute_res.status == "success":
+                # Sync and pull potential top passages from local knowledge database
+                top_passages_list = []
+                if self.bm25:
+                    top_items = self.bm25.get_top_n(query_tokens, self.kb_data, n=top_n)
+                    for item in top_items:
+                        summary_string = f"[{str(item.get('intent')).upper()}] Domain: {item.get('domain')} | Content: {item.get('content')}"
+                        top_passages_list.append(summary_string)
 
-        # Route 2: Information Retrieval (Used for conceptual queries or computation backups)
-        if self.bm25:
-            top_items = self.bm25.get_top_n(query.tokens, self.kb_data, n=2)
+                compute_res.top_passages = top_passages_list
+                compute_res.trace = trace_log + [f"Symbolic result: {compute_res.output}"] + compute_res.trace
+                return compute_res
+
+        # Route 2: Information Retrieval (Default fallback or conceptual query mapping)
+        if self.bm25 and len(self.kb_data) > 0:
+            trace_log.append(f"Searching database with tokens: {query_tokens}")
+            top_items = self.bm25.get_top_n(query_tokens, self.kb_data, n=top_n)
+
+            top_passages_list = []
             for item in top_items:
-                # Calculate confidence relative to text query mapping
-                records.append(EvidenceRecord(
-                    engine="green",
-                    content=item.get("content", ""),
-                    score=0.85,
-                    source=f"KB Node ({item.get('keyword', 'generic')})",
-                    domain=item.get("domain", "mathematics"),
-                    intent=item.get("intent", intent)
-                ))
+                summary_string = f"[{str(item.get('intent')).upper()}] Domain: {item.get('domain')} | Content: {item.get('content')}"
+                top_passages_list.append(summary_string)
 
-        return records
+            if top_items:
+                best_item = top_items[0]
+                trace_log.append(f"Top match locked in Domain: [{best_item.get('domain')}] via BM25 retrieval.")
+                return EvidenceRecord(
+                    engine_type="Green",
+                    status="success",
+                    output=best_item.get("content", "").strip(),
+                    top_passages=top_passages_list,
+                    trace=trace_log,
+                    score=0.85
+                )
 
-    def _handle_compute(self, raw: str) -> list[EvidenceRecord]:
+        # Fallback if everything fails
+        trace_log.append("No symbolic matches or knowledge records found.")
+        return EvidenceRecord(
+            engine_type="Green",
+            status="failed",
+            output="No matching symbolic data or mathematical result found.",
+            top_passages=[],
+            trace=trace_log,
+            score=0.0
+        )
+
+    def _handle_compute(self, raw: str) -> EvidenceRecord:
         r = raw.lower()
 
         if re.search(r"\bdiff(erentiate)?\b|derivative\b|d/d[a-z]", r):
             expr, var = _extract_expression(raw)
-            return [self.solver.differentiate(expr, var)]
+            return self.solver.differentiate(expr, var)
 
         if re.search(r"\bintegrat|integral\b", r):
             expr, var = _extract_expression(raw)
-            return [self.solver.integrate_expr(expr, var)]
+            return self.solver.integrate_expr(expr, var)
 
         if re.search(r"\bfactor\b", r):
             expr, _ = _extract_expression(raw)
-            return [self.solver.factor_expr(expr)]
+            return self.solver.factor_expr(expr)
 
         if re.search(r"\bexpand\b", r):
             expr, _ = _extract_expression(raw)
-            return [self.solver.expand_expr(expr)]
+            return self.solver.expand_expr(expr)
 
         if re.search(r"\bsimplif", r):
             expr, _ = _extract_expression(raw)
-            return [self.solver.simplify_expr(expr)]
+            return self.solver.simplify_expr(expr)
 
         if re.search(r"\bsolve\b|=\s*0|=\s*[0-9]", r):
             expr, var = _extract_expression(raw)
-            return [self.solver.solve_equation(expr, var)]
+            return self.solver.solve_equation(expr, var)
 
         if re.search(r"\beval(uate)?\b|pi|sqrt|sin|cos|tan|log|exp", r):
             expr, _ = _extract_expression(raw)
-            return [self.solver.evaluate_expr(expr)]
+            return self.solver.evaluate_expr(expr)
 
         # Fallback evaluation catch-all
         expr, var = _extract_expression(raw)
-        return [self.solver.solve_equation(expr, var)]
+        return self.solver.solve_equation(expr, var)
