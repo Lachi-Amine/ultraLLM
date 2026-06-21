@@ -1,0 +1,33 @@
+[project]
+name = "ultrallm-backend"
+version = "0.1.0"
+description = "Local development backend for the ultraLLM chatbot"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "httpx>=0.28,<1",
+  "pydantic>=2.10,<3",
+  "pyyaml>=6.0,<7",
+  "rapidfuzz>=3.13,<4",
+  "rank-bm25>=0.2.2,<0.3",
+  "sympy>=1.13,<2",
+  "uvicorn[standard]>=0.34,<1",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3,<9",
+  "pytest-env>=1.1,<2",
+  "ruff>=0.11,<1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.pytest_env]
+OLLAMA_ENABLED = "false"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
