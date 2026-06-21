@@ -26,6 +26,11 @@ function MessageBubbleBase({ message, colors }: Props) {
       <Text style={[styles.text, { color: textColor }]} selectable>
         {message.content}
       </Text>
+      {!isUser && message.sources?.length ? (
+        <Text style={[styles.sources, { color: colors.textMuted }]}>
+          Sources: {message.sources.map((source) => source.engine).join(', ')}
+        </Text>
+      ) : null}
     </View>
   );
 }
@@ -43,5 +48,10 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     lineHeight: 22,
+  },
+  sources: {
+    fontSize: 12,
+    lineHeight: 16,
+    marginTop: 8,
   },
 });

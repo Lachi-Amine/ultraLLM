@@ -3,7 +3,9 @@ import Constants from 'expo-constants';
 const extra = (Constants.expoConfig?.extra ?? {}) as Record<string, unknown>;
 
 export const API_BASE_URL: string =
-  (extra.apiBaseUrl as string | undefined) ?? 'https://your-backend.example.com';
+  process.env.EXPO_PUBLIC_API_URL ??
+  (extra.apiBaseUrl as string | undefined) ??
+  'http://127.0.0.1:8000';
 
 export const API_TIMEOUT_MS = 20_000;
 

@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import {
+  type NativeSyntheticEvent,
   Platform,
   Pressable,
   StyleSheet,
   Text,
   TextInput,
+  type TextInputKeyPressEventData,
   View,
 } from 'react-native';
 
 import type { ThemeColors } from '@/constants/config';
+import { shouldSubmitOnEnter } from '@/utils/chatInputKeyboard';
 
 interface Props {
   onSend: (text: string) => void;
@@ -25,6 +28,28 @@ export function ChatInput({ onSend, disabled, colors }: Props) {
     if (!canSend) return;
     onSend(value);
     setValue('');
+  };
+
+  const handleKeyPress = (
+    event: NativeSyntheticEvent<TextInputKeyPressEventData>,
+  ) => {
+    if (Platform.OS !== 'web') return;
+
+    const nativeEvent = event.nativeEvent as TextInputKeyPressEventData & {
+      shiftKey?: boolean;
+      isComposing?: boolean;
+    };
+
+    if (
+      shouldSubmitOnEnter(
+        nativeEvent.key,
+        nativeEvent.shiftKey,
+        nativeEvent.isComposing,
+      )
+    ) {
+      event.preventDefault();
+      submit();
+    }
   };
 
   return (
@@ -47,9 +72,9 @@ export function ChatInput({ onSend, disabled, colors }: Props) {
         placeholderTextColor={colors.textMuted}
         value={value}
         onChangeText={setValue}
+        onKeyPress={handleKeyPress}
         multiline
         editable={!disabled}
-        onSubmitEditing={Platform.OS === 'web' ? submit : undefined}
         returnKeyType="send"
       />
       <Pressable
