@@ -1,0 +1,5116 @@
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "limit,calculus,epsilon,delta"
+  content: |
+    A limit limₓ→ₐ f(x) = L means that for every ε > 0, there exists δ > 0 such that 0 < |x − a| < δ implies |f(x) − L| < ε.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "function,domain,codomain"
+  content: |
+    A function f: A→B assigns to each element in set A exactly one element in set B; A is domain, B is codomain.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "derivative,calculus,differentiation"
+  content: |
+    The derivative f’(x) is the limit as h→0 of [f(x+h)−f(x)]/h, representing instantaneous rate of change.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "integral,Riemann,antiderivative"
+  content: |
+    The definite integral ∫ₐᵇ f(x)dx is the limit of Riemann sums as the number of partitions approaches infinity.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "continuity,function,limit"
+  content: |
+    A function f is continuous at a if f(a) is defined, limₓ→ₐ f(x) exists, and limₓ→ₐ f(x)=f(a).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "prime number,divisor,integer"
+  content: |
+    A prime number is an integer greater than 1 with no positive divisors other than 1 and itself.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "composite number,factorization"
+  content: |
+    A composite number is a positive integer greater than 1 that is not prime and can be factored into smaller integers.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "vector,scalar,direction"
+  content: |
+    A vector is a quantity with magnitude and direction, represented as an ordered list of components.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "matrix,element,row,column"
+  content: |
+    A matrix is a rectangular array of numbers arranged in rows and columns, used for linear transformations.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "determinant,matrix,scalar"
+  content: |
+    The determinant of a square matrix is a scalar value indicating area/volume scaling and invertibility.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "eigenvalue,eigenvector,matrix"
+  content: |
+    An eigenvalue λ satisfies Av = λv for nonzero eigenvector v.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "complex number,real,imaginary"
+  content: |
+    A complex number is z = a + bi where i² = −1, a is real part, b imaginary part.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "rational number,fraction,integer"
+  content: |
+    A rational number is any number expressible as p/q with integer p, q ≠ 0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "irrational number,non-repeating decimal"
+  content: |
+    An irrational number cannot be written as a fraction and has infinite non-repeating decimals.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "real number,rational,irrational"
+  content: |
+    Real numbers include all rational and irrational numbers, corresponding to a number line.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "sequence,term,index"
+  content: |
+    A sequence is an ordered list of numbers defined on positive integers.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "series,sum,sequence"
+  content: |
+    A series is the sum of terms of a sequence, which may converge or diverge.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "convergence,limit,sequence"
+  content: |
+    A sequence converges if it approaches a finite limit as index goes to infinity.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "differential equation,derivative"
+  content: |
+    A differential equation relates a function to its derivatives.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "partial derivative,multivariable"
+  content: |
+    A partial derivative is derivative with respect to one variable, others fixed.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "gradient,vector,partial derivative"
+  content: |
+    The gradient is a vector of partial derivatives, pointing to steepest ascent.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "line integral,curve,vector field"
+  content: |
+    A line integral integrates a function along a curve.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "surface integral,surface,flux"
+  content: |
+    A surface integral integrates a function over a surface.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "group,algebra,operation"
+  content: |
+    A group is a set with associative operation, identity, and inverses.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "ring,algebra,addition,multiplication"
+  content: |
+    A ring is a set with abelian addition and semigroup multiplication.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "field,algebra,division"
+  content: |
+    A field is a commutative ring where all non-zero elements have inverses.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "polynomial,coefficient,variable"
+  content: |
+    A polynomial uses variables, coefficients, addition, and non-negative exponents.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "root,polynomial,solution"
+  content: |
+    A root of f(x) is a value r with f(r) = 0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "quadratic,degree 2,polynomial"
+  content: |
+    A quadratic polynomial is ax²+bx+c with a ≠ 0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "logarithm,inverse,exponential"
+  content: |
+    log_b(x) is the exponent to raise b to get x.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "exponential function,base"
+  content: |
+    An exponential function is f(x) = bˣ, b > 0, b ≠ 1.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "trigonometric,sin,cos,tan"
+  content: |
+    Trigonometric functions relate triangle angles to side ratios.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "unit circle,trigonometry"
+  content: |
+    The unit circle is radius 1, used to define trigonometric functions.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "periodic function,period"
+  content: |
+    A periodic function repeats values at fixed intervals.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "even function,symmetry,y-axis"
+  content: |
+    An even function satisfies f(−x) = f(x).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "odd function,symmetry,origin"
+  content: |
+    An odd function satisfies f(−x) = −f(x).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "inverse function,reverse"
+  content: |
+    Inverse function f⁻¹ satisfies f(f⁻¹(x)) = x and f⁻¹(f(x)) = x.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "composite function,composition"
+  content: |
+    Composite function (f∘g)(x) = f(g(x)).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "horizontal asymptote,limit"
+  content: |
+    Horizontal asymptote y = L if limₓ→∞ f(x) = L.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "vertical asymptote,undefined"
+  content: |
+    Vertical asymptote x = a where f(x) → ±∞.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "critical point,derivative zero"
+  content: |
+    A critical point is where f’(x) = 0 or undefined.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "inflection point,concavity"
+  content: |
+    An inflection point is where concavity changes sign.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "local maximum,critical point"
+  content: |
+    Local maximum is greater than nearby values.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "local minimum,critical point"
+  content: |
+    Local minimum is less than nearby values.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "absolute maximum,global"
+  content: |
+    Absolute maximum is the largest value over entire domain.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "absolute minimum,global"
+  content: |
+    Absolute minimum is the smallest value over entire domain.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "concave up,second derivative"
+  content: |
+    Concave up where f''(x) > 0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "concave down,second derivative"
+  content: |
+    Concave down where f''(x) < 0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Taylor polynomial,approximation"
+  content: |
+    Taylor polynomial approximates a function using derivatives.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Maclaurin,center 0"
+  content: |
+    Maclaurin is Taylor polynomial at x = 0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "power series,infinite polynomial"
+  content: |
+    A power series is Σaₙ(x−c)ⁿ.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "radius of convergence,power series"
+  content: |
+    Radius where power series converges.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "parametric equation,parameter t"
+  content: |
+    Parametric equations use x(t), y(t).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "polar coordinates,r,theta"
+  content: |
+    Polar coordinates use radius r and angle θ.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "vector space,axioms"
+  content: |
+    Vector space closed under addition and scalar multiplication.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "subspace,vector space"
+  content: |
+    Subspace is a vector space within a vector space.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "basis,span,independent"
+  content: |
+    Basis is linearly independent spanning set.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "dimension,basis count"
+  content: |
+    Dimension is number of basis vectors.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "linear independence"
+  content: |
+    No vector is a linear combination of others.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "span,linear combination"
+  content: |
+    All linear combinations of a vector set.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "linear transformation"
+  content: |
+    T(u+v) = T(u)+T(v), T(cu)=cT(u).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "kernel,null space"
+  content: |
+    Kernel is vectors mapped to zero.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "image,range"
+  content: |
+    Image is all output vectors of a transformation.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "rank,column space"
+  content: |
+    Rank is dimension of column space.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "nullity,kernel dimension"
+  content: |
+    Nullity is dimension of null space.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "invertible matrix,nonsingular"
+  content: |
+    A⁻¹ exists such that AA⁻¹ = I.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "identity matrix,I"
+  content: |
+    Identity matrix has 1 on diagonal, 0 elsewhere.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "diagonal matrix"
+  content: |
+    Diagonal matrix non-zero only on main diagonal.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "symmetric matrix,transpose"
+  content: |
+    Symmetric matrix A = Aᵀ.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "orthogonal matrix"
+  content: |
+    Orthogonal matrix Aᵀ = A⁻¹.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "unit vector,magnitude 1"
+  content: |
+    Unit vector has length 1.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "dot product,inner product"
+  content: |
+    Dot product u·v = |u||v|cosθ.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "cross product,3D vector"
+  content: |
+    Cross product u×v is perpendicular to u and v.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "projection,vector"
+  content: |
+    Projection of v onto u is scalar component times unit vector.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "orthogonal,perpendicular"
+  content: |
+    Orthogonal vectors have dot product zero.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "orthonormal,unit,orthogonal"
+  content: |
+    Orthonormal set is orthogonal unit vectors.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "linear system,Ax=b"
+  content: |
+    Linear system is set of linear equations.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "consistent system,solution"
+  content: |
+    Consistent system has at least one solution.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "inconsistent system,no solution"
+  content: |
+    Inconsistent system has no solution.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "unique solution"
+  content: |
+    Exactly one solution vector x.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "infinitely many solutions"
+  content: |
+    Solution set has free variables.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "row echelon form"
+  content: |
+    Row echelon form has leading entries rightward.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "reduced row echelon form"
+  content: |
+    Reduced form has leading 1 with zeros above/below.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Gaussian elimination"
+  content: |
+    Row reduction to echelon form.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "augmented matrix"
+  content: |
+    Augmented matrix [A|b] for linear system.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "homogeneous system,Ax=0"
+  content: |
+    Homogeneous system has zero right-hand side.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "trivial solution,zero vector"
+  content: |
+    Trivial solution is x = 0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "nontrivial solution,nonzero"
+  content: |
+    Nontrivial solution is nonzero x.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "eigenspace,eigenvector"
+  content: |
+    Eigenspace is all eigenvectors for λ plus zero.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "diagonalizable matrix"
+  content: |
+    Diagonalizable if eigenbasis exists.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "similar matrices"
+  content: |
+    B = P⁻¹AP for invertible P.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "trace,diagonal sum"
+  content: |
+    Trace is sum of diagonal entries.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "cofactor,minor"
+  content: |
+    Cofactor is signed minor.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "adjugate matrix"
+  content: |
+    Adjugate is transpose of cofactor matrix.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Cramer's rule,determinant"
+  content: |
+    Cramer's rule uses determinant ratios.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "metric space,distance"
+  content: |
+    Metric space has a distance function.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "norm,vector length"
+  content: |
+    Norm assigns non-negative length to vectors.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "inner product space"
+  content: |
+    Inner product space generalizes dot product.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Hilbert space,complete"
+  content: |
+    Hilbert space is complete inner product space.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Banach space,complete norm"
+  content: |
+    Banach space is complete normed space.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "topology,open set"
+  content: |
+    Topology studies continuous deformations.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "open set,neighborhood"
+  content: |
+    Open set contains neighborhood of each point.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "closed set,limit points"
+  content: |
+    Closed set contains all limit points.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "compact set,finite subcover"
+  content: |
+    Every open cover has finite subcover.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "connected set"
+  content: |
+    Connected set cannot split into disjoint open sets.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "homeomorphism,continuous bijection"
+  content: |
+    Homeomorphism preserves topological structure.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "manifold,Euclidean local"
+  content: |
+    Manifold locally looks like Euclidean space.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "differential manifold"
+  content: |
+    Smooth manifold allows calculus.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "tangent space,manifold"
+  content: |
+    Tangent space is vector space of tangent vectors.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "tensor,multilinear"
+  content: |
+    Tensor is multilinear map on vector spaces.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "differential form"
+  content: |
+    Differential form is integrated over manifolds.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "exterior derivative"
+  content: |
+    Exterior derivative generalizes curl, div, grad.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Stokes theorem"
+  content: |
+    Stokes theorem relates manifold and boundary integrals.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Laplacian,second derivative"
+  content: |
+    Laplacian ∇² = ∇·∇.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "vector field,vector-valued"
+  content: |
+    Vector field assigns vector to each point.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "scalar field,real-valued"
+  content: |
+    Scalar field assigns real number to each point.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "flux,vector field,surface"
+  content: |
+    Flux measures flow through a surface.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "circulation,closed curve"
+  content: |
+    Circulation is line integral around closed curve.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "conservative field,path-independent"
+  content: |
+    Conservative field has path-independent integrals.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "potential function,conservative"
+  content: |
+    Potential function φ with F = ∇φ.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "simplex,triangle,generalization"
+  content: |
+    Simplex is n-dimensional triangle.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "convex set,line segment"
+  content: |
+    Convex set contains all line segments between points.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "concave set"
+  content: |
+    Non-convex set has indentations.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "optimization,minimum,maximum"
+  content: |
+    Optimization finds extrema of functions.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "linear programming"
+  content: |
+    Linear programming optimizes linear objective.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "quadratic programming"
+  content: |
+    Quadratic programming optimizes quadratic objective.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "convex optimization"
+  content: |
+    Convex optimization has convex objective and domain.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Lagrange multiplier,constraint"
+  content: |
+    Lagrange multipliers solve constrained optimization.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "critical point,optimization"
+  content: |
+    Critical point candidate for extremum.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "second derivative test"
+  content: |
+    Second derivative test classifies critical points.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Hessian matrix,second derivative"
+  content: |
+    Hessian is matrix of second partial derivatives.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Jacobian matrix,derivative"
+  content: |
+    Jacobian is matrix of first partial derivatives.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "implicit function"
+  content: |
+    Implicit function defined by equation F(x,y)=0.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "explicit function"
+  content: |
+    Explicit function y = f(x).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "polar equation"
+  content: |
+    Polar equation uses r and θ.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Cartesian equation,x,y"
+  content: |
+    Cartesian equation uses x and y.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "parametric curve"
+  content: |
+    Parametric curve defined by x(t), y(t).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "arc length,curve"
+  content: |
+    Arc length is total length of a curve.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "surface area,revolution"
+  content: |
+    Surface area of solid of revolution.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "volume,integral"
+  content: |
+    Volume computed by integral.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "centroid,center of mass"
+  content: |
+    Centroid is geometric center.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "moment of inertia"
+  content: |
+    Moment of inertia measures rotational resistance.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "probability space,sample"
+  content: |
+    Probability space includes sample space, events, measure.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "random variable"
+  content: |
+    Random variable maps outcomes to real numbers.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "expected value,mean"
+  content: |
+    Expected value is weighted average.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "variance,dispersion"
+  content: |
+    Variance measures squared deviation from mean.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "standard deviation"
+  content: |
+    Standard deviation is square root of variance.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "covariance"
+  content: |
+    Covariance measures joint variability.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "correlation"
+  content: |
+    Correlation normalizes covariance to [-1,1].
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "independent events"
+  content: |
+    Independent events P(A∩B)=P(A)P(B).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "conditional probability"
+  content: |
+    P(A|B) = P(A∩B)/P(B).
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Bayes' theorem"
+  content: |
+    Bayes' theorem relates conditional probabilities.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "normal distribution,Gaussian"
+  content: |
+    Normal distribution is bell-shaped symmetric.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "binomial distribution"
+  content: |
+    Binomial distribution counts successes in n trials.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Poisson distribution"
+  content: |
+    Poisson distribution models rare events.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "exponential distribution"
+  content: |
+    Exponential distribution models waiting time.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "uniform distribution"
+  content: |
+    Uniform distribution has constant density.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Bernoulli trial"
+  content: |
+    Bernoulli trial has two outcomes.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "hypothesis test"
+  content: |
+    Hypothesis test evaluates claim about data.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "confidence interval"
+  content: |
+    Confidence interval estimates parameter range.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "statistic,sample"
+  content: |
+    Statistic is function of sample data.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "parameter,population"
+  content: |
+    Parameter describes population.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "sample mean"
+  content: |
+    Sample mean is average of sample.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "population mean"
+  content: |
+    Population mean is average of whole group.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "median,middle value"
+  content: |
+    Median is middle value of ordered data.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "mode,most frequent"
+  content: |
+    Mode is most frequent value.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "range,max-min"
+  content: |
+    Range is max minus min.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "quartile,25%/75%"
+  content: |
+    Quartiles divide data into four parts.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "percentile"
+  content: |
+    Percentile is value below given percentage.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "outlier,anomaly"
+  content: |
+    Outlier is distant from other data points.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "regression,fit"
+  content: |
+    Regression models relationship between variables.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "linear regression"
+  content: |
+    Linear regression uses straight line model.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "residual,error"
+  content: |
+    Residual is observed minus predicted value.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "correlation coefficient"
+  content: |
+    Correlation coefficient r measures linear association.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "coefficient of determination"
+  content: |
+    R² measures explained variance.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "vector calculus"
+  content: |
+    Vector calculus extends calculus to vector fields.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "multivariable calculus"
+  content: |
+    Multivariable calculus uses multiple variables.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "single-variable calculus"
+  content: |
+    Single-variable calculus uses one variable.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "discrete mathematics"
+  content: |
+    Discrete math studies countable structures.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "continuous mathematics"
+  content: |
+    Continuous math studies uncountable structures.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "combinatorics,counting"
+  content: |
+    Combinatorics is mathematical counting.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "permutation"
+  content: |
+    Permutation is ordered arrangement.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "combination"
+  content: |
+    Combination is unordered selection.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "factorial,n!"
+  content: |
+    n! = n×(n−1)×…×1.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "binomial coefficient"
+  content: |
+    C(n,k) counts k-element subsets.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "graph theory,vertex,edge"
+  content: |
+    Graph theory studies nodes and connections.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "tree,acyclic graph"
+  content: |
+    Tree is connected acyclic graph.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "cycle,closed path"
+  content: |
+    Cycle is path that starts and ends at same node.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "connected graph"
+  content: |
+    Connected graph has path between any two nodes.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "disconnected graph"
+  content: |
+    Disconnected graph has multiple components.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Eulerian circuit"
+  content: |
+    Eulerian circuit uses every edge exactly once.
+- domain: mathematics
+  intent: define
+  epistemic: Green
+  keyword: "Hamiltonian cycle"
+  content: |
+    Hamiltonian cycle visits every node once.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "limit,calculus,behavior"
+  content: |
+    The limit describes the value a function approaches as input nears a point, even if function is undefined there.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "derivative,rate of change"
+  content: |
+    The derivative explains how fast a function changes at a point, representing slope of tangent line.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "integral,area under curve"
+  content: |
+    The integral computes accumulated area under a curve over an interval.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "continuity,smoothness"
+  content: |
+    Continuity means a function has no breaks, jumps, or holes at a point.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "prime number,structure"
+  content: |
+    Primes are building blocks of integers; every integer factors uniquely into primes.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "vector,direction,magnitude"
+  content: |
+    Vectors model quantities with both size and direction like force or velocity.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "matrix,transformation"
+  content: |
+    Matrices represent linear transformations like rotation, scaling, and shearing.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "determinant,scaling factor"
+  content: |
+    Determinant measures how much a matrix scales area or volume; zero means non-invertible.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "eigenvector,direction"
+  content: |
+    Eigenvectors keep direction under transformation; only scaled by eigenvalue.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "complex number,extension"
+  content: |
+    Complex numbers extend real numbers to solve equations like x² = −1.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "rational number,ratio"
+  content: |
+    Rational numbers are ratios of integers, including integers and fractions.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "real number,completeness"
+  content: |
+    Real numbers fill the number line with no gaps, including limits of sequences.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "sequence convergence,stability"
+  content: |
+    A convergent sequence stabilizes to a single finite value.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "series convergence,summation"
+  content: |
+    A convergent series sums to a finite value as terms approach zero.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "differential equation,change"
+  content: |
+    Differential equations model systems that change over time or space.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "partial derivative,multi-variable change"
+  content: |
+    Partial derivatives isolate change in one variable while holding others fixed.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "gradient,steepest ascent"
+  content: |
+    Gradient points in direction of fastest increase of a scalar field.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "line integral,work"
+  content: |
+    Line integrals compute work along a path or flow around a curve.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "surface integral,flux"
+  content: |
+    Surface integrals measure flow through a surface.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "group structure,symmetry"
+  content: |
+    Groups formalize symmetry and invariant operations in math and physics.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "field structure,arithmetic"
+  content: |
+    Fields support addition, subtraction, multiplication, and division like real numbers.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "polynomial,algebraic expression"
+  content: |
+    Polynomials are basic algebraic expressions used in approximations and equations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "root,intercept"
+  content: |
+    Roots are x-intercepts of polynomial graphs, solving f(x)=0.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "logarithm,exponent inversion"
+  content: |
+    Logarithms invert exponentials, turning multiplication into addition.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "exponential,growth decay"
+  content: |
+    Exponential functions model constant percentage growth or decay.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "trigonometric,periodic motion"
+  content: |
+    Trigonometric functions model waves, oscillations, and circular motion.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "unit circle,angle definition"
+  content: |
+    Unit circle extends trigonometric functions to all real angles.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "periodicity,repetition"
+  content: |
+    Periodic functions repeat behavior, modeling cyclic phenomena.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "even-odd symmetry"
+  content: |
+    Even/odd symmetry simplifies integration and reflection properties.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "inverse function,reversal"
+  content: |
+    Inverse functions reverse mappings, solving for original inputs.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "asymptote,boundary behavior"
+  content: |
+    Asymptotes describe function behavior near infinity or singularities.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "critical point,extremum"
+  content: |
+    Critical points locate peaks, valleys, and plateaus of functions.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "inflection point,curvature change"
+  content: |
+    Inflection points mark where curvature flips from up to down.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "extremum,optimality"
+  content: |
+    Extrema represent best or worst values in optimization.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "concavity,curvature"
+  content: |
+    Concavity describes bending direction of a function graph.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Taylor approximation"
+  content: |
+    Taylor series approximate complicated functions with polynomials.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "power series,function representation"
+  content: |
+    Power series represent functions as infinite polynomials.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "parametric curve,motion"
+  content: |
+    Parametric curves model motion trajectories over time.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "polar coordinate,angle-radius"
+  content: |
+    Polar coordinates simplify circular and radial symmetric problems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "vector space,structure"
+  content: |
+    Vector spaces provide framework for linear combinations and directions.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "basis,coordinate system"
+  content: |
+    Bases define coordinate systems for vector spaces.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "linear independence,uniqueness"
+  content: |
+    Linear independence ensures unique representation in basis.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "linear transformation,preservation"
+  content: |
+    Linear transformations preserve linear structure and combinations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "kernel,nullity,solution"
+  content: |
+    Kernel describes solutions to homogeneous linear systems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "rank,information"
+  content: |
+    Rank measures information content of a matrix.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "invertible matrix,unique solution"
+  content: |
+    Invertible matrices guarantee unique solutions to linear systems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "orthogonal matrix,preservation"
+  content: |
+    Orthogonal matrices preserve lengths and angles.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "dot product,projection"
+  content: |
+    Dot product measures projection and angle between vectors.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "cross product,perpendicularity"
+  content: |
+    Cross product yields perpendicular vector in 3D.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "linear system,simultaneous"
+  content: |
+    Linear systems model simultaneous linear relationships.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "consistency,solvability"
+  content: |
+    Consistency determines if a linear system can be solved.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "row reduction,simplification"
+  content: |
+    Row reduction simplifies linear systems to readable form.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "homogeneous solution,trivial"
+  content: |
+    Homogeneous systems always include zero solution.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "eigenstructure,stability"
+  content: |
+    Eigenvalues determine stability and behavior of linear systems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "diagonalization,simplification"
+  content: |
+    Diagonalization simplifies matrix powers and exponentials.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "determinant,invertibility"
+  content: |
+    Non-zero determinant means matrix is invertible.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Cramer's rule,explicit solution"
+  content: |
+    Cramer's rule gives explicit formulas for small linear systems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "metric space,distance"
+  content: |
+    Metric spaces formalize distance for convergence and continuity.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "norm,length"
+  content: |
+    Norms generalize length to abstract vectors.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Hilbert space,quantum"
+  content: |
+    Hilbert spaces underpin quantum mechanics and signal processing.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "topology,continuity"
+  content: |
+    Topology studies properties preserved under continuous deformation.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "compactness,finite"
+  content: |
+    Compactness extends finiteness to infinite sets.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "connectedness,unity"
+  content: |
+    Connectedness means a set cannot split into independent parts.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "manifold,geometry"
+  content: |
+    Manifolds are curved spaces used in general relativity.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "differential geometry,curve surface"
+  content: |
+    Differential geometry studies curves and surfaces with calculus.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "tensor,multidimensional"
+  content: |
+    Tensors describe multidimensional linear relationships.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "differential form,integration"
+  content: |
+    Differential forms unify integration over curves, surfaces, volumes.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Stokes theorem,unification"
+  content: |
+    Stokes theorem unifies fundamental theorems of vector calculus.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Laplacian,diffusion"
+  content: |
+    Laplacian models diffusion, heat flow, and wave propagation.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "vector field,flow"
+  content: |
+    Vector fields model fluid flow, electric fields, and force fields.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "flux,flow rate"
+  content: |
+    Flux measures rate of flow through a surface.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "conservative field,potential"
+  content: |
+    Conservative fields have path-independent integrals and potentials.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "convex set,optimization"
+  content: |
+    Convex sets ensure unique global minima in optimization.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Lagrange multiplier,constraint"
+  content: |
+    Lagrange multipliers handle constrained optimization problems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Hessian,curvature"
+  content: |
+    Hessian matrix measures local curvature for optimization.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "implicit function,relation"
+  content: |
+    Implicit functions model relations not expressible as y=f(x).
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "arc length,total distance"
+  content: |
+    Arc length computes total distance along a curve.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "volume,space"
+  content: |
+    Volume integrals measure 3D space occupied by a solid.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "centroid,balance"
+  content: |
+    Centroid is balance point of a shape.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "probability,chance"
+  content: |
+    Probability quantifies likelihood of random outcomes.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "expected value,average"
+  content: |
+    Expected value is long-run average of random variable.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "variance,spread"
+  content: |
+    Variance measures spread of data around mean.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "conditional probability,dependence"
+  content: |
+    Conditional probability updates chance given information.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Bayes theorem,update"
+  content: |
+    Bayes' theorem updates beliefs using evidence.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "normal distribution,natural"
+  content: |
+    Normal distribution arises naturally from summed variables.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "binomial distribution,count"
+  content: |
+    Binomial distribution counts successes in fixed trials.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Poisson distribution,rate"
+  content: |
+    Poisson distribution models event rate over time.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "uniform distribution,equal chance"
+  content: |
+    Uniform distribution gives equal chance to all outcomes.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "hypothesis test,claim"
+  content: |
+    Hypothesis tests evaluate statistical claims.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "confidence interval,estimate"
+  content: |
+    Confidence intervals estimate unknown population values.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "regression,prediction"
+  content: |
+    Regression predicts values from explanatory variables.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "linear regression,trend"
+  content: |
+    Linear regression fits straight line trend to data.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "correlation,association"
+  content: |
+    Correlation measures linear association between variables.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "combinatorics,counting"
+  content: |
+    Combinatorics counts arrangements and selections.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "permutation,order"
+  content: |
+    Permutations count ordered arrangements.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "combination,unordered"
+  content: |
+    Combinations count unordered selections.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "graph theory,network"
+  content: |
+    Graph theory models networks and connections.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "tree,hierarchy"
+  content: |
+    Trees model hierarchies and minimal connections.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "cycle,loop"
+  content: |
+    Cycles represent loops and feedback in networks.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Eulerian circuit,traversal"
+  content: |
+    Eulerian circuits traverse every edge exactly once.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Hamiltonian cycle,visit"
+  content: |
+    Hamiltonian cycles visit every node exactly once.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "connectedness,reachability"
+  content: |
+    Connectedness means all nodes are reachable from each other.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "discrete math,countable"
+  content: |
+    Discrete math deals with countable distinct structures.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "continuous math,smooth"
+  content: |
+    Continuous math deals with smooth unbroken structures.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "calculus,change"
+  content: |
+    Calculus studies change and motion through limits.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "algebra,structure"
+  content: |
+    Algebra studies symbolic structures and operations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "geometry,shape"
+  content: |
+    Geometry studies shape, size, and spatial relations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "topology,deformation"
+  content: |
+    Topology studies properties under continuous deformation.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "analysis,limits"
+  content: |
+    Analysis rigorizes calculus using limits.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "number theory,integer"
+  content: |
+    Number theory studies integers and their properties.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "applied math,real world"
+  content: |
+    Applied math uses math to model real-world systems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "pure math,abstract"
+  content: |
+    Pure math explores abstract structures for their own sake.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "mathematical proof,certainty"
+  content: |
+    Proof establishes absolute certainty in mathematics.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "axiom,foundation"
+  content: |
+    Axioms are foundational assumptions for mathematical systems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "theorem,proven statement"
+  content: |
+    Theorem is statement proven from axioms and definitions.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "corollary,consequence"
+  content: |
+    Corollary is quick consequence of a theorem.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "lemma,helper"
+  content: |
+    Lemma is helper result for proving theorems.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "conjecture,unproven"
+  content: |
+    Conjecture is unproven statement believed true.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "counterexample,disproof"
+  content: |
+    Counterexample disproves a general statement.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "induction,step"
+  content: |
+    Induction proves statements for all natural numbers.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "contradiction,indirect"
+  content: |
+    Proof by contradiction assumes opposite and derives absurdity.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "constructive proof"
+  content: |
+    Constructive proof builds explicit example.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "existence proof"
+  content: |
+    Existence proof shows object exists without construction.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "uniqueness proof"
+  content: |
+    Uniqueness proof shows at most one object exists.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "equivalence relation"
+  content: |
+    Equivalence relation partitions set into classes.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "partial order"
+  content: |
+    Partial order models hierarchy and precedence.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "function composition"
+  content: |
+    Composition chains functions sequentially.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "injective,one-to-one"
+  content: |
+    Injective functions map distinct inputs to distinct outputs.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "surjective,onto"
+  content: |
+    Surjective functions cover entire codomain.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "bijective,one-to-one correspondence"
+  content: |
+    Bijective functions are invertible one-to-one correspondences.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "cardinality,size"
+  content: |
+    Cardinality measures size of sets.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "countable set"
+  content: |
+    Countable sets can be listed in sequence.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "uncountable set"
+  content: |
+    Uncountable sets cannot be listed in sequence.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "power set,all subsets"
+  content: |
+    Power set is collection of all subsets.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "union,combination"
+  content: |
+    Union combines elements of sets.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "intersection,common"
+  content: |
+    Intersection keeps elements common to sets.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "complement,opposite"
+  content: |
+    Complement contains elements not in a set.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "difference,subtraction"
+  content: |
+    Difference removes elements of one set from another.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Cartesian product,pair"
+  content: |
+    Cartesian product forms ordered pairs.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "relation,pairing"
+  content: |
+    Relation is subset of Cartesian product.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "function,special relation"
+  content: |
+    Function is relation with unique output per input.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "binary operation"
+  content: |
+    Binary operation combines two elements into one.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "associativity,grouping"
+  content: |
+    Associativity allows regrouping without changing result.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "commutativity,order"
+  content: |
+    Commutativity allows reordering without changing result.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "distributivity,interaction"
+  content: |
+    Distributivity governs interaction of two operations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "identity element,neutral"
+  content: |
+    Identity element leaves other elements unchanged.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "inverse element,undo"
+  content: |
+    Inverse element undoes operation to yield identity.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "idempotent,repeat"
+  content: |
+    Idempotent operation unchanged by repetition.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "absorption,simplification"
+  content: |
+    Absorption enables algebraic simplification.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "modular arithmetic,clock"
+  content: |
+    Modular arithmetic wraps around like clock numbers.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "congruence,equivalence"
+  content: |
+    Congruence is equivalence under modular difference.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "division algorithm"
+  content: |
+    Division algorithm gives unique quotient and remainder.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "greatest common divisor"
+  content: |
+    GCD is largest common divisor of two integers.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "least common multiple"
+  content: |
+    LCM is smallest common multiple of two integers.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Euclidean algorithm"
+  content: |
+    Euclidean algorithm efficiently computes GCD.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "prime factorization"
+  content: |
+    Prime factorization breaks integers into primes.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "fundamental theorem of arithmetic"
+  content: |
+    Every integer factors uniquely into primes.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "coprime,relatively prime"
+  content: |
+    Coprime integers share no common divisor besides 1.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "multiplicative function"
+  content: |
+    Multiplicative functions preserve multiplication over coprime arguments.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Möbius function,inclusion"
+  content: |
+    Möbius function supports inclusion-exclusion counting.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Euler's totient function"
+  content: |
+    Totient function counts coprime integers up to n.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "quadratic residue"
+  content: |
+    Quadratic residue is square modulo a number.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Fermat's little theorem"
+  content: |
+    Fermat's little theorem simplifies modular exponentiation.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Wilson's theorem"
+  content: |
+    Wilson's theorem characterizes prime numbers.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Pythagorean triple"
+  content: |
+    Pythagorean triples satisfy a²+b²=c².
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Diophantine equation"
+  content: |
+    Diophantine equations seek integer solutions.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "continued fraction"
+  content: |
+    Continued fractions approximate real numbers.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "irrationality proof"
+  content: |
+    Irrationality proofs show non-fractional nature.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "transcendental number"
+  content: |
+    Transcendental numbers are not algebraic.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "algebraic number"
+  content: |
+    Algebraic numbers solve polynomial equations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Riemann zeta function"
+  content: |
+    Zeta function connects number theory and analysis.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Bernoulli number"
+  content: |
+    Bernoulli numbers appear in series expansions.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Fibonacci sequence"
+  content: |
+    Fibonacci sequence follows additive recurrence.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "golden ratio"
+  content: |
+    Golden ratio is limit of Fibonacci neighbor ratios.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Catalan number"
+  content: |
+    Catalan numbers count combinatorial structures.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "rational exponent,root,power"
+  content: |
+    Rational exponents unify integer powers and roots; a^(m/n) means the n-th root of a raised to the m-th power.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "absolute value,modulus,distance"
+  content: |
+    Absolute value |x| gives the non-negative distance of x from zero on the number line, ignoring sign.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "piecewise function,segmented"
+  content: |
+    A piecewise function uses different expressions over different parts of its domain to model segmented behavior.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "radian,angle,arc length"
+  content: |
+    Radians measure angles using arc length on the unit circle; one full circle equals 2π radians.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "degree,angle,rotation"
+  content: |
+    Degrees divide a full rotation into 360 equal parts for intuitive angular measurement.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "identity matrix,multiplicative identity"
+  content: |
+    The identity matrix acts as 1 for matrix multiplication, leaving matrices unchanged under product.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "zero matrix,additive identity"
+  content: |
+    The zero matrix consists entirely of zeros and acts as the additive identity for matrix addition.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "transpose,row column swap"
+  content: |
+    The transpose of a matrix swaps rows with columns, flipping the matrix across its main diagonal.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "singular matrix,non invertible"
+  content: |
+    A singular matrix has determinant zero and no inverse, representing a degenerate linear transformation.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "nonsingular matrix,invertible"
+  content: |
+    A nonsingular matrix has a non-zero determinant and a unique inverse transformation.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "linear combination,vector sum"
+  content: |
+    A linear combination of vectors is a sum of scalar multiples, forming the basis of vector space operations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "standard basis,unit vector"
+  content: |
+    The standard basis consists of unit vectors with a single 1 component, forming natural coordinates.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "orthogonal complement,perpendicular subspace"
+  content: |
+    The orthogonal complement contains all vectors perpendicular to a given subspace.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "projection matrix,orthogonal projection"
+  content: |
+    A projection matrix maps vectors onto a subspace while preserving perpendicular components.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "least squares,approximation"
+  content: |
+    Least squares finds the best approximate solution to an unsolvable linear system by minimizing error.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "null space,kernel,solution"
+  content: |
+    The null space contains all solutions to the homogeneous equation Ax=0.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "column space,image,range"
+  content: |
+    The column space is the span of matrix columns, representing all possible output vectors.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "row space,row span"
+  content: |
+    The row space is the span of matrix rows, determining linear independence of rows.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "fundamental subspaces,four subspaces"
+  content: |
+    The four fundamental subspaces (row, column, null, left null) characterize linear transformations.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "left null space,transpose kernel"
+  content: |
+    The left null space is the kernel of the transpose matrix, orthogonal to the column space.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "orthogonal projection,closest vector"
+  content: |
+    Orthogonal projection finds the closest vector in a subspace to a given target vector.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "Gram-Schmidt,orthogonal basis"
+  content: |
+    The Gram-Schmidt process converts any basis into an orthogonal or orthonormal basis.
+- domain: mathematics
+  intent: explain
+  epistemic: Green
+  keyword: "QR decomposition,orthogonal triangular"
+  content: |
+    QR decomposition factors a matrix into orthogonal Q and upper triangular R for stable solving.
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,linear function"
+  content: "Compute limₓ→2 (3x + 5) = 11."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,power rule"
+  content: "Compute d/dx [x⁵] = 5x⁴."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "indefinite integral,monomial"
+  content: "Compute ∫6x² dx = 2x³ + C."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "definite integral,polynomial"
+  content: "Compute ∫₀² x³ dx = 4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "quadratic equation,root"
+  content: "Compute roots of x² − 6x + 8 = 0: x=2, x=4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "gcd,euclidean algorithm"
+  content: "Compute gcd(60, 36) = 12."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "lcm,least common multiple"
+  content: "Compute lcm(15, 20) = 60."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "dot product,2D vector"
+  content: "Compute (2,3)·(4,5) = 8 + 15 = 23."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "cross product,3D vector"
+  content: "Compute (1,0,0) × (0,1,0) = (0,0,1)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "matrix addition,2x2"
+  content: "Compute [[1,2],[3,4]] + [[5,6],[7,8]] = [[6,8],[10,12]]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "scalar multiplication,matrix"
+  content: "Compute 3×[[1,2],[3,4]] = [[3,6],[9,12]]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "determinant,2x2 matrix"
+  content: "Compute det[[2,3],[4,5]] = 10 − 12 = −2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "inverse,2x2 matrix"
+  content: "Compute inverse of [[2,1],[7,4]]: [[4,−1],[−7,2]]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "vector magnitude,2D"
+  content: "Compute |(3,4)| = 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "unit vector,normalization"
+  content: "Compute unit vector of (6,8): (0.6, 0.8)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,polynomial"
+  content: "Compute limₓ→−1 (x² + 2x + 1) = 0."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,sum rule"
+  content: "Compute d/dx [x³ + 5x² − 2x] = 3x² + 10x − 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "second derivative"
+  content: "Compute d²/dx² [x⁴] = 12x²."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "definite integral,constant"
+  content: "Compute ∫₂⁵ 7 dx = 21."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "factorial,integer"
+  content: "Compute 5! = 120."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "permutation,P(n,k)"
+  content: "Compute P(5,2) = 20."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "combination,C(n,k)"
+  content: "Compute C(6,3) = 20."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "logarithm,base 10"
+  content: "Compute log₁₀(1000) = 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "natural logarithm,e"
+  content: "Compute ln(e⁴) = 4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "exponential,e^0"
+  content: "Compute e⁰ = 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "trigonometric,sin(π/2)"
+  content: "Compute sin(π/2) = 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "trigonometric,cos(π)"
+  content: "Compute cos(π) = −1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "trigonometric,tan(π/4)"
+  content: "Compute tan(π/4) = 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,rational function"
+  content: "Compute limₓ→3 (x²−9)/(x−3) = 6."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,product rule"
+  content: "Compute d/dx [x·sin(x)] = sin(x) + x·cos(x)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,quotient rule"
+  content: "Compute d/dx [x/cos(x)] = (cos(x)+x·sin(x))/cos²(x)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,chain rule"
+  content: "Compute d/dx [sin(x²)] = 2x·cos(x²)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "indefinite integral,power"
+  content: "Compute ∫10x⁴ dx = 2x⁵ + C."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "definite integral,quadratic"
+  content: "Compute ∫₋₁¹ x² dx = 2/3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "system,linear 2x2"
+  content: "Solve x+y=5, x−y=1: x=3, y=2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "matrix multiplication,2x2"
+  content: "Compute [[1,2],[3,4]]×[[0,1],[1,0]] = [[2,1],[4,3]]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "trace,matrix"
+  content: "Compute tr[[1,2],[3,4]] = 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "vector addition,3D"
+  content: "Compute (1,2,3)+(4,5,6) = (5,7,9)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "scalar product,vector"
+  content: "Compute 2·(1,−1,3) = (2,−2,6)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "angle between vectors,dot product"
+  content: "Compute angle between (1,0) and (0,1): 90°."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "projection,scalar"
+  content: "Compute proj_(1,1) of (2,0) = 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,at infinity"
+  content: "Compute limₓ→∞ (3x²+2x)/(x²−1) = 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "critical point,polynomial"
+  content: "Compute critical points of f(x)=x²−4x+3: x=2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "inflection point,cubic"
+  content: "Compute inflection point of f(x)=x³−3x²: x=1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "arc length,line segment"
+  content: "Compute length from (0,0) to (3,4): 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "area,rectangle"
+  content: "Compute area of 4×6 rectangle: 24."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "area,triangle"
+  content: "Compute area of base=5, height=4: 10."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "volume,cube"
+  content: "Compute volume of 3×3×3 cube: 27."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "volume,sphere"
+  content: "Compute volume of radius 2 sphere: 32π/3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "circumference,circle"
+  content: "Compute circumference of radius 3 circle: 6π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "area,circle"
+  content: "Compute area of radius 5 circle: 25π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "slope,two points"
+  content: "Compute slope between (0,0) and (2,4): 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "distance,two points"
+  content: "Compute distance (0,0) to (1,1): √2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "midpoint,two points"
+  content: "Compute midpoint (0,0) and (4,6): (2,3)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "average,numbers"
+  content: "Compute average of 2,4,6: 4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "sum,arithmetic series"
+  content: "Compute sum 1+2+…+10 = 55."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "sum,geometric series"
+  content: "Compute sum 1+1/2+1/4+… = 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "percent,proportion"
+  content: "Compute 20% of 150 = 30."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "ratio,simplify"
+  content: "Simplify ratio 12:18 to 2:3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "proportion,solve"
+  content: "Solve 2/3 = x/9: x=6."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "modular arithmetic,mod"
+  content: "Compute 17 mod 5 = 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "exponent,negative"
+  content: "Compute 2⁻³ = 1/8."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "exponent,fractional"
+  content: "Compute 16^(1/2) = 4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "absolute value"
+  content: "Compute |−7| = 7."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "complex addition"
+  content: "Compute (2+3i)+(1−i) = 3+2i."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "complex multiplication"
+  content: "Compute (1+i)·(1−i) = 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "complex modulus"
+  content: "Compute |3+4i| = 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,trigonometric"
+  content: "Compute limₓ→0 sin(x)/x = 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,exponential"
+  content: "Compute d/dx [eˣ] = eˣ."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,logarithm"
+  content: "Compute d/dx [ln(x)] = 1/x."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "indefinite integral,exponential"
+  content: "Compute ∫eˣ dx = eˣ + C."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "indefinite integral,1/x"
+  content: "Compute ∫(1/x)dx = ln|x| + C."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "definite integral,exponential"
+  content: "Compute ∫₀¹ eˣ dx = e − 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "system,3x1"
+  content: "Solve 2x = 8: x=4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "inequality,linear"
+  content: "Solve 3x − 2 > 7: x > 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "matrix,3x1 vector"
+  content: "Compute [[1,2],[3,4],[5,6]]·[1,−1] = [−1,−1,−1]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "transpose,vector"
+  content: "Compute transpose of [1,2,3] = [1;2;3]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "rank,matrix"
+  content: "Compute rank[[1,2],[2,4]] = 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "nullity,matrix"
+  content: "Compute nullity[[1,1],[1,1]] = 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "eigenvalue,2x2"
+  content: "Compute eigenvalues of [[2,0],[0,3]]: 2, 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "determinant,3x3"
+  content: "Compute det[[1,0,0],[0,2,0],[0,0,3]] = 6."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "vector,angle 3D"
+  content: "Compute magnitude (1,2,2) = 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "projection,vector 3D"
+  content: "Compute proj_(1,1,1) of (2,0,0) = 2/3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,zero denominator"
+  content: "Compute limₓ→2 (x−2)/(x²−4) = 1/4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,implicit"
+  content: "Compute dy/dx for x²+y²=1: −x/y."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "parametric,derivative"
+  content: "Compute dy/dx for x=t²,y=t³: (3/2)t."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "polar,rectangular"
+  content: "Convert (r=2,θ=π/2) to (0,2)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "rectangular,polar"
+  content: "Convert (0,3) to (r=3,θ=π/2)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "surface area,cube"
+  content: "Compute surface area of 2×2×2 cube: 24."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "surface area,cylinder"
+  content: "Compute surface area r=1,h=3: 8π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "volume,cylinder"
+  content: "Compute volume r=2,h=5: 20π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "volume,cone"
+  content: "Compute volume r=3,h=4: 12π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "centroid,segment"
+  content: "Compute centroid of (0,0) and (6,0): (3,0)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "moment of inertia,point"
+  content: "Compute I for m=2 at r=3: 18."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "probability,simple"
+  content: "Compute P(heads) = 1/2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "expected value,die"
+  content: "Compute E[die roll] = 3.5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "variance,bernoulli"
+  content: "Compute Var(X) for p=0.5: 0.25."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "conditional probability"
+  content: "Compute P(A|B) if P(A∩B)=0.2,P(B)=0.5: 0.4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "bayes,theorem,simple"
+  content: "Compute posterior P(A|B)=0.4 with given priors."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "binomial,mean"
+  content: "Compute mean of Bin(n=10,p=0.3): 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "binomial,variance"
+  content: "Compute variance of Bin(n=10,p=0.3): 2.1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "poisson,mean"
+  content: "Compute mean of Poisson(λ=2): 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "exponential,mean"
+  content: "Compute mean of Exp(λ=0.5): 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "uniform,mean"
+  content: "Compute mean of Uniform(0,4): 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "sample mean"
+  content: "Compute sample mean of [1,3,5]: 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "sample variance"
+  content: "Compute sample variance of [2,4,6]: 4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "regression,slope"
+  content: "Compute slope of simple regression: 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "residual,error"
+  content: "Compute residual if observed=5, predicted=4: 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "correlation,r"
+  content: "Compute correlation of perfect line: 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "determination,R2"
+  content: "Compute R² if r=0.8: 0.64."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "count,permutation"
+  content: "Compute permutations of ABC: 6."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "count,combination"
+  content: "Compute ways to choose 2 from 5: 10."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "graph,vertices"
+  content: "Compute edges in complete graph K4: 6."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "tree,edges"
+  content: "Compute edges in tree with 5 nodes: 4."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,sum rule"
+  content: "Compute limₓ→a [f+g] = lim f + lim g."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,product rule"
+  content: "Compute limₓ→a [f·g] = (lim f)(lim g)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "limit,quotient rule"
+  content: "Compute limₓ→a [f/g] = (lim f)/(lim g) (g≠0)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,constant"
+  content: "Compute d/dx [7] = 0."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "derivative,linear"
+  content: "Compute d/dx [5x] = 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "integral,constant"
+  content: "Compute ∫9 dx = 9x + C."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "integral,sum rule"
+  content: "Compute ∫(f+g)dx = ∫f dx + ∫g dx."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "integral,scalar rule"
+  content: "Compute ∫c·f dx = c·∫f dx."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "quadratic,discriminant"
+  content: "Compute discriminant x²+4x+4=0: 0."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "linear,slope-intercept"
+  content: "Compute line through (0,1) slope 2: y=2x+1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "parallel,slope"
+  content: "Compute slope parallel to y=3x+2: 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "perpendicular,slope"
+  content: "Compute slope perpendicular to y=2x: −1/2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "distance,point-line"
+  content: "Compute distance (0,0) to y=1: 1."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "angle,triangle"
+  content: "Compute third angle of triangle 30°,60°: 90°."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "pythagorean,theorem"
+  content: "Compute hypotenuse legs 3,4: 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "similar,triangle"
+  content: "Compute unknown side in similar triangles: 6."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "congruent,triangle"
+  content: "Compute matching side in congruent triangles: 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "perimeter,triangle"
+  content: "Compute perimeter 3,4,5 triangle: 12."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "perimeter,rectangle"
+  content: "Compute perimeter 2×3 rectangle: 10."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "perimeter,square"
+  content: "Compute perimeter side 4 square: 16."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "diagonal,square"
+  content: "Compute diagonal side 2 square: 2√2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "diagonal,rectangle"
+  content: "Compute diagonal 3×4 rectangle: 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "radius,diameter"
+  content: "Compute radius if diameter=10: 5."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "diameter,radius"
+  content: "Compute diameter if radius=6: 12."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "sector,area"
+  content: "Compute sector area r=2,θ=π/2: π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "arc,length"
+  content: "Compute arc length r=3,θ=π/3: π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "vector,subtraction"
+  content: "Compute (5,7)−(2,3) = (3,4)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "unit,vector 3D"
+  content: "Compute unit vector (0,0,5): (0,0,1)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "orthogonal,check"
+  content: "Check (1,2)·(−2,1)=0: orthogonal."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "linear,combination"
+  content: "Compute 2v−3w for v=(1,0),w=(0,1): (2,−3)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "span,check"
+  content: "Check if (1,1) in span{(1,0),(0,1)}: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "basis,check"
+  content: "Check {(1,0),(0,1)} basis: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "dimension,space"
+  content: "Compute dimension R²: 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "kernel,check"
+  content: "Check if (1,−1) in kernel[[1,1]]: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "image,check"
+  content: "Check if (1) in image[[1,2]]: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "rank-nullity,theorem"
+  content: "Compute rank+nullity for 2x2 matrix: 2."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "invertible,check"
+  content: "Check det[[1,2],[3,4]]≠0: invertible."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "singular,check"
+  content: "Check det[[1,1],[1,1]]=0: singular."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "eigenvector,check"
+  content: "Check (1,0) eigenvector of [[2,0],[0,3]]: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "diagonalize,check"
+  content: "Check [[2,0],[0,3]] diagonalizable: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "similar,check"
+  content: "Check [[1,0],[0,2]] similar to [[2,0],[0,1]]: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "trace,summation"
+  content: "Compute tr[[1,2,3],[4,5,6],[7,8,9]] = 15."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "cofactor,2x2"
+  content: "Compute cofactor C₁₁ of [[a,b],[c,d]]: d."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "adjugate,2x2"
+  content: "Compute adj[[a,b],[c,d]] = [[d,−b],[−c,a]]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "cramer,2x2"
+  content: "Solve by Cramer: x=Δ₁/Δ, y=Δ₂/Δ."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "metric,triangle"
+  content: "Verify triangle inequality for distance: holds."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "norm,triangle"
+  content: "Verify triangle inequality for norm: holds."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "inner,cauchy-schwarz"
+  content: "Verify Cauchy-Schwarz |u·v|≤|u||v|: holds."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "hilbert,closure"
+  content: "Verify Hilbert space completeness: holds."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "banach,completeness"
+  content: "Verify Banach space completeness: holds."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "topology,open"
+  content: "Verify open ball is open set: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "topology,closed"
+  content: "Verify closed ball is closed set: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "compact,check"
+  content: "Verify closed bounded set in Rⁿ compact: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "connected,check"
+  content: "Verify interval connected: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "homeomorphism,check"
+  content: "Verify line homeomorphic to ray: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "manifold,chart"
+  content: "Verify circle 1-manifold: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "tangent,vector"
+  content: "Compute tangent vector to circle: (−y,x)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "tensor,contraction"
+  content: "Compute tensor contraction over index: scalar."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "differential,form"
+  content: "Compute exterior derivative of 0-form: 1-form."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "stokes,apply"
+  content: "Apply Stokes to closed curve: 0."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "div,vector field"
+  content: "Compute div(x,y,z) = 3."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "curl,vector field"
+  content: "Compute curl(x,y,z) = (0,0,0)."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "laplacian,scalar"
+  content: "Compute ∇²(x²+y²+z²) = 6."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "flux,sphere"
+  content: "Compute flux through unit sphere: 4π."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "circulation,loop"
+  content: "Compute circulation around unit circle: 0."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "conservative,check"
+  content: "Check curl F=0: conservative."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "potential,find"
+  content: "Find potential φ for F=(2x,2y): φ=x²+y²."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "convex,check"
+  content: "Check half-plane convex: yes."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "lagrange,set up"
+  content: "Set up ∇f=λ∇g for constraint."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "hessian,check"
+  content: "Check Hessian positive definite: minimum."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "jacobian,compute"
+  content: "Compute Jacobian of (x²,y²): [[2x,0],[0,2y]]."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "implicit,derivative"
+  content: "Compute dy/dx for xy=1: −y/x."
+- domain: mathematics
+  intent: compute
+  epistemic: Green
+  keyword: "explicit,form"
+  content: "Rewrite xy=1 as y=1/x."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "limit,continuity,function"
+  content: "Compare limit and continuity: limit describes approaching value; continuity requires limit equals function value."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "derivative,integral,calculus"
+  content: "Compare derivative and integral: derivative measures rate of change; integral measures accumulated change."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "vector,scalar,quantity"
+  content: "Compare vector and scalar: vector has magnitude and direction; scalar has only magnitude."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "matrix,determinant,value"
+  content: "Compare matrix and determinant: matrix is an array; determinant is a single scalar value from a square matrix."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "prime,composite,number"
+  content: "Compare prime and composite numbers: prime has exactly two divisors; composite has three or more divisors."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "rational,irrational,number"
+  content: "Compare rational and irrational numbers: rational is a fraction; irrational cannot be written as a fraction."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "real,complex,number"
+  content: "Compare real and complex numbers: real numbers are one-dimensional; complex numbers include real and imaginary parts."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "sequence,series,sum"
+  content: "Compare sequence and series: sequence is an ordered list; series is the sum of a sequence."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "convergence,divergence,limit"
+  content: "Compare convergence and divergence: convergent approaches a finite limit; divergent does not approach a finite limit."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "partial,full,derivative"
+  content: "Compare partial derivative and full derivative: partial holds other variables fixed; full considers all variable changes."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "gradient,divergence,curl"
+  content: "Compare gradient, divergence, and curl: gradient is a vector; divergence is scalar; curl is a vector."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "line,surface,integral"
+  content: "Compare line integral and surface integral: line integrates over a curve; surface integrates over a 2D area."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "group,ring,field,algebra"
+  content: "Compare group, ring, and field: group has one operation; ring has addition and multiplication; field allows division."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "polynomial,function,expression"
+  content: "Compare polynomial and function: polynomial is an algebraic expression; function maps inputs to outputs."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "root,zero,solution"
+  content: "Compare root and zero: root solves polynomial equal to zero; zero is the input value that gives output zero."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "exponential,logarithm,inverse"
+  content: "Compare exponential and logarithm: exponential raises base to power; logarithm finds the exponent."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "sin,cos,trigonometric"
+  content: "Compare sine and cosine: sine corresponds to vertical component; cosine corresponds to horizontal component."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "even,odd,symmetry"
+  content: "Compare even and odd functions: even symmetric over y-axis; odd symmetric over origin."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "inverse,composite,function"
+  content: "Compare inverse function and composite function: inverse reverses a function; composite chains two functions."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "horizontal,vertical,asymptote"
+  content: "Compare horizontal and vertical asymptotes: horizontal describes infinite behavior; vertical describes singularity."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "critical,inflection,point"
+  content: "Compare critical point and inflection point: critical is where slope is zero; inflection is where concavity changes."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "local,absolute,extremum"
+  content: "Compare local and absolute extrema: local is extreme near a point; absolute is extreme over entire domain."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "concave,convex,curvature"
+  content: "Compare concave up and concave down: concave up curves upward; concave down curves downward."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Taylor,Maclaurin,series"
+  content: "Compare Taylor and Maclaurin series: Taylor centers at any point; Maclaurin centers at zero."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "parametric,polar,coordinate"
+  content: "Compare parametric and polar coordinates: parametric uses t; polar uses r and θ."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "vector,Euclidean,space"
+  content: "Compare vector space and Euclidean space: vector space is abstract; Euclidean space has geometric structure."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "basis,span,independence"
+  content: "Compare basis and span: basis is a minimal spanning set; span is all linear combinations."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "linear,nonlinear,equation"
+  content: "Compare linear and nonlinear equations: linear has constant slope; nonlinear has variable slope."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "independent,dependent,vector"
+  content: "Compare linear independent and dependent: independent has no redundant vectors; dependent has redundant vectors."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "kernel,image,transformation"
+  content: "Compare kernel and image: kernel maps to zero; image is all outputs."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "rank,nullity,dimension"
+  content: "Compare rank and nullity: rank is dimension of image; nullity is dimension of kernel."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "invertible,singular,matrix"
+  content: "Compare invertible and singular matrices: invertible has an inverse; singular has no inverse."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "symmetric,orthogonal,matrix"
+  content: "Compare symmetric and orthogonal matrices: symmetric equals transpose; orthogonal transpose is inverse."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "dot,cross,product"
+  content: "Compare dot product and cross product: dot product is scalar; cross product is vector."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "orthogonal,orthonormal,vector"
+  content: "Compare orthogonal and orthonormal: orthogonal is perpendicular; orthonormal is perpendicular and unit length."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "consistent,inconsistent,system"
+  content: "Compare consistent and inconsistent systems: consistent has solutions; inconsistent has no solutions."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "unique,infinitely,solution"
+  content: "Compare unique and infinite solutions: unique has one solution; infinite has a family of solutions."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "echelon,reduced,matrix"
+  content: "Compare echelon and reduced echelon form: echelon has leading entries; reduced has leading 1 with zeros above and below."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Gaussian,Gauss-Jordan,elimination"
+  content: "Compare Gaussian and Gauss-Jordan: Gaussian stops at echelon; Gauss-Jordan reaches reduced form."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "homogeneous,nonhomogeneous,system"
+  content: "Compare homogeneous and nonhomogeneous: homogeneous has zero right-hand side; nonhomogeneous has nonzero right-hand side."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "trivial,nontrivial,solution"
+  content: "Compare trivial and nontrivial solutions: trivial is zero vector; nontrivial is nonzero solution."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "eigenvalue,eigenvector,matrix"
+  content: "Compare eigenvalue and eigenvector: eigenvalue is scalar; eigenvector is direction unchanged by transformation."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "diagonalizable,similar,matrix"
+  content: "Compare diagonalizable and similar matrices: diagonalizable has eigenbasis; similar is linked by invertible matrix."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "trace,determinant,matrix"
+  content: "Compare trace and determinant: trace is sum of diagonals; determinant is scaling factor."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "metric,norm,space"
+  content: "Compare metric and norm: metric measures distance; norm measures length."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Hilbert,Banach,space"
+  content: "Compare Hilbert and Banach spaces: Hilbert has inner product; Banach has only norm."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "open,closed,set"
+  content: "Compare open and closed sets: open has no boundary points; closed contains all boundary points."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "compact,connected,set"
+  content: "Compare compact and connected: compact is finite-covered; connected is unbroken."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "homeomorphism,diffeomorphism,map"
+  content: "Compare homeomorphism and diffeomorphism: homeomorphism is continuous; diffeomorphism is smooth."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "manifold,tangent,space"
+  content: "Compare manifold and tangent space: manifold is curved surface; tangent space is flat approximation."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "tensor,differential,form"
+  content: "Compare tensor and differential form: tensor is multilinear map; differential form is integrated over manifolds."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "flux,circulation,field"
+  content: "Compare flux and circulation: flux measures flow through surface; circulation measures flow around curve."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "conservative,nonconservative,field"
+  content: "Compare conservative and nonconservative fields: conservative is path-independent; nonconservative depends on path."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "convex,concave,set"
+  content: "Compare convex and concave sets: convex has no indentations; concave has indentations."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Lagrange,multiplier,unconstrained"
+  content: "Compare Lagrange multiplier and unconstrained optimization: Lagrange uses constraints; unconstrained uses free variables."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Hessian,Jacobian,matrix"
+  content: "Compare Hessian and Jacobian: Hessian is second derivatives; Jacobian is first derivatives."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "implicit,explicit,function"
+  content: "Compare implicit and explicit functions: explicit solves for y; implicit defines relation."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "arc,length,surface,area"
+  content: "Compare arc length and surface area: arc length is 1D; surface area is 2D."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "volume,area,dimension"
+  content: "Compare volume and area: volume is 3D space; area is 2D space."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "centroid,moment,inertia"
+  content: "Compare centroid and moment of inertia: centroid is geometric center; moment measures rotational resistance."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "probability,statistics,data"
+  content: "Compare probability and statistics: probability predicts outcomes; statistics analyzes data."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "mean,median,center"
+  content: "Compare mean and median: mean is average; median is middle value."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "variance,standard,deviation"
+  content: "Compare variance and standard deviation: variance is squared; standard deviation is original units."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "covariance,correlation,relation"
+  content: "Compare covariance and correlation: covariance is unnormalized; correlation is normalized to [-1,1]."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "independent,conditional,probability"
+  content: "Compare independent and conditional probability: independent is unaffected; conditional depends on prior event."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "normal,binomial,distribution"
+  content: "Compare normal and binomial distributions: normal is continuous; binomial is discrete counting."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Poisson,exponential,distribution"
+  content: "Compare Poisson and exponential: Poisson counts events; exponential models waiting time."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "hypothesis,confidence,interval"
+  content: "Compare hypothesis test and confidence interval: hypothesis tests claim; interval estimates parameter."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "regression,correlation,analysis"
+  content: "Compare regression and correlation: regression predicts value; correlation measures association."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "permutation,combination,count"
+  content: "Compare permutation and combination: permutation is ordered; combination is unordered."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "graph,tree,network"
+  content: "Compare graph and tree: graph has cycles; tree is acyclic connected graph."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Eulerian,Hamiltonian,cycle"
+  content: "Compare Eulerian and Hamiltonian cycles: Eulerian uses edges; Hamiltonian uses vertices."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "discrete,continuous,mathematics"
+  content: "Compare discrete and continuous math: discrete uses distinct values; continuous uses smooth values."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "calculus,algebra,structure"
+  content: "Compare calculus and algebra: calculus studies change; algebra studies structure."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "geometry,topology,shape"
+  content: "Compare geometry and topology: geometry measures rigid shape; topology studies deformable shape."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "axiom,theorem,statement"
+  content: "Compare axiom and theorem: axiom is assumed true; theorem is proven true."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "induction,contradiction,proof"
+  content: "Compare induction and contradiction: induction uses steps; contradiction assumes opposite."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "constructive,existence,proof"
+  content: "Compare constructive and existence proofs: constructive builds example; existence only shows existence."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "equivalence,partial,order"
+  content: "Compare equivalence and partial order: equivalence partitions; partial order ranks."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "injective,surjective,bijective"
+  content: "Compare injective, surjective, bijective: injective is one-to-one; surjective is onto; bijective is both."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "countable,uncountable,set"
+  content: "Compare countable and uncountable sets: countable can be listed; uncountable cannot be listed."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "union,intersection,set"
+  content: "Compare union and intersection: union combines sets; intersection keeps common elements."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "complement,difference,set"
+  content: "Compare complement and difference: complement is opposite; difference removes elements."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "associative,commutative,property"
+  content: "Compare associative and commutative: associative regroups; commutative reorders."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "identity,inverse,element"
+  content: "Compare identity and inverse: identity leaves element unchanged; inverse undoes operation."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "modular,regular,arithmetic"
+  content: "Compare modular and regular arithmetic: modular wraps around; regular extends infinitely."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "gcd,lcm,number"
+  content: "Compare gcd and lcm: gcd is largest common divisor; lcm is smallest common multiple."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "factor,multiple,number"
+  content: "Compare factor and multiple: factor divides number; multiple is divisible by number."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "algebraic,transcendental,number"
+  content: "Compare algebraic and transcendental: algebraic solves polynomial; transcendental does not."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Fibonacci,geometric,sequence"
+  content: "Compare Fibonacci and geometric sequences: Fibonacci adds previous terms; geometric multiplies by ratio."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "radian,degree,angle"
+  content: "Compare radians and degrees: radians use arc length; degrees divide circle into 360 parts."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "piecewise,single,function"
+  content: "Compare piecewise and single-expression functions: piecewise uses multiple rules; single uses one rule."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "absolute,signed,value"
+  content: "Compare absolute and signed values: absolute is non-negative; signed includes positive or negative."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "zero,identity,matrix"
+  content: "Compare zero matrix and identity matrix: zero is additive identity; identity is multiplicative identity."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "transpose,inverse,matrix"
+  content: "Compare transpose and inverse: transpose swaps rows and columns; inverse undoes matrix multiplication."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "row,column,space"
+  content: "Compare row space and column space: row space spans rows; column space spans columns."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "null,left null,space"
+  content: "Compare null space and left null space: null solves Ax=0; left null solves Aᵀy=0."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "projection,reflection,transformation"
+  content: "Compare projection and reflection: projection flattens; reflection mirrors across plane."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "least,squares,exact,solution"
+  content: "Compare least squares and exact solution: least squares approximates; exact satisfies system perfectly."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Gram-Schmidt,QR,decomposition"
+  content: "Compare Gram-Schmidt and QR: Gram-Schmidt builds basis; QR factors matrix."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "orthogonal,oblique,projection"
+  content: "Compare orthogonal and oblique projection: orthogonal is perpendicular; oblique is at an angle."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "slope-intercept,point-slope,line"
+  content: "Compare slope-intercept and point-slope: slope-intercept uses y=mx+b; point-slope uses point and slope."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "parallel,perpendicular,line"
+  content: "Compare parallel and perpendicular lines: parallel has equal slope; perpendicular has negative reciprocal slope."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "distance,midpoint,formula"
+  content: "Compare distance and midpoint: distance measures length; midpoint finds center."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "perimeter,area,shape"
+  content: "Compare perimeter and area: perimeter is boundary length; area is enclosed space."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "similar,congruent,triangle"
+  content: "Compare similar and congruent triangles: similar has same shape; congruent has same shape and size."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "sphere,cylinder,volume"
+  content: "Compare sphere and cylinder: sphere is round; cylinder has circular bases and straight sides."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "rectangle,square,quadrilateral"
+  content: "Compare rectangle and square: rectangle has right angles; square has right angles and equal sides."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "sector,segment,circle"
+  content: "Compare sector and segment: sector is wedge; segment is area between chord and arc."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "sample,population,statistic"
+  content: "Compare sample and population: sample is subset; population is entire group."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "parameter,statistic,value"
+  content: "Compare parameter and statistic: parameter describes population; statistic describes sample."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "outlier,inlier,data"
+  content: "Compare outlier and inlier: outlier is distant; inlier is within typical range."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "residual,error,prediction"
+  content: "Compare residual and error: residual is observed minus predicted; error is true deviation."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "R²,adjusted R²,fit"
+  content: "Compare R² and adjusted R²: R² measures fit; adjusted R² penalizes extra variables."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "connected,disconnected,graph"
+  content: "Compare connected and disconnected graphs: connected has one piece; disconnected has multiple pieces."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "cycle,acyclic,graph"
+  content: "Compare cyclic and acyclic graphs: cyclic has loops; acyclic has no loops."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "simple,multigraph,edge"
+  content: "Compare simple and multigraphs: simple has no loops or multiple edges; multigraph allows them."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "directed,undirected,graph"
+  content: "Compare directed and undirected graphs: directed has one-way edges; undirected has two-way edges."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "weighted,unweighted,graph"
+  content: "Compare weighted and unweighted graphs: weighted has cost; unweighted has no cost."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "complete,bipartite,graph"
+  content: "Compare complete and bipartite graphs: complete has all edges; bipartite splits into two sets."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "inner,outer,product"
+  content: "Compare inner product and outer product: inner product is scalar; outer product is matrix."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "finite,infinite,set"
+  content: "Compare finite and infinite sets: finite has countable elements; infinite has unending elements."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "proper,improper,subset"
+  content: "Compare proper and improper subsets: proper is not equal to set; improper is equal to set."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "disjoint,overlapping,set"
+  content: "Compare disjoint and overlapping sets: disjoint shares no elements; overlapping shares elements."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "monomial,polynomial,term"
+  content: "Compare monomial and polynomial: monomial has one term; polynomial has multiple terms."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "linear,quadratic,equation"
+  content: "Compare linear and quadratic equations: linear is degree 1; quadratic is degree 2."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "cubic,quartic,polynomial"
+  content: "Compare cubic and quartic polynomials: cubic is degree 3; quartic is degree 4."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "rational,radical,expression"
+  content: "Compare rational and radical expressions: rational is fraction; radical contains root."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "exponent,logarithm,operation"
+  content: "Compare exponent and logarithm: exponent is repeated multiplication; logarithm reverses exponent."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "positive,negative,exponent"
+  content: "Compare positive and negative exponents: positive multiplies; negative divides."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "common,natural,logarithm"
+  content: "Compare common and natural logs: common uses base 10; natural uses base e."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "secant,cosecant,cotangent"
+  content: "Compare secant, cosecant, cotangent: secant is 1/cos; cosecant is 1/sin; cotangent is 1/tan."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "arcsin,arccos,arctan"
+  content: "Compare arcsin, arccos, arctan: inverse functions of sine, cosine, tangent."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "period,amplitude,wave"
+  content: "Compare period and amplitude: period is repeat length; amplitude is height."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "phase,vertical,shift"
+  content: "Compare phase shift and vertical shift: phase shifts horizontally; vertical shifts up or down."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "unit,non-unit,vector"
+  content: "Compare unit and non-unit vectors: unit has length 1; non-unit has other length."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "position,velocity,acceleration"
+  content: "Compare position, velocity, acceleration: position is location; velocity is rate of position; acceleration is rate of velocity."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "scalar,triple,product"
+  content: "Compare scalar and triple product: scalar is dot product; triple is combination of dot and cross."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "row,column,vector"
+  content: "Compare row and column vectors: row is horizontal; column is vertical."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "augmented,coefficient,matrix"
+  content: "Compare augmented and coefficient matrices: augmented includes constants; coefficient includes only variables."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "square,rectangular,matrix"
+  content: "Compare square and rectangular matrices: square has equal rows and columns; rectangular does not."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "diagonal,triangular,matrix"
+  content: "Compare diagonal and triangular matrices: diagonal has non-zeros only on diagonal; triangular has non-zeros on one side."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "upper,lower,triangular"
+  content: "Compare upper and lower triangular: upper has zeros below diagonal; lower has zeros above diagonal."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "elementary,non-elementary,matrix"
+  content: "Compare elementary and non-elementary matrices: elementary represents row operation; non-elementary does not."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "similar,congruent,matrix"
+  content: "Compare similar and congruent matrices: similar uses P⁻¹AP; congruent uses PᵀAP."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "positive,negative,definite"
+  content: "Compare positive and negative definite: positive has positive eigenvalues; negative has negative eigenvalues."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "indefinite,semidefinite,matrix"
+  content: "Compare indefinite and semidefinite: indefinite has mixed signs; semidefinite has non-negative or non-positive."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "canonical,general,form"
+  content: "Compare canonical and general form: canonical is simplified; general is expanded."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "polar,rectangular,equation"
+  content: "Compare polar and rectangular equations: polar uses r and θ; rectangular uses x and y."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "explicit,implicit,differentiation"
+  content: "Compare explicit and implicit differentiation: explicit differentiates y=f(x); implicit differentiates F(x,y)=0."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "definite,indefinite,integral"
+  content: "Compare definite and indefinite integrals: definite has bounds; indefinite has constant C."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "improper,proper,integral"
+  content: "Compare improper and proper integrals: improper has infinite bounds or discontinuities; proper has finite bounds."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "substitution,integration,parts"
+  content: "Compare substitution and integration by parts: substitution reverses chain rule; parts reverses product rule."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "partial,fraction,trigonometric"
+  content: "Compare partial fractions and trigonometric substitution: partial fractions split rationals; trig substitution uses identities."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "first,second,order,equation"
+  content: "Compare first-order and second-order equations: first has one derivative; second has two derivatives."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "ordinary,partial,differential"
+  content: "Compare ODE and PDE: ODE has one variable; PDE has multiple variables."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "separable,nonseparable,equation"
+  content: "Compare separable and nonseparable: separable splits variables; nonseparable cannot split."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "homogeneous,nonhomogeneous,ODE"
+  content: "Compare homogeneous and nonhomogeneous ODE: homogeneous has zero right-hand side; nonhomogeneous does not."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "characteristic,auxiliary,equation"
+  content: "Compare characteristic and auxiliary equations: same equation for solving linear ODE."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "real,complex,root"
+  content: "Compare real and complex roots: real are on number line; complex include imaginary parts."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "distinct,repeated,root"
+  content: "Compare distinct and repeated roots: distinct are different; repeated are same value."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "undetermined,variation,parameter"
+  content: "Compare undetermined coefficients and variation of parameters: coefficients guess form; parameters general solution."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "steady,transient,solution"
+  content: "Compare steady and transient solutions: steady is long-term; transient dies out."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "free,forced,response"
+  content: "Compare free and forced response: free is unforced; forced uses input function."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "damped,undamped,oscillation"
+  content: "Compare damped and undamped oscillations: damped loses energy; undamped preserves energy."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "critical,undercritical,damping"
+  content: "Compare critical and underdamping: critical is fastest non-oscillatory; undercritical oscillates."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "overdamped,critical,damping"
+  content: "Compare overdamped and critical damping: overdamped is slower; critical is fastest."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "resonance,nonresonance,frequency"
+  content: "Compare resonance and nonresonance: resonance matches natural frequency; nonresonance does not."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Laplace,Fourier,transform"
+  content: "Compare Laplace and Fourier transforms: Laplace uses exponential; Fourier uses sinusoids."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "time,frequency,domain"
+  content: "Compare time and frequency domains: time uses t; frequency uses ω."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "convolution,multiplication,transform"
+  content: "Compare convolution and multiplication: convolution in time is multiplication in frequency."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "discrete,continuous,transform"
+  content: "Compare discrete and continuous transforms: discrete uses samples; continuous uses functions."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "Z-transform,Laplace,discrete"
+  content: "Compare Z-transform and Laplace: Z is discrete-time; Laplace is continuous-time."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "linear,nonlinear,programming"
+  content: "Compare linear and nonlinear programming: linear uses linear functions; nonlinear uses curved functions."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "convex,nonconvex,optimization"
+  content: "Compare convex and nonconvex optimization: convex has one minimum; nonconvex has local minima."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "unconstrained,constrained,optimization"
+  content: "Compare unconstrained and constrained optimization: unconstrained uses full domain; constrained uses limits."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "gradient,Newton,optimization"
+  content: "Compare gradient and Newton methods: gradient uses first derivative; Newton uses second derivative."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "steepest,conjugate,descent"
+  content: "Compare steepest and conjugate descent: steepest uses negative gradient; conjugate uses orthogonal directions."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "primal,dual,problem"
+  content: "Compare primal and dual problems: primal is original; dual is complementary."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "feasible,infeasible,region"
+  content: "Compare feasible and infeasible regions: feasible satisfies constraints; infeasible does not."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "optimal,suboptimal,solution"
+  content: "Compare optimal and suboptimal solutions: optimal is best; suboptimal is not best."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "global,local,optimum"
+  content: "Compare global and local optima: global is best overall; local is best nearby."
+- domain: mathematics
+  intent: compare
+  epistemic: Green
+  keyword: "sensitivity,robustness,analysis"
+  content: "Compare sensitivity and robustness: sensitivity measures change; robustness measures stability."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "limit,function behavior,trend"
+  content: "Predict limₓ→∞ (1/x) = 0; function value approaches 0 as x grows large."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "derivative,slope,change"
+  content: "Predict the slope of f(x)=x² at x=3 equals 6; derivative gives instantaneous rate of change."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "integral,area,accumulation"
+  content: "Predict the area under f(x)=2x from 0 to 4 equals 16; definite integral accumulates the area."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "sequence convergence,limit value"
+  content: "Predict sequence aₙ=1/n converges to 0; terms approach zero as n increases."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "series convergence,sum value"
+  content: "Predict geometric series 1+1/2+1/4+⋯ converges to 2; ratio has absolute value less than 1."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "continuity,function behavior"
+  content: "Predict f(x)=x+1 is continuous everywhere; polynomial functions have no breaks or jumps."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "critical point,extremum location"
+  content: "Predict f(x)=x²−4x has a critical point at x=2; derivative equals zero at this location."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "inflection point,concavity change"
+  content: "Predict f(x)=x³ has an inflection point at x=0; concavity flips sign at origin."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "local minimum,function value"
+  content: "Predict f(x)=x² has a local minimum at x=0; function opens upward with vertex at zero."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "local maximum,peak location"
+  content: "Predict f(x)=−x² has a local maximum at x=0; parabola opens downward."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "horizontal asymptote,long-term behavior"
+  content: "Predict f(x)=(3x)/(x+2) has horizontal asymptote y=3; ratio of leading coefficients is 3."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "vertical asymptote,singularity"
+  content: "Predict f(x)=1/(x−1) has vertical asymptote at x=1; denominator zero at this point."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "even function,symmetry,y-axis"
+  content: "Predict f(x)=x⁴ is symmetric about the y-axis; function satisfies f(−x)=f(x)."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "odd function,symmetry,origin"
+  content: "Predict f(x)=x³ is symmetric about the origin; function satisfies f(−x)=−f(x)."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "periodic function,repeat interval"
+  content: "Predict sin(x) repeats every 2π radians; trigonometric sine function is periodic."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "quadratic root,equation solution"
+  content: "Predict x²−5x+6=0 has roots x=2 and x=3; factors into (x−2)(x−3)."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "linear system solution,unique value"
+  content: "Predict system x+y=5, x−y=1 has unique solution x=3,y=2; coefficients are independent."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "matrix invertibility,determinant sign"
+  content: "Predict matrix [[2,1],[1,1]] is invertible; determinant equals 1, nonzero value."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "rank,matrix information"
+  content: "Predict rank of [[1,2],[2,4]] equals 1; rows are scalar multiples."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "nullity,kernel dimension"
+  content: "Predict nullity of [[1,1],[1,1]] equals 1; one free variable in solution."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "eigenvalue,matrix scaling"
+  content: "Predict eigenvalue of [[3,0],[0,2]] are 3 and 2; diagonal entries are eigenvalues."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "diagonalization,eigenbasis existence"
+  content: "Predict diagonal matrix [[1,0],[0,2]] is diagonalizable; eigenvectors form standard basis."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "vector orthogonality,dot product zero"
+  content: "Predict vectors (1,2) and (−2,1) are orthogonal; dot product equals zero."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "unit vector,magnitude one"
+  content: "Predict vector (0,1) is a unit vector; magnitude equals exactly one."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "linear independence,vector redundancy"
+  content: "Predict vectors (1,0) and (0,1) are linearly independent; neither is multiple of the other."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "span,vector coverage"
+  content: "Predict {(1,0),(0,1)} spans entire 2D plane; any vector is linear combination."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "basis,coordinate system"
+  content: "Predict {(1,0),(0,1)} forms a basis for R²; independent and spanning the plane."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "dimension,vector space size"
+  content: "Predict dimension of R³ equals 3; three vectors in standard basis."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "kernel solution,homogeneous system"
+  content: "Predict (1,−1) is in kernel of [[1,1]]; product equals zero vector."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "image range,transformation output"
+  content: "Predict image of [[1,2]] includes all real numbers; column spans one dimension."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "consistent system,solvability"
+  content: "Predict system x+y=3, 2x+2y=6 is consistent; equations are scalar multiples."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "inconsistent system,no solution"
+  content: "Predict system x+y=1, x+y=2 is inconsistent; parallel lines with no intersection."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "unique solution,linear system"
+  content: "Predict 2x=8 has unique solution x=4; coefficient nonzero."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "infinite solutions,free variable"
+  content: "Predict x+y=0 has infinitely many solutions; one free variable exists."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "homogeneous solution,trivial zero"
+  content: "Predict Ax=0 always has trivial solution x=0; zero vector satisfies equation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "nontrivial solution,nonzero vector"
+  content: "Predict singular matrix has nontrivial null solution; determinant equals zero."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "eigenspace,eigenvector set"
+  content: "Predict eigenspace for λ=2 includes vector (1,0); satisfies Av=2v."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "similar matrix,eigenvalue preservation"
+  content: "Predict similar matrices share identical eigenvalues; transformation preserves spectrum."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "trace sum,eigenvalue sum"
+  content: "Predict trace of matrix equals sum of eigenvalues; diagonal sum matches spectrum sum."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "determinant product,eigenvalue product"
+  content: "Predict determinant equals product of eigenvalues; scaling factor matches product."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "cofactor sign,matrix position"
+  content: "Predict cofactor C₁₁ has positive sign; row plus column even."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "adjugate inverse,determinant factor"
+  content: "Predict inverse equals adjugate divided by determinant; valid for invertible matrices."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Cramer's rule,solution ratio"
+  content: "Predict solution x₁=Δ₁/Δ via Cramer's rule; determinant ratio gives value."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "metric distance,triangle inequality"
+  content: "Predict distance satisfies triangle inequality; direct path shorter than detour."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "norm length,nonnegative value"
+  content: "Predict vector norm is nonnegative; length cannot be negative."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "inner product,Cauchy-Schwarz bound"
+  content: "Predict |u·v|≤|u||v| by Cauchy-Schwarz; bounded by product of lengths."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Hilbert space,completeness"
+  content: "Predict Hilbert space contains all limit points; complete inner product space."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Banach space,norm completeness"
+  content: "Predict Banach space is complete in norm; all Cauchy sequences converge."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "open set,neighborhood property"
+  content: "Predict open ball is an open set; contains full neighborhood of each point."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "closed set,limit point closure"
+  content: "Predict closed set contains all limit points; no boundary points missing."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "compact set,finite subcover"
+  content: "Predict closed bounded set in Rⁿ is compact; Heine-Borel theorem applies."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "connected set,unbroken region"
+  content: "Predict interval [0,1] is connected; cannot split into disjoint open sets."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "homeomorphism,topological invariance"
+  content: "Predict line homeomorphic to ray; continuous bijection with continuous inverse."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "manifold,local Euclidean"
+  content: "Predict circle is a 1-manifold; locally looks like a line segment."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "tangent vector,curve direction"
+  content: "Predict tangent to circle at (1,0) is vertical; perpendicular to radius."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "tensor contraction,scalar output"
+  content: "Predict tensor contraction over index yields scalar; reduces dimension by one."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "exterior derivative,form degree"
+  content: "Predict exterior derivative raises form degree by one; differential operator."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Stokes theorem,boundary integral"
+  content: "Predict Stokes theorem equates manifold and boundary integrals; generalizes FTC."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "divergence,expansion rate"
+  content: "Predict div F positive for expanding vector field; source of flow."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "curl,rotation measure"
+  content: "Predict curl F nonzero for rotating field; measures angular velocity."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Laplacian,diffusion behavior"
+  content: "Predict Laplacian zero for harmonic function; no net diffusion."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "flux,flow rate through surface"
+  content: "Predict flux positive for outward flow; net exit from enclosed volume."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "circulation,closed curve flow"
+  content: "Predict circulation nonzero for swirling field; net rotation around loop."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "conservative field,path independence"
+  content: "Predict integral path independent for conservative field; curl equals zero."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "potential function,gradient field"
+  content: "Predict F=∇φ for conservative field; scalar potential exists."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "convex set,line segment inclusion"
+  content: "Predict convex set contains all internal line segments; no indentations."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Lagrange multiplier,constrained optimum"
+  content: "Predict optimum occurs where ∇f=λ∇g; gradients parallel at constraint."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Hessian positive definite,minimum"
+  content: "Predict local minimum if Hessian positive definite; curvature positive."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Jacobian determinant,area scaling"
+  content: "Predict Jacobian determinant measures area scaling; distortion factor."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "implicit derivative,slope relation"
+  content: "Predict dy/dx=−Fₓ/Fᵧ for implicit function; slope from partial derivatives."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "arc length,curve total distance"
+  content: "Predict length of straight segment equals Euclidean distance; straightest path."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "surface area,revolution solid"
+  content: "Predict surface area from curve rotation; integral of circumference element."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "volume,integral cross section"
+  content: "Predict volume from integrating cross sections; slice accumulation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "centroid,balance point"
+  content: "Predict centroid of rectangle at center; symmetric balance point."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "moment of inertia,rotational resistance"
+  content: "Predict larger radius increases moment; resistance to spin depends on distance."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "probability,likelihood value"
+  content: "Predict fair coin flip probability 1/2; equal chance heads or tails."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "expected value,average outcome"
+  content: "Predict die roll expected value 3.5; average of 1 through 6."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "variance,data spread"
+  content: "Predict higher variance indicates wider data spread; larger deviations."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "standard deviation,dispersion unit"
+  content: "Predict standard deviation in original units; square root of variance."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "covariance,joint variation"
+  content: "Predict positive covariance for upward trend; variables rise together."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "correlation,linear association"
+  content: "Predict correlation 1 for perfect line; complete linear association."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "independent event,probability product"
+  content: "Predict independent events satisfy P(A∩B)=P(A)P(B); no influence."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "conditional probability,updated chance"
+  content: "Predict P(A|B) increases if A and B positively related."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Bayes posterior,updated belief"
+  content: "Predict posterior probability higher with strong evidence; Bayesian update."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "normal distribution,symmetry bell"
+  content: "Predict normal distribution symmetric around mean; bell curve shape."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "binomial mean,np value"
+  content: "Predict binomial mean equals n×p; success count expectation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Poisson rate,event frequency"
+  content: "Predict Poisson mean equals rate λ; average event count."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "exponential mean,waiting time"
+  content: "Predict exponential mean 1/λ; average waiting time."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "uniform distribution,equal chance"
+  content: "Predict uniform distribution equal probability over interval."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "hypothesis test,reject null"
+  content: "Predict reject null hypothesis if p-value small; strong evidence against."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "confidence interval,parameter range"
+  content: "Predict 95% interval captures true parameter; high confidence estimate."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "sample mean,population estimate"
+  content: "Predict sample mean approximates population mean; unbiased estimator."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "regression prediction,fitted value"
+  content: "Predict y value from regression line; estimated response."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "residual error,prediction difference"
+  content: "Predict residual positive if observed above predicted; underestimation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "R² fit,explained variance"
+  content: "Predict R² close to 1 for strong fit; most variance explained."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "permutation count,ordered arrangement"
+  content: "Predict permutations of n items equal n!; all ordered arrangements."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "combination count,unordered selection"
+  content: "Predict combinations fewer than permutations; order ignored."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "tree edges,nodes minus one"
+  content: "Predict tree with n nodes has n−1 edges; connected acyclic graph."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Eulerian circuit,even degree"
+  content: "Predict Eulerian circuit exists if all degrees even; edge traversal."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "connected graph,path existence"
+  content: "Predict path exists between any two nodes in connected graph."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "discrete math,countable structure"
+  content: "Predict discrete set can be listed in sequence; countable elements."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "continuous math,smooth structure"
+  content: "Predict continuous set forms unbroken interval; no gaps."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "calculus limit,rigorous foundation"
+  content: "Predict calculus based on limit definition; rigorous change measurement."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "algebra structure,operation rules"
+  content: "Predict algebraic structure follows operation axioms; closed system."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "geometry metric,rigid measurement"
+  content: "Predict geometry preserves distances; rigid shape measurement."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "topology invariance,deformation"
+  content: "Predict topology preserved under stretching; no tearing or gluing."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "axiom foundation,assumed truth"
+  content: "Predict mathematical system built from axioms; foundational assumptions."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "theorem truth,proof conclusion"
+  content: "Predict theorem true if proof valid; logical conclusion."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "induction proof,all n validity"
+  content: "Predict statement holds for all n via induction; step validation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "contradiction proof,negation false"
+  content: "Predict statement true if negation absurd; indirect proof."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "constructive proof,explicit example"
+  content: "Predict constructive proof gives explicit object; concrete example."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "equivalence class,partition set"
+  content: "Predict equivalence relation partitions set; disjoint classes."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "partial order,hierarchy ranking"
+  content: "Predict partial order forms hierarchy; transitive ranking."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "injective function,one-to-one"
+  content: "Predict injective function maps distinct inputs to distinct outputs."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "surjective function,onto coverage"
+  content: "Predict surjective function covers entire codomain; full range."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "bijective function,invertible map"
+  content: "Predict bijective function has inverse; one-to-one correspondence."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "countable set,listing sequence"
+  content: "Predict countable set can be fully listed; infinite sequence."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "uncountable set,non listing"
+  content: "Predict uncountable set cannot be listed; more elements than sequence."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "union set,combination inclusion"
+  content: "Predict union includes elements from either set; combination."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "intersection set,common element"
+  content: "Predict intersection keeps only shared elements; common values."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "complement set,opposite elements"
+  content: "Predict complement contains non-members; opposite set."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "associativity,grouping invariance"
+  content: "Predict associative operation unchanged by grouping; order safe."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "commutativity,order invariance"
+  content: "Predict commutative operation unchanged by order; swap safe."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "identity element,neutral operation"
+  content: "Predict identity leaves elements unchanged; neutral value."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "inverse element,operation reversal"
+  content: "Predict inverse returns to identity; operation reversal."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "modular arithmetic,wrap around"
+  content: "Predict modular result cycles within range; clock arithmetic wrap."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "gcd value,largest common divisor"
+  content: "Predict gcd(a,b) divides both a and b; largest common factor."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "lcm value,smallest common multiple"
+  content: "Predict lcm(a,b) divisible by both a and b; smallest shared multiple."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "prime factorization,unique decomposition"
+  content: "Predict integer factors uniquely into primes; fundamental theorem."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "coprime integers,gcd one"
+  content: "Predict coprime numbers have gcd 1; no shared factors."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Fermat little theorem,mod exponent"
+  content: "Predict a^(p−1)≡1 mod p for prime p; Fermat's little theorem."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Pythagorean triple,right triangle"
+  content: "Predict (3,4,5) forms right triangle; satisfies a²+b²=c²."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Diophantine solution,integer value"
+  content: "Predict Diophantine equation seeks integer solutions; whole numbers."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Fibonacci sequence,additive recurrence"
+  content: "Predict Fibonacci next term sum of two prior; additive recurrence."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "golden ratio,limit ratio"
+  content: "Predict Fibonacci neighbor ratio approaches golden ratio; asymptotic value."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "radian angle,arc length"
+  content: "Predict full circle 2π radians; arc length measurement."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "degree angle,rotation division"
+  content: "Predict full circle 360 degrees; rotational division."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "zero matrix,additive identity"
+  content: "Predict zero matrix added to A yields A; additive identity."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "identity matrix,multiplicative identity"
+  content: "Predict identity matrix times A yields A; multiplicative identity."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "matrix transpose,row column swap"
+  content: "Predict transpose swaps rows with columns; reflection over diagonal."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "singular matrix,non invertible"
+  content: "Predict singular matrix has no inverse; determinant zero."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "linear combination,vector sum"
+  content: "Predict linear combination stays in vector space; closed operation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "orthogonal complement,perpendicular set"
+  content: "Predict complement orthogonal to subspace; all perpendicular vectors."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "projection matrix,idempotent property"
+  content: "Predict projection squared equals projection; repeated application same."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "least squares,best approximation"
+  content: "Predict least squares minimizes error; best approximate solution."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "row space,row linear combinations"
+  content: "Predict row space spanned by matrix rows; linear combinations."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "column space,image range"
+  content: "Predict column space equals transformation image; output vectors."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "left null space,transpose kernel"
+  content: "Predict left null space orthogonal to column space; perpendicular."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Gram-Schmidt,orthogonal basis"
+  content: "Predict Gram-Schmidt yields orthogonal basis; independent and perpendicular."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "QR decomposition,orthogonal triangular"
+  content: "Predict QR factors into orthogonal Q and triangular R; stable solving."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "orthogonal projection,closest vector"
+  content: "Predict projection gives closest subspace vector; minimal distance."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "parallel line,equal slope"
+  content: "Predict parallel lines have identical slopes; no intersection."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "perpendicular line,negative reciprocal"
+  content: "Predict perpendicular slopes multiply to −1; right angle."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "distance formula,straight line"
+  content: "Predict distance between points via Pythagoras; straight line length."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "midpoint formula,average coordinate"
+  content: "Predict midpoint averages coordinates; halfway point."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "triangle angle sum,180 degrees"
+  content: "Predict triangle angles sum to π radians; Euclidean geometry."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "similar triangle,proportional sides"
+  content: "Predict similar triangles have proportional sides; same shape."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "congruent triangle,equal sides"
+  content: "Predict congruent triangles have identical sides; same size and shape."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "perimeter,boundary total length"
+  content: "Predict perimeter sums outer edge lengths; total boundary."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "area,enclosed region size"
+  content: "Predict area measures enclosed region; two-dimensional size."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "volume,three-dimensional space"
+  content: "Predict volume measures 3D space; solid capacity."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "circle circumference,2πr"
+  content: "Predict circumference 2πr for radius r; perimeter of circle."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "circle area,πr²"
+  content: "Predict circle area πr²; enclosed disk size."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "sphere volume,(4/3)πr³"
+  content: "Predict sphere volume (4/3)πr³; round solid volume."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "cylinder volume,πr²h"
+  content: "Predict cylinder volume πr²h; prism with circular base."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "vector subtraction,component difference"
+  content: "Predict vector difference subtracts components; directed displacement."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "unit vector normalization,division by magnitude"
+  content: "Predict unit vector divides by magnitude; length one."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "rank-nullity theorem,dimension sum"
+  content: "Predict rank+nullity=column count; dimension conservation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "eigenvector direction,invariance"
+  content: "Predict eigenvector keeps direction under transformation; only scaled."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "positive definite matrix,positive eigenvalues"
+  content: "Predict positive definite has positive eigenvalues; positive curvature."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "polar rectangle conversion,trigonometric"
+  content: "Predict x=r cosθ, y=r sinθ; polar to rectangular."
+- domain: mathematics
+  keyword: "rectangle polar conversion,radius angle"
+  intent: predict
+  epistemic: Green
+  content: "Predict r=√(x²+y²), θ=arctan(y/x); rectangular to polar."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "parametric derivative,dy/dx ratio"
+  content: "Predict dy/dx=(dy/dt)/(dx/dt); parametric slope."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "improper integral convergence,infinite bound"
+  content: "Predict improper integral converges if limit finite; infinite bound."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "substitution integration,chain rule reversal"
+  content: "Predict substitution simplifies integral; reverses chain rule."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "ODE order,derivative highest"
+  content: "Predict ODE order equals highest derivative; differential equation."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "separable ODE,variable isolation"
+  content: "Predict separable ODE solved by integration; variables isolated."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "characteristic equation,exponential solution"
+  content: "Predict linear ODE solution from characteristic roots; exponential form."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "damped oscillation,amplitude decay"
+  content: "Predict damped oscillation amplitude decreases; energy loss."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "resonance,amplitude maximum"
+  content: "Predict resonance at natural frequency; maximum amplitude."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "Laplace transform,time domain"
+  content: "Predict Laplace converts ODE to algebra; time to frequency."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "convolution theorem,product transform"
+  content: "Predict convolution in time is product in frequency; transform rule."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "convex optimization,global minimum"
+  content: "Predict convex function has one global minimum; no local traps."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "gradient descent,convergence rate"
+  content: "Predict gradient descent converges to minimum; step toward negative slope."
+- domain: mathematics
+  intent: predict
+  epistemic: Green
+  keyword: "optimal solution,objective minimum"
+  content: "Predict optimal solution minimizes objective; best feasible value."
+
